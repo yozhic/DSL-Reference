@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+      <title>Списки языков</title>
+      <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="header">Справочник по DSL</div>
+<div id="main">
+<h1>Списки языков</h1>
+<p class="content"><img src="line.png"></p>
+<p class="content"><a href="#supported" class="content">Языки, поддерживаемые Lingvo</a></p>
+<p class="content"><a href="#iso" class="content">Коды наименований языков</a></p>
+<p class="content"><a href="#lcid" class="content">Коды локалей Microsoft</a></p>
+<p class="content"><a href="#ansi" class="content">Кодовые страницы ANSI в Windows</a></p>
+<p class="content"><img src="line.png"></p>
+
+
+<a name="supported"></a>
+<h2>Языки, поддерживаемые Lingvo</h2>
+<p>Таблица составлена на основании таблицы из статьи «Поддерживаемые языки» словаря-справочника по командам языка DSL «Mostitsky DSL Help (Ru-Ru)» версии 3.0 (составитель Игорь Мостицкий). <i>К исходным данным добавлена колонка 3-буквенных сокращений по стандарту ISO 639-2, частично изменены заголовки колонок, добавлена недостающая строка с румынским языком.</i></p>
+<p>В колонке <strong>Old ID</strong> приведены устаревшие идентификаторы, применяемые в атрибуте <span class="code">id</span> тэга <span class="code">lang</span> версий Lingvo начиная с 8.0. В официальной справке к версии 11 впервые упоминается возможность использования локальных языковых идентификаторов <strong>LCID</strong>, принятых в системе Windows (<i>приведены в следующей колонке</i>). DSL компиляторы версий x3 и x5 (<span class="debug">другие пока не проверялись</span>) поддерживают оба варианта идентификаторов.</p>
+<table>
+<col width="190"><col width="190"><col width="80"><col width="80"><col width="50"><col width="100">
+<tr><th>Язык</th>	<th>Английское наименование<br><span style="font-weight:normal;font-size:smaller;">для атрибута name<br>и указания в директивах</span></th>	<th>ISO 639-1</th>	<th>ISO 639-2</th>	<th>Old ID</th>	<th>LCID<br><span style="font-weight:normal;font-size:smaller;">для атрибута id</span></th>	<th>Особенности</th></tr>
+<tr><td>Азербайджанский</td>	<td>AzeriLatin</td>	<td>Az</td>	<td>aze</td>	<td></td>	<td>1068</td>	<td><abbr title="Сведения о поддержке языка в справке отсутствуют">Нет в справке</abbr>. <em>Поддерживается в x5 по обоим атрибутам. В x6 не поддерживается.</em></td></tr>
+<tr><td>Английский</td>	<td>English</td>	<td>En</td>	<td>eng</td>	<td>1</td>	<td>1033</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr>, <abbr title="Возможен просмотр списка форм слов">Формы слов</abbr></td></tr>
+<tr><td>Арабский</td>	<td>Arabic</td>	<td>Ar</td>	<td>ara</td>	<td></td>	<td>1025</td>	<td><abbr title="Сведения о поддержке языка в справке отсутствуют">Нет в справке</abbr></td></tr>
+<tr><td>Армянский</td>	<td>Armenian</td>	<td>Am<br>Hy</td>	<td>arm<br>hye</td>	<td></td>	<td>1067</td>	<td><abbr title="Сведения о поддержке языка в справке отсутствуют">Нет в справке</abbr></td></tr>
+<tr><td>Армянский<br><em>(западный)</em></td>	<td>ArmenianWestern</td>	<td>Am<br>Hy</td>	<td>arm<br>hye</td>	<td></td>	<td>32811</td>	<td><abbr title="Сведения о поддержке языка в справке отсутствуют">Нет в справке</abbr></td></tr>
+<tr><td>Африкаанс</td>	<td>Afrikaans</td>	<td>Af</td>	<td>afr</td>	<td>15</td>	<td>1078</td>	<td></td></tr>
+<tr><td>Баскский</td>	<td>Basque</td>	<td>Eu</td>	<td>baq<br>eus</td>	<td>9</td>	<td>1069</td>	<td></td></tr>
+<tr><td>Башкирский</td>	<td>Bashkir</td>	<td>Ba</td>	<td>bak</td>	<td><abbr title="Нет данных">н/д</abbr></td>	<td>1133</td>	<td><abbr title="Поддерживается Lingvo неофициально">Неофициальный</abbr>. <em>Начиная с x5 поддерживается по атрибуту <span class="code">name</span>. По атрибуту <span class="code">id</span> не поддерживается.</em></td></tr>
+<tr><td>Белорусский</td>	<td>Belarusian</td>	<td>Be</td>	<td>bel</td>	<td>21</td>	<td>1059</td>	<td></td></tr>
+<tr><td>Болгарский</td>	<td>Bulgarian</td>	<td>Bg</td>	<td>bul</td>	<td>22</td>	<td>1026</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr></td></tr>
+<tr><td>Венгерский</td>	<td>Hungarian</td>	<td>Hu</td>	<td>hun</td>	<td>19</td>	<td>1038</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr></td></tr>
+<tr><td>Голландский<br><em>(Нидерландский)</em></td>	<td>Dutch</td>	<td>Nl</td>	<td>dat<br>nld</td>	<td>10</td>	<td>1043</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr></td></tr>
+<tr><td>Греческий</td>	<td>Greek</td>	<td>El</td>	<td>ell<br>gre</td>	<td><abbr title="Нет данных">н/д</abbr></td>	<td>1032</td>	<td><abbr title="Поддерживается Lingvo неофициально">Неофициальный</abbr></td></tr>
+<tr><td>Грузинский</td>	<td>Georgian</td>	<td>Ka</td>	<td>geo<br>kat</td>	<td></td>	<td>1079</td>	<td><abbr title="Сведения о поддержке языка в справке отсутствуют">Нет в справке</abbr></td></tr>
+<tr><td>Датский</td>	<td>Danish</td>	<td>Da</td>	<td>dan</td>	<td>13</td>	<td>1030</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr></td></tr>
+<tr><td>Индонезийский</td>	<td>Indonesian</td>	<td>Id</td>	<td>ind</td>	<td>16</td>	<td>1057</td>	<td></td></tr>
+<tr><td>Исландский</td>	<td>Icelandic</td>	<td>Is</td>	<td>ise<br>isl</td>	<td></td>	<td>1039</td>	<td><abbr title="Сведения о поддержке языка в справке отсутствуют">Нет в справке</abbr></td></tr>
+<tr><td>Испанский<br><em>(международная сортировка)</em></td>	<td>SpanishModernSort</td>	<td>Es</td>	<td>esl<br>spa</td>	<td>6</td>	<td>3082</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr>, <abbr title="Возможен просмотр списка форм слов">Формы слов</abbr></td></tr>
+<tr><td>Испанский<br><em>(традиционная сортировка)</em></td>	<td>SpanishTraditionalSort</td>	<td>Es</td>	<td>esl<br>spa</td>	<td>7</td>	<td>1034</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr>, <abbr title="Возможен просмотр списка форм слов">Формы слов</abbr></td></tr>
+<tr><td>Итальянский</td>	<td>Italian</td>	<td>It</td>	<td>ita</td>	<td>5</td>	<td>1040</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr>, <abbr title="Возможен просмотр списка форм слов">Формы слов</abbr></td></tr>
+<tr><td>Казахский</td>	<td>Kazakh</td>	<td>Kk</td>	<td>kaz</td>	<td><abbr title="Нет данных">н/д</abbr></td>	<td>1087</td>	<td><abbr title="Поддерживается Lingvo неофициально">Неофициальный</abbr></td></tr>
+<tr><td>Киргизский</td>	<td>Kirgiz</td>	<td>Ky</td>	<td>kir</td>	<td></td>	<td>1595</td>	<td><abbr title="Сведения о поддержке языка в справке отсутствуют">Нет в справке</abbr>. <em>Поддерживается в x5 по обоим атрибутам. В x6 не поддерживается.</em></td></tr>
+<tr><td>Китайский</td>	<td>Chinese</td>	<td>Ch</td>	<td>chi<br>zho</td>	<td>29</td>	<td>1028</td>	<td>Тайвань</td></tr>
+<tr><td>Китайский<br><em>(традиционное начертание)</em></td>	<td>ChinesePRC</td>	<td>Ch</td>	<td>chi<br>zho</td>	<td>28</td>	<td>2052</td>	<td>КНР</td></tr>
+<tr><td>Латинский</td>	<td>Latin</td>	<td>La</td>	<td>lat</td>	<td>30</td>	<td>1142</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr>, <abbr title="Возможен просмотр списка форм слов">Формы слов</abbr>. <em>В версиях x3 по x5 15.0.592.10 поддерживается <span class="code">id=1540</span>, а <span class="code">id=1142</span> вызывает ошибку. Начиная с x5 15.0.775 по актуальную x6 поддерживается <span class="code">id=1142</span>, а <span class="code">id=1540</span> вызывает ошибку.</em></td></tr>
+<tr><td>Латышский</td>	<td>Latvian</td>	<td>Lv</td>	<td>lav</td>	<td><abbr title="Нет данных">н/д</abbr></td>	<td>1062</td>	<td><abbr title="Поддерживается Lingvo неофициально">Неофициальный</abbr></td></tr>
+<tr><td>Литовский</td>	<td>Lithuanian</td>	<td>Lt</td>	<td>lit</td>	<td><abbr title="Нет данных">н/д</abbr></td>	<td>1063</td>	<td><abbr title="Поддерживается Lingvo неофициально">Неофициальный</abbr></td></tr>
+<tr><td>Малайский</td>	<td>Malay</td>	<td>Ms</td>	<td>may<br>msa</td>	<td></td>	<td>1086</td>	<td><abbr title="Сведения о поддержке языка в справке отсутствуют">Нет в справке</abbr></td></tr>
+<tr><td>Немецкий<br><em>(старая орфография)</em></td>	<td>German</td>	<td>De</td>	<td>deu<br>ger</td>	<td>3</td>	<td>1031</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr>, <abbr title="Возможен просмотр списка форм слов">Формы слов</abbr></td></tr>
+<tr><td>Немецкий<br><em>(новая орфография)</em></td>	<td>GermanNewSpelling</td>	<td>De</td>	<td>deu<br>ger</td>	<td>26</td>	<td>32775</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr>, <abbr title="Возможен просмотр списка форм слов">Формы слов</abbr>. <em>Не поддерживается Lingvo версий x5, x6. Вместо него следует использовать <span class="code">German</span>.</em></td></tr>
+<tr><td>Норвежский<br><em>(букмол)</em></td>	<td>NorwegianBokmal</td>	<td>Nb (No)</td>	<td>nor</td>	<td>14</td>	<td>1044</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr></td></tr>
+<tr><td>Норвежский<br><em>(нюнорск)</em></td>	<td>NorwegianNynorsk</td>	<td>Nn (No)</td>	<td>nor</td>	<td>25</td>	<td>2068</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr></td></tr>
+<tr><td>Польский</td>	<td>Polish</td>	<td>Pl</td>	<td>pol</td>	<td>20</td>	<td>1045</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr></td></tr>
+<tr><td>Португальский</td>	<td>PortugueseStandard</td>	<td>Pt</td>	<td>por</td>	<td>8</td>	<td>2070</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr></td></tr>
+<tr><td>Румынский</td>	<td>Romanian</td>	<td>Ro</td>	<td>ron</td>	<td>&nbsp;</td>	<td>1048</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr></td></tr>
+<tr><td>Русский</td>	<td>Russian</td>	<td>Ru</td>	<td>rus</td>	<td>2</td>	<td>1049</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr>, <abbr title="Возможен просмотр списка форм слов">Формы слов</abbr></td></tr>
+<tr><td>Сербский<br><em>(кириллица)</em></td>	<td>SerbianCyrillic</td>	<td>(Sr)</td>	<td>srp</td>	<td>23</td>	<td>3098</td>	<td></td></tr>
+<tr><td>Словацкий</td>	<td>Slovak</td>	<td>Sk</td>	<td>slk<br>slo</td>	<td><abbr title="Нет данных">н/д</abbr></td>	<td>1051</td>	<td><abbr title="Поддерживается Lingvo неофициально">Неофициальный</abbr></td></tr>
+<tr><td>Словенский</td>	<td>Slovenian</td>	<td>Sl</td>	<td>slv</td>	<td></td>	<td>1060</td>	<td><abbr title="Сведения о поддержке языка в справке отсутствуют">Нет в справке</abbr></td></tr>
+<tr><td>Суахили</td>	<td>Swahili</td>	<td>Sw</td>	<td>swa</td>	<td>17</td>	<td>1089</td>	<td></td></tr>
+<tr><td>Таджикский</td>	<td>Tajik</td>	<td>Tg</td>	<td>tgk</td>	<td></td>	<td>1064</td>	<td><abbr title="Сведения о поддержке языка в справке отсутствуют">Нет в справке</abbr>. <em>Поддерживается в x5 по обоим атрибутам. В x6 не поддерживается.</em></td></tr>
+<tr><td>Татарский</td>	<td>Tatar</td>	<td>Tt</td>	<td>tat</td>	<td><abbr title="Нет данных">н/д</abbr></td>	<td>1092</td>	<td><abbr title="Поддерживается Lingvo неофициально">Неофициальный</abbr></td></tr>
+<tr><td>Турецкий</td>	<td>Turkish</td>	<td>Tr</td>	<td>tur</td>	<td>27</td>	<td>1055</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr>, <abbr title="Возможен просмотр списка форм слов">Формы слов</abbr></td></tr>
+<tr><td>Туркменский</td>	<td>Turkmen</td>	<td>Tk</td>	<td>tuk</td>	<td></td>	<td>1090</td>	<td><abbr title="Сведения о поддержке языка в справке отсутствуют">Нет в справке</abbr>. <em>Поддерживается в x5 по обоим атрибутам. В x6 не поддерживается.</em></td></tr>
+<tr><td>Узбекский</td>	<td>UzbekLatin</td>	<td>Uz</td>	<td>uzb</td>	<td></td>	<td>1091</td>	<td><abbr title="Сведения о поддержке языка в справке отсутствуют">Нет в справке</abbr>. <em>Поддерживается в x5 по обоим атрибутам. В x6 не поддерживается.</em></td></tr>
+<tr><td>Украинский</td>	<td>Ukrainian</td>	<td>Uk</td>	<td>ukr</td>	<td>24</td>	<td>1058</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr>, <abbr title="Возможен просмотр списка форм слов">Формы слов</abbr></td></tr>
+<tr><td>Финский</td>	<td>Finnish</td>	<td>Fi</td>	<td>fin</td>	<td>11</td>	<td>1035</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr></td></tr>
+<tr><td>Французский</td>	<td>French</td>	<td>Fr</td>	<td>fra<br>fre</td>	<td>4</td>	<td>1036</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr>, <abbr title="Возможен просмотр списка форм слов">Формы слов</abbr></td></tr>
+<tr><td>Чешский</td>	<td>Czech</td>	<td>Cs</td>	<td>ces<br>cze</td>	<td>18</td>	<td>1029</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr></td></tr>
+<tr><td>Шведский</td>	<td>Swedish</td>	<td>Sv</td>	<td>swe<br>sve</td>	<td>12</td>	<td>1053</td>	<td><abbr title="Морфологическая поддержка языка">Морфология</abbr></td></tr>
+<tr><td>Эстонский</td>	<td>Estonian</td>	<td>Et</td>	<td>est</td>	<td></td>	<td>1061</td>	<td><abbr title="Сведения о поддержке языка в справке отсутствуют">Нет в справке</abbr></td></tr>
+</table>
+
+
+<a name="iso"></a>
+<h2>Коды наименований языков</h2>
+<p>Таблица составлена на основе «Таблицы с кодами языков по ГОСТ 7.75-97» (<em>вошла полностью без изменений</em>) и частично дополнена информацией из набора международных стандартов ISO 639-2. Некоторые строки продублированы с перестановкой слов в первой колонке для более удобного использования.</p>
+<p>По материалам:</p>
+<ol>
+  <li><a href="https://ru.wikipedia.org/w/index.php?title=%D0%9A%D0%BE%D0%B4%D1%8B_%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2&stable=0&redirect=no">Коды языков</a>, Русская Википедиа.</li>
+  <li><a href="http://www.loc.gov/standards/">ISO 639-2</a>, набор стандартов Международной организации по стандартизации, связанный со стандартизацией названий языков и языковых групп.</li>
+</ol>
+<table>
+<col width="auto"><col width="10%"><col width="10%"><col width="10%">
+<tr><th>Язык</th>	<th>ISO 639-1</th>	<th>ISO 639-2</th>	<th>ISO 639-3</th>	<th>Английское наименование</th></tr>
+<tr><td>Абазинский</td>	<td>—</td>	<td>—</td>	<td>abq</td>	<td>—</td></tr>
+<tr><td>Абхазский</td>	<td>ab</td>	<td>abk</td>	<td>abk</td>	<td>Abkhazian</td></tr>
+<tr><td>Авадхи</td>	<td>—</td>	<td>awa</td>	<td>awa</td>	<td>Awadhi</td></tr>
+<tr><td>Аварский</td>	<td>av</td>	<td>ava</td>	<td>ava</td>	<td>Avaric</td></tr>
+<tr><td>Авестийский</td>	<td>ae</td>	<td>ave</td>	<td>ave</td>	<td>Avestan</td></tr>
+<tr><td>Австралийские языки</td>	<td>—</td>	<td>aus</td>	<td>—</td>	<td>Australian languages</td></tr>
+<tr><td>Адангме</td>	<td>—</td>	<td>ada</td>	<td>ada</td>	<td>Adangme</td></tr>
+<tr><td>Адыгейский</td>	<td>—</td>	<td>ady</td>	<td>ady</td>	<td>Adyghe; Adygei</td></tr>
+<tr><td>Азербайджанский</td>	<td>az</td>	<td>aze</td>	<td>aze</td>	<td>Azerbaijani</td></tr>
+<tr><td>Аймара</td>	<td>ay</td>	<td>aym</td>	<td>aym</td>	<td>Aymara</td></tr>
+<tr><td>Айну</td>	<td>—</td>	<td>ain</td>	<td>ain</td>	<td>Ainu</td></tr>
+<tr><td>Акан</td>	<td>ak</td>	<td>aka</td>	<td>aka</td>	<td>Akan</td></tr>
+<tr><td>Аккадский</td>	<td>—</td>	<td>akk</td>	<td>akk</td>	<td>Akkadian</td></tr>
+<tr><td>Албанский</td>	<td>sq</td>	<td>alb (<abbr title="Bibliographic">B</abbr>)<br>sqi (<abbr title="Terminology">T</abbr>)</td>	<td>sqi</td>	<td>Albanian</td></tr>
+<tr><td>Алгонкинские языки</td>	<td>—</td>	<td>alg</td>	<td>—</td>	<td>Algonquian languages</td></tr>
+<tr><td>Алеутский</td>	<td>—</td>	<td>ale</td>	<td>ale</td>	<td>Aleut</td></tr>
+<tr><td>Алтайский</td>	<td>—</td>	<td>alt</td>	<td>alt</td>	<td>Southern Altai</td></tr>
+<tr><td>Алтайские языки</td>	<td>—</td>	<td>tut</td>	<td>—</td>	<td>Altaic languages</td></tr>
+<tr><td>Амхарский</td>	<td>am</td>	<td>amh</td>	<td>amh</td>	<td>Amharic</td></tr>
+<tr><td>Английский</td>	<td>en</td>	<td>eng</td>	<td>eng</td>	<td>English</td></tr>
+<tr><td>Апачи языки</td>	<td>—</td>	<td>apa</td>	<td>—</td>	<td>Apache languages</td></tr>
+<tr><td>Арабский</td>	<td>ar</td>	<td>ara</td>	<td>ara</td>	<td>Arabic</td></tr>
+<tr><td>Аравакский</td>	<td>—</td>	<td>arw</td>	<td>arw</td>	<td>Arawak</td></tr>
+<tr><td>Арамейский</td>	<td>—</td>	<td>arc</td>	<td>arc</td>	<td>Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)</td></tr>
+<tr><td>Арапахо</td>	<td>—</td>	<td>arp</td>	<td>arp</td>	<td>Arapaho</td></tr>
+<tr><td>Арауканский</td>	<td>—</td>	<td>arn</td>	<td>arn</td>	<td>Mapudungun; Mapuche</td></tr>
+<tr><td>Арахау</td>	<td>—</td>	<td>—</td>	<td>ahu</td>	<td>—</td></tr>
+<tr><td>Армянский</td>	<td>hy/ am</td>	<td>arm (<abbr title="Bibliographic">B</abbr>)<br>hye (<abbr title="Terminology">T</abbr>)</td>	<td>hye/axm/xcl/am</td>	<td>Armenian</td></tr>
+<tr><td>Ассамский</td>	<td>as</td>	<td>asm</td>	<td>asm</td>	<td>Assamese</td></tr>
+<tr><td>Ассирийский</td>	<td>—</td>	<td>—</td>	<td>aii</td>	<td>—</td></tr>
+<tr><td>Атапачские</td>	<td>—</td>	<td>—</td>	<td>ath</td>	<td>—</td></tr>
+<tr><td>Афарский</td>	<td>aa</td>	<td>aar</td>	<td>aar</td>	<td>Afar</td></tr>
+<tr><td>Африкаанс</td>	<td>af</td>	<td>afr</td>	<td>afr</td>	<td>Afrikaans</td></tr>
+<tr><td>Африхили</td>	<td>—</td>	<td>afh</td>	<td>afh</td>	<td>Afrihili</td></tr>
+<tr><td>Афро-Азиатские языки</td>	<td>—</td>	<td>afa</td>	<td>—</td>	<td>Afro-Asiatic languages</td></tr>
+<tr><td>Ахвахский</td>	<td>ak</td>	<td>—</td>	<td>akv</td>	<td>—</td></tr>
+<tr><td>Ацтекский</td>	<td>—</td>	<td>—</td>	<td>nah</td>	<td>—</td></tr>
+<tr><td>Ачехский</td>	<td>—</td>	<td>ace</td>	<td>ace</td>	<td>Achinese</td></tr>
+<tr><td>Ачоли</td>	<td>—</td>	<td>ach</td>	<td>ach</td>	<td>Acoli</td></tr>
+<tr><td>Балийский</td>	<td>—</td>	<td>ban</td>	<td>ban</td>	<td>Balinese</td></tr>
+<tr><td>Бамбара</td>	<td>bm</td>	<td>bam</td>	<td>bam</td>	<td>Bambara</td></tr>
+<tr><td>Банда</td>	<td>—</td>	<td>bad</td>	<td>bad</td>	<td>Banda languages</td></tr>
+<tr><td>Баса</td>	<td>—</td>	<td>bas</td>	<td>bas</td>	<td>Basa</td></tr>
+<tr><td>Баскский</td>	<td>eu</td>	<td>baq (<abbr title="Bibliographic">B</abbr>)<br>eus (<abbr title="Terminology">T</abbr>)</td>	<td>eus</td>	<td>Basque</td></tr>
+<tr><td>Башкирский</td>	<td>ba</td>	<td>bak</td>	<td>bak</td>	<td>Bashkir</td></tr>
+<tr><td>Беджа</td>	<td>—</td>	<td>bej</td>	<td>bej</td>	<td>Beja; Bedawiyet</td></tr>
+<tr><td>Белорусский</td>	<td>be</td>	<td>bel</td>	<td>bel</td>	<td>Belarusian</td></tr>
+<tr><td>Белуджский</td>	<td>—</td>	<td>bal</td>	<td>bal</td>	<td>Baluchi</td></tr>
+<tr><td>Бемба</td>	<td>—</td>	<td>bem</td>	<td>bem</td>	<td>Bemba</td></tr>
+<tr><td>Бенгальский</td>	<td>bn</td>	<td>ben</td>	<td>ben</td>	<td>Bengali</td></tr>
+<tr><td>Бикольский</td>	<td>—</td>	<td>bik<br>bcl</td>	<td>bik</td>	<td>Bikol</td></tr>
+<tr><td>Бини</td>	<td>—</td>	<td>bin</td>	<td>bin</td>	<td>Bini; Edo</td></tr>
+<tr><td>Бирманский</td>	<td>my</td>	<td>bur (<abbr title="Bibliographic">B</abbr>)<br>mya (<abbr title="Terminology">T</abbr>)</td>	<td>mya</td>	<td>Burmese</td></tr>
+<tr><td>Бислама</td>	<td>bi</td>	<td>bis</td>	<td>bis</td>	<td>Bislama</td></tr>
+<tr><td>Болгарский</td>	<td>bg</td>	<td>bul</td>	<td>bul</td>	<td>Bulgarian</td></tr>
+<tr><td>Боснийский</td>	<td>bs</td>	<td>bos</td>	<td>bos</td>	<td>Bosnian</td></tr>
+<tr><td>Брауи</td>	<td>—</td>	<td>—</td>	<td>brh</td>	<td>—</td></tr>
+<tr><td>Бретонский</td>	<td>br</td>	<td>bre</td>	<td>bre</td>	<td>Breton</td></tr>
+<tr><td>Бугийский</td>	<td>—</td>	<td>bug</td>	<td>bug</td>	<td>Buginese</td></tr>
+<tr><td>Бурятский</td>	<td>—</td>	<td>bua</td>	<td>bua</td>	<td>Buriat</td></tr>
+<tr><td>Бходжпури</td>	<td>—</td>	<td>bho</td>	<td>bho</td>	<td>Bhojpuri</td></tr>
+<tr><td>Ваи</td>	<td>—</td>	<td>vai</td>	<td>vai</td>	<td>Vai</td></tr>
+<tr><td>Валлийский</td>	<td>cy</td>	<td>cym (<abbr title="Terminology">T</abbr>)<br>wel (<abbr title="Bibliographic">B</abbr>)</td>	<td>cym</td>	<td>Welsh</td></tr>
+<tr><td>Варай</td>	<td>—</td>	<td>war</td>	<td>war</td>	<td>Waray</td></tr>
+<tr><td>Вашо</td>	<td>—</td>	<td>was</td>	<td>was</td>	<td>Washo</td></tr>
+<tr><td>Венгерский</td>	<td>hu</td>	<td>hun</td>	<td>hun</td>	<td>Hungarian</td></tr>
+<tr><td>Венда</td>	<td>ve</td>	<td>ven</td>	<td>ven</td>	<td>Venda</td></tr>
+<tr><td>Вепсский</td>	<td>—</td>	<td>—</td>	<td>vep</td>	<td>—</td></tr>
+<tr><td>Воламо</td>	<td>—</td>	<td>wal</td>	<td>wal</td>	<td>Wolaitta; Wolaytta</td></tr>
+<tr><td>Волапюк</td>	<td>vo</td>	<td>vol</td>	<td>vol</td>	<td>Volap&#xfc;k</td></tr>
+<tr><td>Волоф</td>	<td>wo</td>	<td>wol</td>	<td>wol</td>	<td>Wolof</td></tr>
+<tr><td>Вьетнамский</td>	<td>vi</td>	<td>vie</td>	<td>vie</td>	<td>Vietnamese</td></tr>
+<tr><td>Га</td>	<td>—</td>	<td>gaa</td>	<td>gaa</td>	<td>Ga</td></tr>
+<tr><td>Гавайский</td>	<td>—</td>	<td>haw</td>	<td>haw</td>	<td>Hawaiian</td></tr>
+<tr><td>Гагаузский</td>	<td>—</td>	<td>—</td>	<td>gag</td>	<td>—</td></tr>
+<tr><td>Гайо</td>	<td>—</td>	<td>gay</td>	<td>gay</td>	<td>Gayo</td></tr>
+<tr><td>Галисийский</td>	<td>gl</td>	<td>glg</td>	<td>glg</td>	<td>Galician</td></tr>
+<tr><td>Ганда</td>	<td>lg</td>	<td>lug</td>	<td>lug</td>	<td>Ganda</td></tr>
+<tr><td>Гереро</td>	<td>hz</td>	<td>her</td>	<td>her</td>	<td>Herero</td></tr>
+<tr><td>Германские языки</td>	<td>—</td>	<td>gem</td>	<td>—</td>	<td>Germanic languages</td></tr>
+<tr><td>Геэз</td>	<td>—</td>	<td>gez</td>	<td>gez</td>	<td>Geez</td></tr>
+<tr><td>Гилбертский</td>	<td>—</td>	<td>gil</td>	<td>gil</td>	<td>Gilbertese</td></tr>
+<tr><td>Гонди</td>	<td>—</td>	<td>gon</td>	<td>gon</td>	<td>Gondi</td></tr>
+<tr><td>Готский</td>	<td>—</td>	<td>gor</td>	<td>got</td>	<td>Gorontalo</td></tr>
+<tr><td>Гребо</td>	<td>—</td>	<td>grb</td>	<td>grb</td>	<td>Grebo</td></tr>
+<tr><td>Гренландский</td>	<td>kl</td>	<td>kal</td>	<td>kal</td>	<td>Kalaallisut; Greenlandic</td></tr>
+<tr><td>Греческий<br>(древний)</td>	<td>—</td>	<td>grc</td>	<td>grc</td>	<td>Greek, Ancient (to 1453)</td></tr>
+<tr><td>Греческий<br>(новогреческий)</td>	<td>el</td>	<td>ell (<abbr title="Terminology">T</abbr>)<br>gre (<abbr title="Bibliographic">B</abbr>)</td>	<td>ell</td>	<td>Greek, Modern (1453-)</td></tr>
+<tr><td>Грузинский</td>	<td>ka</td>	<td>geo (<abbr title="Bibliographic">B</abbr>)<br>kat (<abbr title="Terminology">T</abbr>)</td>	<td>kat</td>	<td>Georgian</td></tr>
+<tr><td>Гуарани</td>	<td>gn</td>	<td>grn</td>	<td>grn</td>	<td>Guarani</td></tr>
+<tr><td>Гуджарати</td>	<td>gu</td>	<td>guj</td>	<td>guj</td>	<td>Gujarati</td></tr>
+<tr><td>Гэльский</td>	<td>gd</td>	<td>gla</td>	<td>gla</td>	<td>Gaelic; Scottish Gaelic</td></tr>
+<tr><td>Дакота</td>	<td>—</td>	<td>dak</td>	<td>dak</td>	<td>Dakota</td></tr>
+<tr><td>Дактилологический<br>(язык жестов)</td>	<td>—</td>	<td>sgn</td>	<td>—</td>	<td>Sign Languages</td></tr>
+<tr><td>Даргинский</td>	<td>dr</td>	<td>dar</td>	<td>dar</td>	<td>Dargwa</td></tr>
+<tr><td>Датский</td>	<td>da</td>	<td>dan</td>	<td>dan</td>	<td>Danish</td></tr>
+<tr><td>Делавэрский</td>	<td>—</td>	<td>del</td>	<td>del</td>	<td>Delaware</td></tr>
+<tr><td>Дзонг-кэ</td>	<td>dz</td>	<td>dzo</td>	<td>dzo</td>	<td>Dzongkha</td></tr>
+<tr><td>Дивехи<br>(Мальдивский)</td>	<td>dv</td>	<td>div</td>	<td>div</td>	<td>Divehi; Dhivehi; Maldivian</td></tr>
+<tr><td>Динка</td>	<td>—</td>	<td>din</td>	<td>din</td>	<td>Dinka</td></tr>
+<tr><td>Диула<br>(Дьюла)</td>	<td>—</td>	<td>dyu</td>	<td>dyu</td>	<td>Dyula</td></tr>
+<tr><td>Догри</td>	<td>—</td>	<td>doi</td>	<td>doi</td>	<td>Dogri</td></tr>
+<tr><td>Древнегреческий</td>	<td>—</td>	<td>grc</td>	<td>grc</td>	<td>Greek, Ancient (to 1453)</td></tr>
+<tr><td>Древнеегипетский</td>	<td>—</td>	<td>egy</td>	<td>egy</td>	<td>Egyptian (Ancient)</td></tr>
+<tr><td>Древнерусский</td>	<td>—</td>	<td>—</td>	<td>orv</td>	<td>—</td></tr>
+<tr><td>Древнесаксонский</td>	<td>—</td>	<td>—</td>	<td>osx</td>	<td>—</td></tr>
+<tr><td>Дуала</td>	<td>—</td>	<td>dua</td>	<td>dua</td>	<td>Duala</td></tr>
+<tr><td>Дунганский</td>	<td>—</td>	<td>—</td>	<td>dng</td>	<td>—</td></tr>
+<tr><td>Еврейско-арабский</td>	<td>—</td>	<td>jrb</td>	<td>jrb</td>	<td>Judeo-Arabic</td></tr>
+<tr><td>Еврейско-персидский</td>	<td>—</td>	<td>jpr</td>	<td>jpr</td>	<td>Judeo-Persian</td></tr>
+<tr><td>Египетский<br>(древний)</td>	<td>—</td>	<td>egy</td>	<td>egy</td>	<td>Egyptian (Ancient)</td></tr>
+<tr><td>Жестов язык<br>(дактилологический)</td>	<td>—</td>	<td>sgn</td>	<td>—</td>	<td>Sign Languages</td></tr>
+<tr><td>Зенагский</td>	<td>—</td>	<td>zen</td>	<td>zen</td>	<td>Zenaga</td></tr>
+<tr><td>Зулу</td>	<td>zu</td>	<td>zul</td>	<td>zul</td>	<td>Zulu</td></tr>
+<tr><td>Зуньи</td>	<td>—</td>	<td>zun</td>	<td>zun</td>	<td>Zuni</td></tr>
+<tr><td>Ибанский</td>	<td>—</td>	<td>iba</td>	<td>iba</td>	<td>Iban</td></tr>
+<tr><td>Иврит</td>	<td>he</td>	<td>heb</td>	<td>heb</td>	<td>Hebrew</td></tr>
+<tr><td>Игбо</td>	<td>ig</td>	<td>ibo</td>	<td>ibo</td>	<td>Igbo</td></tr>
+<tr><td>Идиш</td>	<td>yi</td>	<td>yid</td>	<td>yid</td>	<td>Yiddish</td></tr>
+<tr><td>Илоко</td>	<td>—</td>	<td>ilo</td>	<td>ilo</td>	<td>Iloko</td></tr>
+<tr><td>Ингушский</td>	<td>—</td>	<td>inh</td>	<td>inh</td>	<td>Ingush</td></tr>
+<tr><td>Индо-Европейские языки</td>	<td>—</td>	<td>ine</td>	<td>—</td>	<td>Indo-European languages</td></tr>
+<tr><td>Индонезийский</td>	<td>id</td>	<td>ind</td>	<td>ind</td>	<td>Indonesian</td></tr>
+<tr><td>Интерлингва</td>	<td>ia</td>	<td>ina</td>	<td>ina</td>	<td>Interlingua (International Auxiliary Language Association)</td></tr>
+<tr><td>Интерлингве</td>	<td>ie</td>	<td>ile</td>	<td>ile</td>	<td>Interlingue; Occidental</td></tr>
+<tr><td>Инуктитут</td>	<td>iu</td>	<td>iku</td>	<td>iku</td>	<td>Inuktitut</td></tr>
+<tr><td>Инупиак</td>	<td>ik</td>	<td>ipk</td>	<td>ipk</td>	<td>Inupiaq</td></tr>
+<tr><td>Иранские</td>	<td>—</td>	<td>ira</td>	<td>—</td>	<td>Iranian languages</td></tr>
+<tr><td>Ирландский</td>	<td>ga</td>	<td>gle</td>	<td>gle</td>	<td>Irish</td></tr>
+<tr><td>Искусственные языки</td>	<td>—</td>	<td>art</td>	<td>—</td>	<td>Artificial languages</td></tr>
+<tr><td>Исландский</td>	<td>is</td>	<td>ice (<abbr title="Bibliographic">B</abbr>)<br>isl (<abbr title="Terminology">T</abbr>)</td>	<td>isl</td>	<td>Icelandic</td></tr>
+<tr><td>Испанский</td>	<td>es</td>	<td>esl<br>spa</td>	<td>spa</td>	<td>Spanish; Castilian</td></tr>
+<tr><td>Итальянский</td>	<td>it</td>	<td>ita</td>	<td>ita</td>	<td>Italian</td></tr>
+<tr><td>Ительменский</td>	<td>—</td>	<td>—</td>	<td>itl</td>	<td>—</td></tr>
+<tr><td>Йоруба</td>	<td>yo</td>	<td>yor</td>	<td>yor</td>	<td>Yoruba</td></tr>
+<tr><td>Кабардино-черкесский</td>	<td>—</td>	<td>kbd</td>	<td>kbd</td>	<td>Kabardian</td></tr>
+<tr><td>Кабильский</td>	<td>—</td>	<td>kab</td>	<td>kab</td>	<td>Kabyle</td></tr>
+<tr><td>Кави</td>	<td>—</td>	<td>kaw</td>	<td>kaw</td>	<td>Kawi</td></tr>
+<tr><td>Кавказские языки</td>	<td>—</td>	<td>cau</td>	<td>—</td>	<td>Caucasian languages</td></tr>
+<tr><td>Каддо</td>	<td>—</td>	<td>cad</td>	<td>cad</td>	<td>Caddo</td></tr>
+<tr><td>Казахский</td>	<td>kk</td>	<td>kaz</td>	<td>kaz</td>	<td>Kazakh</td></tr>
+<tr><td>Калмыцкий</td>	<td>—</td>	<td>xal</td>	<td>xal</td>	<td>Kalmyk; Oirat</td></tr>
+<tr><td>Камба</td>	<td>—</td>	<td>kam</td>	<td>kam</td>	<td>Kamba</td></tr>
+<tr><td>Каннада</td>	<td>kn</td>	<td>kan</td>	<td>kan</td>	<td>Kannada</td></tr>
+<tr><td>Канури</td>	<td>kr</td>	<td>kau</td>	<td>kau</td>	<td>Kanuri</td></tr>
+<tr><td>Караимский</td>	<td>—</td>	<td>—</td>	<td>kdr</td>	<td>—</td></tr>
+<tr><td>Каракалпакский</td>	<td>—</td>	<td>kaa</td>	<td>kaa</td>	<td>Kara-Kalpak</td></tr>
+<tr><td>Карачаево-балкарский</td>	<td>—</td>	<td>krc</td>	<td>krc</td>	<td>Karachay-Balkar</td></tr>
+<tr><td>Карельский</td>	<td>—</td>	<td>krl</td>	<td>krl</td>	<td>Karelian</td></tr>
+<tr><td>Кариб</td>	<td>—</td>	<td>car</td>	<td>car</td>	<td>Galibi Carib</td></tr>
+<tr><td>Каталанский</td>	<td>ca</td>	<td>cat</td>	<td>cat</td>	<td>Catalan; Valencian</td></tr>
+<tr><td>Качинский</td>	<td>—</td>	<td>kac</td>	<td>kac</td>	<td>Kachin; Jingpho</td></tr>
+<tr><td>Кашмири</td>	<td>ks</td>	<td>kas</td>	<td>kas</td>	<td>Kashmiri</td></tr>
+<tr><td>Кельтские языки</td>	<td>—</td>	<td>cel</td>	<td>—</td>	<td>Celtic languages</td></tr>
+<tr><td>Кечуа</td>	<td>qu</td>	<td>que</td>	<td>que</td>	<td>Quechua</td></tr>
+<tr><td>Кикуйю</td>	<td>ki</td>	<td>kik</td>	<td>kik</td>	<td>Kikuyu; Gikuyu</td></tr>
+<tr><td>Киньяма</td>	<td>kj</td>	<td>kua</td>	<td>kua</td>	<td>Kuanyama; Kwanyama</td></tr>
+<tr><td>Киргизский</td>	<td>ky</td>	<td>kir</td>	<td>kir</td>	<td>Kirghiz; Kyrgyz</td></tr>
+<tr><td>Китайский</td>	<td>zh</td>	<td>chi (<abbr title="Bibliographic">B</abbr>)<br>zho (<abbr title="Terminology">T</abbr>)</td>	<td>zho</td>	<td>Chinese</td></tr>
+<tr><td>Коми</td>	<td>kv</td>	<td>kom</td>	<td>kom</td>	<td>Komi</td></tr>
+<tr><td>Коми-пермяцкий</td>	<td>—</td>	<td>—</td>	<td>koi</td>	<td>—</td></tr>
+<tr><td>Конго</td>	<td>kg</td>	<td>kon</td>	<td>kon</td>	<td>Kongo</td></tr>
+<tr><td>Конкани</td>	<td>—</td>	<td>kok</td>	<td>kok</td>	<td>Konkani</td></tr>
+<tr><td>Коптский</td>	<td>—</td>	<td>cop</td>	<td>cop</td>	<td>Coptic</td></tr>
+<tr><td>Корейский</td>	<td>ko</td>	<td>kor</td>	<td>kor</td>	<td>Korean</td></tr>
+<tr><td>Корнский</td>	<td>kw</td>	<td>cor</td>	<td>cor</td>	<td>Cornish</td></tr>
+<tr><td>Корсиканский</td>	<td>co</td>	<td>cos</td>	<td>cos</td>	<td>Corsican</td></tr>
+<tr><td>Корякский</td>	<td>—</td>	<td>—</td>	<td>kpy</td>	<td>—</td></tr>
+<tr><td>Коса</td>	<td>xh</td>	<td>xho</td>	<td>xho</td>	<td>Xhosa</td></tr>
+<tr><td>Кпелле</td>	<td>—</td>	<td>kpe</td>	<td>kpe</td>	<td>Kpelle</td></tr>
+<tr><td>Крик</td>	<td>—</td>	<td>mus</td>	<td>mus</td>	<td>Creek</td></tr>
+<tr><td>Крымско-татарский</td>	<td>—</td>	<td>crh</td>	<td>crh</td>	<td>Crimean Tatar; Crimean Turkish</td></tr>
+<tr><td>Кумыкский</td>	<td>—</td>	<td>kum</td>	<td>kum</td>	<td>Kumyk</td></tr>
+<tr><td>Курдский</td>	<td>ku</td>	<td>kur</td>	<td>kur</td>	<td>Kurdish</td></tr>
+<tr><td>Курух</td>	<td>—</td>	<td>kru</td>	<td>kru</td>	<td>Kurukh</td></tr>
+<tr><td>Кусайе</td>	<td>—</td>	<td>kos</td>	<td>kos</td>	<td>Kosraean</td></tr>
+<tr><td>Кутенай</td>	<td>—</td>	<td>kut</td>	<td>kut</td>	<td>Kutenai</td></tr>
+<tr><td>Кхаси</td>	<td>—</td>	<td>kha</td>	<td>kha</td>	<td>Khasi</td></tr>
+<tr><td>Кхмерский</td>	<td>km</td>	<td>khm</td>	<td>khm</td>	<td>Central Khmer</td></tr>
+<tr><td>Ладино</td>	<td>—</td>	<td>lad</td>	<td>lad</td>	<td>Ladino</td></tr>
+<tr><td>Лакский</td>	<td>—</td>	<td>—</td>	<td>lbe</td>	<td>—</td></tr>
+<tr><td>Ламба</td>	<td>—</td>	<td>lam</td>	<td>lam</td>	<td>Lamba</td></tr>
+<tr><td>Лаосский</td>	<td>lo</td>	<td>lao</td>	<td>lao</td>	<td>Lao</td></tr>
+<tr><td>Латинский</td>	<td>la</td>	<td>lat</td>	<td>lat</td>	<td>Latin</td></tr>
+<tr><td>Латышский</td>	<td>lv</td>	<td>lav</td>	<td>lav</td>	<td>Latvian</td></tr>
+<tr><td>Лахнда</td>	<td>—</td>	<td>lah</td>	<td>lah</td>	<td>Lahnda</td></tr>
+<tr><td>Лезгинский</td>	<td>—</td>	<td>lez</td>	<td>lez</td>	<td>Lezghian</td></tr>
+<tr><td>Лингала</td>	<td>ln</td>	<td>lin</td>	<td>lin</td>	<td>Lingala</td></tr>
+<tr><td>Литовский</td>	<td>lt</td>	<td>lit</td>	<td>lit</td>	<td>Lithuanian</td></tr>
+<tr><td>Лози</td>	<td>—</td>	<td>loz</td>	<td>loz</td>	<td>Lozi</td></tr>
+<tr><td>Луба-катанга</td>	<td>lu</td>	<td>lub</td>	<td>lub</td>	<td>Luba-Katanga</td></tr>
+<tr><td>Луисеньо</td>	<td>—</td>	<td>lui</td>	<td>lui</td>	<td>Luiseno</td></tr>
+<tr><td>Лунда</td>	<td>—</td>	<td>lun</td>	<td>lun</td>	<td>Lunda</td></tr>
+<tr><td>Луо<br>(Кения и Танзания)</td>	<td>—</td>	<td>luo</td>	<td>luo</td>	<td>Luo (Kenya and Tanzania)</td></tr>
+<tr><td>Люксембургский</td>	<td>lb</td>	<td>ltz</td>	<td>ltz</td>	<td>Luxembourgish; Letzeburgesch</td></tr>
+<tr><td>Магахи</td>	<td>—</td>	<td>mag</td>	<td>mag</td>	<td>Magahi</td></tr>
+<tr><td>Мадурский</td>	<td>—</td>	<td>mad</td>	<td>mad</td>	<td>Madurese</td></tr>
+<tr><td>Майтхили</td>	<td>—</td>	<td>mai</td>	<td>mai</td>	<td>Maithili</td></tr>
+<tr><td>Макассарский</td>	<td>—</td>	<td>mak</td>	<td>mak</td>	<td>Makasar</td></tr>
+<tr><td>Македонский</td>	<td>mk</td>	<td>mac (<abbr title="Bibliographic">B</abbr>)<br>mkd (<abbr title="Terminology">T</abbr>)</td>	<td>mkd</td>	<td>Macedonian</td></tr>
+<tr><td>Малагасийский</td>	<td>mg</td>	<td>mlg</td>	<td>mlg</td>	<td>Malagasy</td></tr>
+<tr><td>Малайский</td>	<td>ms</td>	<td>may (<abbr title="Bibliographic">B</abbr>)<br>msa (<abbr title="Terminology">T</abbr>)</td>	<td>msa</td>	<td>Malay</td></tr>
+<tr><td>Малаялам</td>	<td>ml</td>	<td>mal</td>	<td>mal</td>	<td>Malayalam</td></tr>
+<tr><td>Мальтийский</td>	<td>mt</td>	<td>mlt</td>	<td>mlt</td>	<td>Maltese</td></tr>
+<tr><td>Мандинго</td>	<td>—</td>	<td>man</td>	<td>man</td>	<td>Mandingo</td></tr>
+<tr><td>Манипури</td>	<td>—</td>	<td>mni</td>	<td>mni</td>	<td>Manipuri</td></tr>
+<tr><td>Мансийский<br>(Вогульский)</td>	<td>—</td>	<td>—</td>	<td>mns</td>	<td>—</td></tr>
+<tr><td>Маори</td>	<td>mi</td>	<td>mao (<abbr title="Bibliographic">B</abbr>)<br>mri (<abbr title="Terminology">T</abbr>)</td>	<td>mri</td>	<td>Maori</td></tr>
+<tr><td>Маратхи</td>	<td>mr</td>	<td>mar</td>	<td>mar</td>	<td>Marathi</td></tr>
+<tr><td>Марвари</td>	<td>—</td>	<td>mwr</td>	<td>mwr</td>	<td>Marwari</td></tr>
+<tr><td>Марийский<br>(черемисский)</td>	<td>—</td>	<td>chm</td>	<td>chm</td>	<td>Mari</td></tr>
+<tr><td>Маршалльский</td>	<td>mh</td>	<td>mah</td>	<td>mah</td>	<td>Marshallese</td></tr>
+<tr><td>Масаи</td>	<td>—</td>	<td>mas</td>	<td>mas</td>	<td>Masai</td></tr>
+<tr><td>Менде</td>	<td>—</td>	<td>men</td>	<td>men</td>	<td>Mende</td></tr>
+<tr><td>Микмак</td>	<td>—</td>	<td>mic</td>	<td>mic</td>	<td>Mi'kmaq; Micmac</td></tr>
+<tr><td>Минангкабау</td>	<td>—</td>	<td>min</td>	<td>min</td>	<td>Minangkabau</td></tr>
+<tr><td>Мокшанский</td>	<td>—</td>	<td>mdf</td>	<td>mdf</td>	<td>Moksha</td></tr>
+<tr><td>Молдавский</td>	<td>mo</td>	<td>—</td>	<td>mol</td>	<td>—</td></tr>
+<tr><td>Монго</td>	<td>—</td>	<td>lol</td>	<td>lol</td>	<td>Mongo</td></tr>
+<tr><td>Монгольский</td>	<td>mn</td>	<td>mon</td>	<td>mon</td>	<td>Mongolian</td></tr>
+<tr><td>Мооре</td>	<td>—</td>	<td>mos</td>	<td>mos</td>	<td>Mossi</td></tr>
+<tr><td>Мохаук</td>	<td>—</td>	<td>moh</td>	<td>moh</td>	<td>Mohawk</td></tr>
+<tr><td>Мэнский<br>(Мэнкский)</td>	<td>gv</td>	<td>glv</td>	<td>glv</td>	<td>Manx</td></tr>
+<tr><td>Навахо</td>	<td>nv</td>	<td>nav</td>	<td>nav</td>	<td>Navajo; Navaho</td></tr>
+<tr><td>Нанайский<br>(гольдский)</td>	<td>—</td>	<td>—</td>	<td>gld</td>	<td>—</td></tr>
+<tr><td>Науру</td>	<td>na</td>	<td>nau</td>	<td>nau</td>	<td>Nauru</td></tr>
+<tr><td>Ндебеле северный</td>	<td>nd</td>	<td>nde</td>	<td>nde</td>	<td>Ndebele, North; North Ndebele</td></tr>
+<tr><td>Ндебеле южный</td>	<td>nr</td>	<td>nbl</td>	<td>nbl</td>	<td>Ndebele, South; South Ndebele</td></tr>
+<tr><td>Ндунга</td>	<td>ng</td>	<td>ndo</td>	<td>ndo</td>	<td>Ndonga</td></tr>
+<tr><td>Неварский</td>	<td>—</td>	<td>new</td>	<td>new</td>	<td>Nepal Bhasa; Newari</td></tr>
+<tr><td>Неидентифицированный</td>	<td>—</td>	<td>und</td>	<td>und</td>	<td>Undetermined</td></tr>
+<tr><td>Немецкий</td>	<td>de</td>	<td>deu (<abbr title="Terminology">T</abbr>)<br>ger (<abbr title="Bibliographic">B</abbr>)</td>	<td>deu</td>	<td>German</td></tr>
+<tr><td>Ненецкий<br>(юрако-самоедский)</td>	<td>—</td>	<td>—</td>	<td>yrk</td>	<td>—</td></tr>
+<tr><td>Непальский</td>	<td>ne</td>	<td>nep</td>	<td>nep</td>	<td>Nepali</td></tr>
+<tr><td>Нзима</td>	<td>—</td>	<td>nzi</td>	<td>nzi</td>	<td>Nzima</td></tr>
+<tr><td>Нивхский<br>(гиляцкий)</td>	<td>—</td>	<td>—</td>	<td>niv</td>	<td>—</td></tr>
+<tr><td>Нидерландский<br>(Голландский)</td>	<td>nl</td>	<td>dut (<abbr title="Bibliographic">B</abbr>)<br>nld (<abbr title="Terminology">T</abbr>)</td>	<td>nld</td>	<td>Dutch; Flemish</td></tr>
+<tr><td>Нидерландский средневековый</td>	<td>—</td>	<td>dum</td>	<td>dum</td>	<td>Dutch, Middle (ca.1050-1350)</td></tr>
+<tr><td>Ниуэ</td>	<td>—</td>	<td>niu</td>	<td>niu</td>	<td>Niuean</td></tr>
+<tr><td>Ногайский</td>	<td>—</td>	<td>nog</td>	<td>nog</td>	<td>Nogai</td></tr>
+<tr><td>Норвежский<br>(букмол)</td>	<td>no<br>nb</td>	<td>nor<br>nob</td>	<td>nor</td>	<td>Norwegian Bokm&#xe5;l; Bokm&#xe5;l, Norwegian</td></tr>
+<tr><td>Норвежский<br>(нюнорск, новонорвежский)</td>	<td>nn</td>	<td>nno</td>	<td>nno</td>	<td>Norwegian Nynorsk; Nynorsk, Norwegian</td></tr>
+<tr><td>Ньоро</td>	<td>—</td>	<td>nyo</td>	<td>nyo</td>	<td>Nyoro</td></tr>
+<tr><td>Ньямвези</td>	<td>—</td>	<td>nym</td>	<td>nym</td>	<td>Nyamwezi</td></tr>
+<tr><td>Ньянджа</td>	<td>ny</td>	<td>nya</td>	<td>nya</td>	<td>Chichewa; Chewa; Nyanja</td></tr>
+<tr><td>Ньянколе</td>	<td>—</td>	<td>nyn</td>	<td>nyn</td>	<td>Nyankole</td></tr>
+<tr><td>Оджибве</td>	<td>oj</td>	<td>oji</td>	<td>oji</td>	<td>Ojibwa</td></tr>
+<tr><td>Окситанский</td>	<td>oc</td>	<td>oci</td>	<td>oci</td>	<td>Occitan (post 1500)</td></tr>
+<tr><td>Ория</td>	<td>or</td>	<td>ori</td>	<td>ori</td>	<td>Oriya</td></tr>
+<tr><td>Оромо</td>	<td>om</td>	<td>orm</td>	<td>orm</td>	<td>Oromo</td></tr>
+<tr><td>Оседжи</td>	<td>—</td>	<td>osa</td>	<td>osa</td>	<td>Osage</td></tr>
+<tr><td>Осетинский</td>	<td>os</td>	<td>oss</td>	<td>oss</td>	<td>Ossetian; Ossetic</td></tr>
+<tr><td>Палау</td>	<td>—</td>	<td>pau</td>	<td>pau</td>	<td>Palauan</td></tr>
+<tr><td>Пали</td>	<td>pi</td>	<td>pli</td>	<td>pli</td>	<td>Pali</td></tr>
+<tr><td>Пампанга</td>	<td>—</td>	<td>pam</td>	<td>pam</td>	<td>Pampanga; Kapampangan</td></tr>
+<tr><td>Пангасинан</td>	<td>—</td>	<td>pag</td>	<td>pag</td>	<td>Pangasinan</td></tr>
+<tr><td>Папьяменто</td>	<td>—</td>	<td>pap</td>	<td>pap</td>	<td>Papiamento</td></tr>
+<tr><td>Пенджабский</td>	<td>pa</td>	<td>pan</td>	<td>pan</td>	<td>Panjabi; Punjabi</td></tr>
+<tr><td>Персидский</td>	<td>fa</td>	<td>fas (<abbr title="Terminology">T</abbr>)<br>per (<abbr title="Bibliographic">B</abbr>)</td>	<td>fas</td>	<td>Persian</td></tr>
+<tr><td>Пехлевийский</td>	<td>—</td>	<td>pal</td>	<td>pal</td>	<td>Pahlavi</td></tr>
+<tr><td>Польский</td>	<td>pl</td>	<td>pol</td>	<td>pol</td>	<td>Polish</td></tr>
+<tr><td>Понапе</td>	<td>—</td>	<td>pon</td>	<td>pon</td>	<td>Pohnpeian</td></tr>
+<tr><td>Португальский</td>	<td>pt</td>	<td>por</td>	<td>por</td>	<td>Portuguese</td></tr>
+<tr><td>Пушту</td>	<td>ps</td>	<td>pus</td>	<td>pus</td>	<td>Pushto; Pashto</td></tr>
+<tr><td>Раджастхани</td>	<td>—</td>	<td>raj</td>	<td>raj</td>	<td>Rajasthani</td></tr>
+<tr><td>Разных семей языки</td>	<td>—</td>	<td>mul</td>	<td>mul</td>	<td>Multiple languages</td></tr>
+<tr><td>Раротонга</td>	<td>—</td>	<td>rar</td>	<td>rar</td>	<td>Rarotongan; Cook Islands Maori</td></tr>
+<tr><td>Ретороманский</td>	<td>rm</td>	<td>roh</td>	<td>roh</td>	<td>Romansh</td></tr>
+<tr><td>Романские языки</td>	<td>—</td>	<td>roa</td>	<td>—</td>	<td>Romance languages</td></tr>
+<tr><td>Руанда</td>	<td>rw</td>	<td>kin</td>	<td>kin</td>	<td>Kinyarwanda</td></tr>
+<tr><td>Румынский</td>	<td>ro</td>	<td>ron (<abbr title="Terminology">T</abbr>)<br>rum (<abbr title="Bibliographic">B</abbr>)</td>	<td>ron</td>	<td>Romanian; Moldavian; Moldovan</td></tr>
+<tr><td>Рунди</td>	<td>rn</td>	<td>run</td>	<td>run</td>	<td>Rundi</td></tr>
+<tr><td>Русский</td>	<td>ru</td>	<td>rus</td>	<td>rus</td>	<td>Russian</td></tr>
+<tr><td>Русский древний</td>	<td>—</td>	<td>—</td>	<td>orv</td>	<td>—</td></tr>
+<tr><td>Саамский</td>	<td>—</td>	<td>smi</td>	<td>smi</td>	<td>Sami languages</td></tr>
+<tr><td>Самаритянский арамейский</td>	<td>—</td>	<td>sam</td>	<td>sam</td>	<td>Samaritan Aramaic</td></tr>
+<tr><td>Самоанский</td>	<td>sm</td>	<td>smo</td>	<td>smo</td>	<td>Samoan</td></tr>
+<tr><td>Санго</td>	<td>sg</td>	<td>sag</td>	<td>sag</td>	<td>Sango</td></tr>
+<tr><td>Сандаве</td>	<td>—</td>	<td>sad</td>	<td>sad</td>	<td>Sandawe</td></tr>
+<tr><td>Санскрит</td>	<td>sa</td>	<td>san</td>	<td>san</td>	<td>Sanskrit</td></tr>
+<tr><td>Сапотекский</td>	<td>—</td>	<td>zap</td>	<td>zap</td>	<td>Zapotec</td></tr>
+<tr><td>Сардинский</td>	<td>sc</td>	<td>srd</td>	<td>srd</td>	<td>Sardinian</td></tr>
+<tr><td>Свази</td>	<td>ss</td>	<td>ssw</td>	<td>ssw</td>	<td>Swati</td></tr>
+<tr><td>Себуано</td>	<td>—</td>	<td>ceb</td>	<td>ceb</td>	<td>Cebuano</td></tr>
+<tr><td>Селькупский</td>	<td>—</td>	<td>sel</td>	<td>sel</td>	<td>Selkup</td></tr>
+<tr><td>Семитские языки</td>	<td>—</td>	<td>sem</td>	<td>—</td>	<td>Semitic languages</td></tr>
+<tr><td>Сербский</td>	<td>sr</td>	<td>srp</td>	<td>srp</td>	<td>Serbian</td></tr>
+<tr><td>Серер</td>	<td>—</td>	<td>srr</td>	<td>srr</td>	<td>Serer</td></tr>
+<tr><td>Сидама</td>	<td>—</td>	<td>sid</td>	<td>sid</td>	<td>Sidamo</td></tr>
+<tr><td>Сиксика</td>	<td>—</td>	<td>bla</td>	<td>bla</td>	<td>Siksika</td></tr>
+<tr><td>Сингальский</td>	<td>si</td>	<td>sin</td>	<td>sin</td>	<td>Sinhala; Sinhalese</td></tr>
+<tr><td>Синдхи</td>	<td>sd</td>	<td>snd</td>	<td>snd</td>	<td>Sindhi</td></tr>
+<tr><td>Сирийский</td>	<td>—</td>	<td>syr</td>	<td>syr</td>	<td>Syriac</td></tr>
+<tr><td>Сирийский классический</td>	<td>—</td>	<td>syc</td>	<td>—</td>	<td>Classical Syriac</td></tr>
+<tr><td>Славянские языки</td>	<td>—</td>	<td>sla</td>	<td>—</td>	<td>Slavic languages</td></tr>
+<tr><td>Славянский<br>(Церковно-, Старославянский)</td>	<td>cu</td>	<td>chu</td>	<td>chu</td>	<td>Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic</td></tr>
+<tr><td>Словацкий</td>	<td>sk</td>	<td>slk (<abbr title="Terminology">T</abbr>)<br>slo (<abbr title="Bibliographic">B</abbr>)</td>	<td>slk</td>	<td>Slovak</td></tr>
+<tr><td>Словенский</td>	<td>sl</td>	<td>slv</td>	<td>slv</td>	<td>Slovenian</td></tr>
+<tr><td>Согдийский</td>	<td>—</td>	<td>sog</td>	<td>sog</td>	<td>Sogdian</td></tr>
+<tr><td>Сомали</td>	<td>so</td>	<td>som</td>	<td>som</td>	<td>Somali</td></tr>
+<tr><td>Сото северный</td>	<td>—</td>	<td>nso</td>	<td>nso</td>	<td>Pedi; Sepedi; Northern Sotho</td></tr>
+<tr><td>Сото южный</td>	<td>st</td>	<td>sot</td>	<td>sot</td>	<td>Sotho, Southern</td></tr>
+<tr><td>Среднеанглийский</td>	<td>—</td>	<td>enm</td>	<td>enm</td>	<td>English, Middle (1100-1500)</td></tr>
+<tr><td>Средневерхненемецкий</td>	<td>—</td>	<td>gmh</td>	<td>gmh</td>	<td>German, Middle High (ca.1050-1500)</td></tr>
+<tr><td>Среднеирландский</td>	<td>—</td>	<td>mga</td>	<td>mga</td>	<td>Irish, Middle (900-1200)</td></tr>
+<tr><td>Среднефранцузский</td>	<td>—</td>	<td>frm</td>	<td>frm</td>	<td>French, Middle (ca.1400-1600)</td></tr>
+<tr><td>Староанглийский</td>	<td>—</td>	<td>ang</td>	<td>ang</td>	<td>English, Old (ca.450-1100)</td></tr>
+<tr><td>Староверхненемецкий</td>	<td>—</td>	<td>goh</td>	<td>goh</td>	<td>German, Old High (ca.750-1050)</td></tr>
+<tr><td>Староирландский</td>	<td>—</td>	<td>sga</td>	<td>sga</td>	<td>Irish, Old (to 900)</td></tr>
+<tr><td>Старонорвежский</td>	<td>—</td>	<td>non</td>	<td>non</td>	<td>Norse, Old</td></tr>
+<tr><td>Староперсидский</td>	<td>—</td>	<td>peo</td>	<td>peo</td>	<td>Persian, Old (ca.600-400 B.C.)</td></tr>
+<tr><td>Старопровансальский</td>	<td>—</td>	<td>pro</td>	<td>pro</td>	<td>Proven&#xe7;al, Old (to 1500); Occitan, Old (to 1500)</td></tr>
+<tr><td>Старославянский<br>(Церковно-славянский)</td>	<td>cu</td>	<td>chu</td>	<td>chu</td>	<td>Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic</td></tr>
+<tr><td>Старотурецкий</td>	<td>—</td>	<td>ota</td>	<td>ota</td>	<td>Turkish, Ottoman (1500-1928)</td></tr>
+<tr><td>Старофранцузский</td>	<td>—</td>	<td>fro</td>	<td>fro</td>	<td>French, Old (842-ca.1400)</td></tr>
+<tr><td>Суахили</td>	<td>sw</td>	<td>swa</td>	<td>swa</td>	<td>Swahili</td></tr>
+<tr><td>Сукума</td>	<td>—</td>	<td>suk</td>	<td>suk</td>	<td>Sukuma</td></tr>
+<tr><td>Сунданский</td>	<td>su</td>	<td>sun</td>	<td>sun</td>	<td>Sundanese</td></tr>
+<tr><td>Сусу</td>	<td>—</td>	<td>sus</td>	<td>sus</td>	<td>Susu</td></tr>
+<tr><td>Табасаранский</td>	<td>—</td>	<td>—</td>	<td>tab</td>	<td>—</td></tr>
+<tr><td>Тагальский</td>	<td>tl</td>	<td>tgl</td>	<td>tgl</td>	<td>Tagalog</td></tr>
+<tr><td>Таджикский</td>	<td>tg</td>	<td>tgk</td>	<td>tgk</td>	<td>Tajik</td></tr>
+<tr><td>Таитянский</td>	<td>ty</td>	<td>tah</td>	<td>tah</td>	<td>Tahitian</td></tr>
+<tr><td>Тайский</td>	<td>th</td>	<td>tha</td>	<td>tha</td>	<td>Thai</td></tr>
+<tr><td>Талышский</td>	<td>—</td>	<td>—</td>	<td>tly</td>	<td>—</td></tr>
+<tr><td>Тамашек</td>	<td>—</td>	<td>tmh</td>	<td>tmh</td>	<td>Tamashek</td></tr>
+<tr><td>Тамильский</td>	<td>ta</td>	<td>tam</td>	<td>tam</td>	<td>Tamil</td></tr>
+<tr><td>Татарский</td>	<td>tt</td>	<td>tat</td>	<td>tat</td>	<td>Tatar</td></tr>
+<tr><td>Тви</td>	<td>tw</td>	<td>twi</td>	<td>twi</td>	<td>Twi</td></tr>
+<tr><td>Телугу</td>	<td>te</td>	<td>tel</td>	<td>tel</td>	<td>Telugu</td></tr>
+<tr><td>Темне</td>	<td>—</td>	<td>tem</td>	<td>tem</td>	<td>Timne</td></tr>
+<tr><td>Терено</td>	<td>—</td>	<td>ter</td>	<td>ter</td>	<td>Tereno</td></tr>
+<tr><td>Тибетский</td>	<td>bo</td>	<td>bod (<abbr title="Terminology">T</abbr>)<br>tib (<abbr title="Bibliographic">B</abbr>)</td>	<td>bod</td>	<td>Tibetan</td></tr>
+<tr><td>Тиви</td>	<td>—</td>	<td>tiv</td>	<td>tiw</td>	<td>Tiv</td></tr>
+<tr><td>Тигре</td>	<td>—</td>	<td>tig</td>	<td>tig</td>	<td>Tigre</td></tr>
+<tr><td>Тигринья</td>	<td>ti</td>	<td>tir</td>	<td>tir</td>	<td>Tigrinya</td></tr>
+<tr><td>Тлингит</td>	<td>—</td>	<td>tli</td>	<td>tli</td>	<td>Tlingit</td></tr>
+<tr><td>Тонга (Ньяса)</td>	<td>—</td>	<td>tog</td>	<td>tog</td>	<td>Tonga (Nyasa)</td></tr>
+<tr><td>Тонганский</td>	<td>to</td>	<td>ton</td>	<td>ton</td>	<td>Tonga (Tonga Islands)</td></tr>
+<tr><td>Трукский</td>	<td>—</td>	<td>—</td>	<td>chk</td>	<td>—</td></tr>
+<tr><td>Тсвана</td>	<td>tn</td>	<td>tsn</td>	<td>tsn</td>	<td>Tswana</td></tr>
+<tr><td>Тсонга</td>	<td>ts</td>	<td>tso</td>	<td>tso</td>	<td>Tsonga</td></tr>
+<tr><td>Тувинский</td>	<td>—</td>	<td>tyv</td>	<td>tyv</td>	<td>Tuvinian</td></tr>
+<tr><td>Тумбука</td>	<td>—</td>	<td>tum</td>	<td>tum</td>	<td>Tumbuka</td></tr>
+<tr><td>Турецкий</td>	<td>tr</td>	<td>tur</td>	<td>tur</td>	<td>Turkish</td></tr>
+<tr><td>Туркменский</td>	<td>tk/ tu</td>	<td>tuk</td>	<td>tuk</td>	<td>Turkmen</td></tr>
+<tr><td>Угаритский</td>	<td>—</td>	<td>uga</td>	<td>uga</td>	<td>Ugaritic</td></tr>
+<tr><td>Удмуртский<br>(вотяцкий)</td>	<td>—</td>	<td>udm</td>	<td>udm</td>	<td>Udmurt</td></tr>
+<tr><td>Удэгейский</td>	<td>—</td>	<td>—</td>	<td>ude</td>	<td>—</td></tr>
+<tr><td>Узбекский</td>	<td>uz</td>	<td>uzb</td>	<td>uzb</td>	<td>Uzbek</td></tr>
+<tr><td>Уйгурский</td>	<td>ug</td>	<td>uig</td>	<td>uig</td>	<td>Uighur; Uyghur</td></tr>
+<tr><td>Украинский</td>	<td>uk</td>	<td>ukr</td>	<td>ukr</td>	<td>Ukrainian</td></tr>
+<tr><td>Ульчский</td>	<td>—</td>	<td>—</td>	<td>ulc</td>	<td>—</td></tr>
+<tr><td>Умбунду</td>	<td>—</td>	<td>umb</td>	<td>umb</td>	<td>Umbundu</td></tr>
+<tr><td>Урду</td>	<td>ur</td>	<td>urd</td>	<td>urd</td>	<td>Urdu</td></tr>
+<tr><td>Фанг</td>	<td>—</td>	<td>fan</td>	<td>fan</td>	<td>Fang</td></tr>
+<tr><td>Фанти</td>	<td>—</td>	<td>fat</td>	<td>fat</td>	<td>Fanti</td></tr>
+<tr><td>Фарерский</td>	<td>fo</td>	<td>fao</td>	<td>fao</td>	<td>Faroese</td></tr>
+<tr><td>Фиджи</td>	<td>fj</td>	<td>fij</td>	<td>fij</td>	<td>Fijian</td></tr>
+<tr><td>Филиппинский</td>	<td>fl</td>	<td>fil</td>	<td>fil</td>	<td>Filipino; Pilipino</td></tr>
+<tr><td>Финикийский</td>	<td>—</td>	<td>phn</td>	<td>phn</td>	<td>Phoenician</td></tr>
+<tr><td>Финно-Угорские языки</td>	<td>—</td>	<td>fiu</td>	<td>—</td>	<td>Finno-Ugrian languages</td></tr>
+<tr><td>Финский<br>(Suomi)</td>	<td>fi</td>	<td>fin</td>	<td>fin</td>	<td>Finnish</td></tr>
+<tr><td>Фон</td>	<td>—</td>	<td>fon</td>	<td>fon</td>	<td>Fon</td></tr>
+<tr><td>Французский</td>	<td>fr</td>	<td>fra (<abbr title="Terminology">T</abbr>)<br>fre (<abbr title="Bibliographic">B</abbr>)</td>	<td>fra</td>	<td>French</td></tr>
+<tr><td>Фризский</td>	<td>fy</td>	<td>fry</td>	<td>fry</td>	<td>Western Frisian</td></tr>
+<tr><td>Фулах</td>	<td>ff</td>	<td>ful</td>	<td>ful</td>	<td>Fulah</td></tr>
+<tr><td>Хайда</td>	<td>—</td>	<td>hai</td>	<td>hai</td>	<td>Haida</td></tr>
+<tr><td>Хакасский</td>	<td>—</td>	<td>—</td>	<td>kjh</td>	<td>—</td></tr>
+<tr><td>Хантыйский<br>(остяцкий)</td>	<td>—</td>	<td>—</td>	<td>kca</td>	<td>—</td></tr>
+<tr><td>Хауса</td>	<td>ha</td>	<td>hau</td>	<td>hau</td>	<td>Hausa</td></tr>
+<tr><td>Хилигайнон</td>	<td>—</td>	<td>hil</td>	<td>hil</td>	<td>Hiligaynon</td></tr>
+<tr><td>Хинди</td>	<td>hi</td>	<td>hin</td>	<td>hin</td>	<td>Hindi</td></tr>
+<tr><td>Хиримоту</td>	<td>ho</td>	<td>hmo</td>	<td>hmo</td>	<td>Hiri Motu</td></tr>
+<tr><td>Хорватский</td>	<td>hr</td>	<td>hrv<br>scr</td>	<td>hrv</td>	<td>Croatian</td></tr>
+<tr><td>Хотанский</td>	<td>—</td>	<td>kho</td>	<td>kho</td>	<td>Khotanese; Sakan</td></tr>
+<tr><td>Хупа</td>	<td>—</td>	<td>hup</td>	<td>hup</td>	<td>Hupa</td></tr>
+<tr><td>Цахурский</td>	<td>—</td>	<td>—</td>	<td>tkr</td>	<td>—</td></tr>
+<tr><td>Церковно-славянский<br>(Старославянский)</td>	<td>cu</td>	<td>chu</td>	<td>chu</td>	<td>Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic</td></tr>
+<tr><td>Цимшиан</td>	<td>—</td>	<td>tsi</td>	<td>tsi</td>	<td>Tsimshian</td></tr>
+<tr><td>Цыганский</td>	<td>—</td>	<td>rom</td>	<td>rom</td>	<td>Romany</td></tr>
+<tr><td>Чагатайский</td>	<td>—</td>	<td>chg</td>	<td>chg</td>	<td>Chagatai</td></tr>
+<tr><td>Чаморро</td>	<td>ch</td>	<td>cha</td>	<td>cha</td>	<td>Chamorro</td></tr>
+<tr><td>Чероки</td>	<td>—</td>	<td>chr</td>	<td>chr</td>	<td>Cherokee</td></tr>
+<tr><td>Чеченский</td>	<td>ce</td>	<td>che</td>	<td>che</td>	<td>Chechen</td></tr>
+<tr><td>Чешский</td>	<td>cs</td>	<td>ces (<abbr title="Terminology">T</abbr>)<br>cze (<abbr title="Bibliographic">B</abbr>)</td>	<td>ces</td>	<td>Czech</td></tr>
+<tr><td>Чжуанский</td>	<td>za</td>	<td>zha</td>	<td>zha</td>	<td>Zhuang; Chuang</td></tr>
+<tr><td>Чибча</td>	<td>—</td>	<td>chb</td>	<td>chb</td>	<td>Chibcha</td></tr>
+<tr><td>Чинук жаргон</td>	<td>—</td>	<td>chn</td>	<td>chn</td>	<td>Chinook jargon</td></tr>
+<tr><td>Чоктав</td>	<td>—</td>	<td>cho</td>	<td>cho</td>	<td>Choctaw</td></tr>
+<tr><td>Чувашский</td>	<td>cv</td>	<td>chv</td>	<td>chv</td>	<td>Chuvash</td></tr>
+<tr><td>Чукотский</td>	<td>—</td>	<td>—</td>	<td>ckt</td>	<td>—</td></tr>
+<tr><td>Шайенн<br>(Чейенн)</td>	<td>—</td>	<td>chy</td>	<td>chy</td>	<td>Cheyenne</td></tr>
+<tr><td>Шанский</td>	<td>—</td>	<td>shn</td>	<td>shn</td>	<td>Shan</td></tr>
+<tr><td>Шведский</td>	<td>sv</td>	<td>swe<br>sve</td>	<td>swe</td>	<td>Swedish</td></tr>
+<tr><td>Шона</td>	<td>sn</td>	<td>sna</td>	<td>sna</td>	<td>Shona</td></tr>
+<tr><td>Шорский</td>	<td>—</td>	<td>—</td>	<td>cjs</td>	<td>—</td></tr>
+<tr><td>Шотландский<br>(англо-шотландский)</td>	<td>—</td>	<td>sco</td>	<td>sco</td>	<td>Scots</td></tr>
+<tr><td>Шугнанский</td>	<td>—</td>	<td>—</td>	<td>sgh</td>	<td>—</td></tr>
+<tr><td>Шумерский</td>	<td>—</td>	<td>sux</td>	<td>sux</td>	<td>Sumerian</td></tr>
+<tr><td>Эве</td>	<td>ee</td>	<td>ewe</td>	<td>ewe</td>	<td>Ewe</td></tr>
+<tr><td>Эвенкийский<br>(тунгусский)</td>	<td>—</td>	<td>—</td>	<td>evn</td>	<td>—</td></tr>
+<tr><td>Эвенский</td>	<td>—</td>	<td>—</td>	<td>eve</td>	<td>—</td></tr>
+<tr><td>Эвондо</td>	<td>—</td>	<td>ewo</td>	<td>ewo</td>	<td>Ewondo</td></tr>
+<tr><td>Экаджук</td>	<td>—</td>	<td>eka</td>	<td>eka</td>	<td>Ekajuk</td></tr>
+<tr><td>Эламский</td>	<td>—</td>	<td>elx</td>	<td>elx</td>	<td>Elamite</td></tr>
+<tr><td>Эрзянский</td>	<td>—</td>	<td>myv</td>	<td>myv</td>	<td>Erzya</td></tr>
+<tr><td>Эсперанто</td>	<td>eo</td>	<td>epo</td>	<td>epo</td>	<td>Esperanto</td></tr>
+<tr><td>Эстонский</td>	<td>et</td>	<td>est</td>	<td>est</td>	<td>Estonian</td></tr>
+<tr><td>Эфик</td>	<td>—</td>	<td>efi</td>	<td>efi</td>	<td>Efik</td></tr>
+<tr><td>Яванский</td>	<td>jv</td>	<td>jav<br>jaw</td>	<td>jav</td>	<td>Javanese</td></tr>
+<tr><td>Якутский<br>(Саха)</td>	<td>—</td>	<td>sah</td>	<td>sah</td>	<td>Yakut</td></tr>
+<tr><td>Яо</td>	<td>—</td>	<td>yao</td>	<td>yao</td>	<td>Yao</td></tr>
+<tr><td>Яп</td>	<td>—</td>	<td>yap</td>	<td>yap</td>	<td>Yapese</td></tr>
+<tr><td>Японский</td>	<td>ja</td>	<td>jpn</td>	<td>jpn</td>	<td>Japanese</td></tr>
+</table>
+
+
+<a name="lcid"></a>
+<h2>Коды локалей Microsoft</h2>
+<p>Таблица составлена по материалам:</p>
+<ol>
+  <li><a href="https://msdn.microsoft.com/en-us/library/ms912047%28v=winembedded.10%29.aspx">Microsoft Locale ID Values</a>, Microsoft Developer Network (MSDN).</li>
+  <li><a href="http://www.science.co.il/Language/Locale-codes.asp">Locale Codes</a>, Israel Science and Technology Homepage.</li>
+</ol>
+<p>С помощью данной таблицы можно узнать принадлежность языков определённой кодовой странице – информация для использования при работе с директивой <span class="code">#SOURCE_CODE_PAGE</span>.</p>
+<table>
+<tr><th>Language</th>	<th>Country/Region</th>	<th>LCID Dec</th>	<th>Code Page</th></tr>
+<tr><td>Afrikaans</td>	<td>South Africa</td>	<td>1078</td>	<td>1252</td></tr>
+<tr><td>Albanian</td>	<td>Albania</td>	<td>1052</td>	<td>1250</td></tr>
+<tr><td>Amharic</td>	<td></td>	<td>1118</td>	<td></td></tr>
+<tr><td>Arabic</td>	<td>Algeria</td>	<td>5121</td>	<td>1256</td></tr>
+<tr><td>Arabic</td>	<td>Bahrain</td>	<td>15361</td>	<td>1256</td></tr>
+<tr><td>Arabic</td>	<td>Egypt</td>	<td>3073</td>	<td>1256</td></tr>
+<tr><td>Arabic</td>	<td>Iraq</td>	<td>2049</td>	<td>1256</td></tr>
+<tr><td>Arabic</td>	<td>Jordan</td>	<td>11265</td>	<td>1256</td></tr>
+<tr><td>Arabic</td>	<td>Kuwait</td>	<td>13313</td>	<td>1256</td></tr>
+<tr><td>Arabic</td>	<td>Lebanon</td>	<td>12289</td>	<td>1256</td></tr>
+<tr><td>Arabic</td>	<td>Libya</td>	<td>4097</td>	<td>1256</td></tr>
+<tr><td>Arabic</td>	<td>Morocco</td>	<td>6145</td>	<td>1256</td></tr>
+<tr><td>Arabic</td>	<td>Oman</td>	<td>8193</td>	<td>1256</td></tr>
+<tr><td>Arabic</td>	<td>Qatar</td>	<td>16385</td>	<td>1256</td></tr>
+<tr><td>Arabic</td>	<td>Saudi Arabia</td>	<td>1025</td>	<td>1256</td></tr>
+<tr><td>Arabic</td>	<td>Syria</td>	<td>10241</td>	<td>1256</td></tr>
+<tr><td>Arabic</td>	<td>Tunisia</td>	<td>7169</td>	<td>1256</td></tr>
+<tr><td>Arabic</td>	<td>U.A.E.</td>	<td>14337</td>	<td>1256</td></tr>
+<tr><td>Arabic</td>	<td>Yemen</td>	<td>9217</td>	<td>1256</td></tr>
+<tr><td>Armenian</td>	<td>Armenia</td>	<td>1067</td>	<td></td></tr>
+<tr><td>Assamese</td>	<td></td>	<td>1101</td>	<td></td></tr>
+<tr><td>Azeri (<em>Cyrillic</em>)</td>	<td>Azerbaijan</td>	<td>2092</td>	<td>1251</td></tr>
+<tr><td>Azeri (<em>Latin</em>)</td>	<td>Azerbaijan</td>	<td>1068</td>	<td>1254</td></tr>
+<tr><td>Basque</td>	<td>Spain</td>	<td>1069</td>	<td>1252</td></tr>
+<tr><td>Belarusian</td>	<td>Belarus</td>	<td>1059</td>	<td>1251</td></tr>
+<tr><td>Bengali</td>	<td>Bangladesh</td>	<td>2117</td>	<td></td></tr>
+<tr><td>Bengali</td>	<td>India</td>	<td>1093</td>	<td></td></tr>
+<tr><td>Bosnian</td>	<td></td>	<td>5146</td>	<td></td></tr>
+<tr><td>Bulgarian</td>	<td>Bulgaria</td>	<td>1026</td>	<td>1251</td></tr>
+<tr><td>Burmese</td>	<td></td>	<td>1109</td>	<td></td></tr>
+<tr><td>Catalan</td>	<td>Spain</td>	<td>1027</td>	<td>1252</td></tr>
+<tr><td>Chinese</td>	<td>Hong Kong S.A.R.</td>	<td>3076</td>	<td></td></tr>
+<tr><td>Chinese</td>	<td>Macau S.A.R.</td>	<td>5124</td>	<td></td></tr>
+<tr><td>Chinese<br>(<em>Default Chinese-Simplified Locale ID</em>)</td>	<td>People's Republic of China</td>	<td>2052</td>	<td></td></tr>
+<tr><td>Chinese</td>	<td>Singapore</td>	<td>4100</td>	<td></td></tr>
+<tr><td>Chinese</td>	<td>Taiwan</td>	<td>1028</td>	<td></td></tr>
+<tr><td>Croatian</td>	<td>Croatia</td>	<td>1050</td>	<td>1250</td></tr>
+<tr><td>Czech</td>	<td>Czech Republic</td>	<td>1029</td>	<td>1250</td></tr>
+<tr><td>Danish</td>	<td>Denmark</td>	<td>1030</td>	<td>1252</td></tr>
+<tr><td>Divehi</td>	<td>Maldives</td>	<td>1125</td>	<td></td></tr>
+<tr><td>Dutch</td>	<td>Belgium</td>	<td>2067</td>	<td>1252</td></tr>
+<tr><td>Dutch</td>	<td>Netherlands</td>	<td>1043</td>	<td>1252</td></tr>
+<tr><td>Edo</td>	<td></td>	<td>1126</td>	<td></td></tr>
+<tr><td>English</td>	<td>Australia</td>	<td>3081</td>	<td>1252</td></tr>
+<tr><td>English</td>	<td>Belize</td>	<td>10249</td>	<td>1252</td></tr>
+<tr><td>English</td>	<td>Canada</td>	<td>4105</td>	<td>1252</td></tr>
+<tr><td>English</td>	<td>Caribbean</td>	<td>9225</td>	<td>1252</td></tr>
+<tr><td>English</td>	<td>India</td>	<td>16393</td>	<td></td></tr>
+<tr><td>English</td>	<td>Ireland</td>	<td>6153</td>	<td>1252</td></tr>
+<tr><td>English</td>	<td>Jamaica</td>	<td>8201</td>	<td>1252</td></tr>
+<tr><td>English</td>	<td>New Zealand</td>	<td>5129</td>	<td>1252</td></tr>
+<tr><td>English</td>	<td>Republic of the Philippines</td>	<td>13321</td>	<td>1252</td></tr>
+<tr><td>English</td>	<td>South Africa</td>	<td>7177</td>	<td>1252</td></tr>
+<tr><td>English</td>	<td>Trinidad and Tobago</td>	<td>11273</td>	<td>1252</td></tr>
+<tr><td>English</td>	<td>United Kingdom</td>	<td>2057</td>	<td>1252</td></tr>
+<tr><td>English<br>(<em>Default English Locale ID</em>)</td>	<td>United States</td>	<td>1033</td>	<td>1252</td></tr>
+<tr><td>English</td>	<td>Zimbabwe</td>	<td>12297</td>	<td>1252</td></tr>
+<tr><td>Estonian</td>	<td>Estonia</td>	<td>1061</td>	<td>1257</td></tr>
+<tr><td>Faroese</td>	<td>Faeroe Islands</td>	<td>1080</td>	<td>1252</td></tr>
+<tr><td>Farsi</td>	<td>Iran</td>	<td>1065</td>	<td>1256</td></tr>
+<tr><td>Filipino</td>	<td></td>	<td>1124</td>	<td></td></tr>
+<tr><td>Finnish</td>	<td>Finland</td>	<td>1035</td>	<td>1252</td></tr>
+<tr><td>French</td>	<td>Belgium</td>	<td>2060</td>	<td>1252</td></tr>
+<tr><td>French</td>	<td>Cameroon</td>	<td>11276</td>	<td></td></tr>
+<tr><td>French</td>	<td>Canada</td>	<td>3084</td>	<td>1252</td></tr>
+<tr><td>French</td>	<td>Congo</td>	<td>9228</td>	<td></td></tr>
+<tr><td>French</td>	<td>Cote d'Ivoire</td>	<td>12300</td>	<td></td></tr>
+<tr><td>French<br>(<em>Default French Locale ID</em>)</td>	<td>France</td>	<td>1036</td>	<td>1252</td></tr>
+<tr><td>French</td>	<td>Luxembourg</td>	<td>5132</td>	<td>1252</td></tr>
+<tr><td>French</td>	<td>Mali</td>	<td>13324</td>	<td></td></tr>
+<tr><td>French</td>	<td>Morocco</td>	<td>14348</td>	<td></td></tr>
+<tr><td>French</td>	<td>Principality of Monaco</td>	<td>6156</td>	<td>1252</td></tr>
+<tr><td>French</td>	<td>Senegal</td>	<td>10252</td>	<td></td></tr>
+<tr><td>French</td>	<td>Switzerland</td>	<td>4108</td>	<td>1252</td></tr>
+<tr><td>French</td>	<td>West Indies</td>	<td>7180</td>	<td></td></tr>
+<tr><td>Frisian</td>	<td>Netherlands</td>	<td>1122</td>	<td></td></tr>
+<tr><td>FYRO Macedonian</td>	<td>Former Yugoslav Republic of Macedonia</td>	<td>1071</td>	<td>1251</td></tr>
+<tr><td>Gaelic</td>	<td>Ireland</td>	<td>2108</td>	<td></td></tr>
+<tr><td>Gaelic</td>	<td>Scotland</td>	<td>1084</td>	<td></td></tr>
+<tr><td>Galician</td>	<td>Spain</td>	<td>1110</td>	<td>1252</td></tr>
+<tr><td>Georgian</td>	<td>Georgia</td>	<td>1079</td>	<td></td></tr>
+<tr><td>German</td>	<td>Austria</td>	<td>3079</td>	<td>1252</td></tr>
+<tr><td>German<br>(<em>Default German Locale ID</em>)</td>	<td>Germany</td>	<td>1031</td>	<td>1252</td></tr>
+<tr><td>German</td>	<td>Liechtenstein</td>	<td>5127</td>	<td>1252</td></tr>
+<tr><td>German</td>	<td>Luxembourg</td>	<td>4103</td>	<td>1252</td></tr>
+<tr><td>German</td>	<td>Switzerland</td>	<td>2055</td>	<td>1252</td></tr>
+<tr><td>Greek</td>	<td>Greece</td>	<td>1032</td>	<td>1253</td></tr>
+<tr><td>Guarani</td>	<td>Paraguay</td>	<td>1140</td>	<td></td></tr>
+<tr><td>Gujarati</td>	<td>India</td>	<td>1095</td>	<td></td></tr>
+<tr><td>Hebrew</td>	<td>Israel</td>	<td>1037</td>	<td>1255</td></tr>
+<tr><td>HID<br>(<em>Human Interface Device</em>)</td>	<td></td>	<td>1279</td>	<td></td></tr>
+<tr><td>Hindi</td>	<td>India</td>	<td>1081</td>	<td></td></tr>
+<tr><td>Hungarian</td>	<td>Hungary</td>	<td>1038</td>	<td>1250</td></tr>
+<tr><td>Icelandic</td>	<td>Iceland</td>	<td>1039</td>	<td>1252</td></tr>
+<tr><td>Igbo</td>	<td>Nigeria</td>	<td>1136</td>	<td></td></tr>
+<tr><td>Indonesian</td>	<td>Indonesia</td>	<td>1057</td>	<td>1252</td></tr>
+<tr><td>Italian<br>(<em>Default Italian Locale ID</em>)</td>	<td>Italy</td>	<td>1040</td>	<td>1252</td></tr>
+<tr><td>Italian</td>	<td>Switzerland</td>	<td>2064</td>	<td>1252</td></tr>
+<tr><td>Japanese</td>	<td>Japan</td>	<td>1041</td>	<td></td></tr>
+<tr><td>Kannada</td>	<td>India</td>	<td>1099</td>	<td></td></tr>
+<tr><td>Kashmiri</td>	<td></td>	<td>1120</td>	<td></td></tr>
+<tr><td>Kazakh</td>	<td>Kazakhstan</td>	<td>1087</td>	<td>1251</td></tr>
+<tr><td>Khmer</td>	<td></td>	<td>1107</td>	<td></td></tr>
+<tr><td>Konkani</td>	<td>India</td>	<td>1111</td>	<td></td></tr>
+<tr><td>Korean</td>	<td>Korea</td>	<td>1042</td>	<td></td></tr>
+<tr><td>Kyrgyz</td>	<td>Kyrgyzstan</td>	<td>1088</td>	<td>1251</td></tr>
+<tr><td>Lao</td>	<td></td>	<td>1108</td>	<td></td></tr>
+<tr><td>Latin</td>	<td></td>	<td>1142</td>	<td></td></tr>
+<tr><td>Latvian</td>	<td>Latvia</td>	<td>1062</td>	<td>1257</td></tr>
+<tr><td>Lithuanian</td>	<td>Lithuania</td>	<td>1063</td>	<td>1257</td></tr>
+<tr><td>Malay</td>	<td>Brunei Darussalam</td>	<td>2110</td>	<td>1252</td></tr>
+<tr><td>Malay</td>	<td>Malaysia</td>	<td>1086</td>	<td>1252</td></tr>
+<tr><td>Malayalam</td>	<td></td>	<td>1100</td>	<td></td></tr>
+<tr><td>Maltese</td>	<td></td>	<td>1082</td>	<td></td></tr>
+<tr><td>Manipuri</td>	<td></td>	<td>1112</td>	<td></td></tr>
+<tr><td>Maori</td>	<td></td>	<td>1153</td>	<td></td></tr>
+<tr><td>Marathi</td>	<td>India</td>	<td>1102</td>	<td></td></tr>
+<tr><td>Mongolian</td>	<td>Mongolia</td>	<td>1104</td>	<td>1251</td></tr>
+<tr><td>Mongolian</td>	<td></td>	<td>2128</td>	<td></td></tr>
+<tr><td>Nepali</td>	<td></td>	<td>1121</td>	<td></td></tr>
+<tr><td>Norwegian (<em>Bokm&#xe5;l</em>)</td>	<td>Norway</td>	<td>1044</td>	<td>1252</td></tr>
+<tr><td>Norwegian (<em>Nynorsk</em>)</td>	<td>Norway</td>	<td>2068</td>	<td>1252</td></tr>
+<tr><td>Oriya</td>	<td></td>	<td>1096</td>	<td></td></tr>
+<tr><td>Polish</td>	<td>Poland</td>	<td>1045</td>	<td>1250</td></tr>
+<tr><td>Portuguese</td>	<td>Brazil</td>	<td>1046</td>	<td>1252</td></tr>
+<tr><td>Portuguese</td>	<td>Portugal</td>	<td>2070</td>	<td>1252</td></tr>
+<tr><td>Punjabi</td>	<td>India</td>	<td>1094</td>	<td></td></tr>
+<tr><td>Raeto</td>	<td>Romance</td>	<td>1047</td>	<td></td></tr>
+<tr><td>Romanian</td>	<td>Moldova</td>	<td>2072</td>	<td></td></tr>
+<tr><td>Romanian</td>	<td>Romania</td>	<td>1048</td>	<td>1250</td></tr>
+<tr><td>Russian</td>	<td>Moldova</td>	<td>2073</td>	<td></td></tr>
+<tr><td>Russian</td>	<td>Russia</td>	<td>1049</td>	<td>1251</td></tr>
+<tr><td>Sami Lappish</td>	<td></td>	<td>1083</td>	<td></td></tr>
+<tr><td>Sanskrit</td>	<td>India</td>	<td>1103</td>	<td></td></tr>
+<tr><td>Serbian (<em>Cyrillic</em>)</td>	<td>Serbia and Montenegro</td>	<td>3098</td>	<td>1251</td></tr>
+<tr><td>Serbian (<em>Latin</em>)</td>	<td>Serbia and Montenegro</td>	<td>2074</td>	<td>1250</td></tr>
+<tr><td>Sesotho (<em>Sutu</em>)</td>	<td></td>	<td>1072</td>	<td></td></tr>
+<tr><td>Setsuana</td>	<td></td>	<td>1074</td>	<td></td></tr>
+<tr><td>Sindhi</td>	<td></td>	<td>1113</td>	<td></td></tr>
+<tr><td>Sinhala; Sinhalese</td>	<td></td>	<td>1115</td>	<td></td></tr>
+<tr><td>Slovak</td>	<td>Slovakia</td>	<td>1051</td>	<td>1250</td></tr>
+<tr><td>Slovenian</td>	<td>Slovenia</td>	<td>1060</td>	<td>1250</td></tr>
+<tr><td>Somali</td>	<td></td>	<td>1143</td>	<td></td></tr>
+<tr><td>Sorbian</td>	<td></td>	<td>1070</td>	<td></td></tr>
+<tr><td>Spanish</td>	<td>Argentina</td>	<td>11274</td>	<td>1252</td></tr>
+<tr><td>Spanish</td>	<td>Bolivia</td>	<td>16394</td>	<td>1252</td></tr>
+<tr><td>Spanish</td>	<td>Chile</td>	<td>13322</td>	<td>1252</td></tr>
+<tr><td>Spanish</td>	<td>Colombia</td>	<td>9226</td>	<td>1252</td></tr>
+<tr><td>Spanish</td>	<td>Costa Rica</td>	<td>5130</td>	<td>1252</td></tr>
+<tr><td>Spanish</td>	<td>Dominican Republic</td>	<td>7178</td>	<td>1252</td></tr>
+<tr><td>Spanish</td>	<td>Ecuador</td>	<td>12298</td>	<td>1252</td></tr>
+<tr><td>Spanish</td>	<td>El Salvador</td>	<td>17418</td>	<td>1252</td></tr>
+<tr><td>Spanish</td>	<td>Guatemala</td>	<td>4106</td>	<td>1252</td></tr>
+<tr><td>Spanish</td>	<td>Honduras</td>	<td>18442</td>	<td>1252</td></tr>
+<tr><td>Spanish</td>	<td>Mexico</td>	<td>2058</td>	<td>1252</td></tr>
+<tr><td>Spanish</td>	<td>Nicaragua</td>	<td>19466</td>	<td>1252</td></tr>
+<tr><td>Spanish</td>	<td>Panama</td>	<td>6154</td>	<td>1252</td></tr>
+<tr><td>Spanish</td>	<td>Paraguay</td>	<td>15370</td>	<td>1252</td></tr>
+<tr><td>Spanish</td>	<td>Peru</td>	<td>10250</td>	<td>1252</td></tr>
+<tr><td>Spanish</td>	<td>Puerto Rico</td>	<td>20490</td>	<td>1252</td></tr>
+<tr><td>Spanish</td>	<td>Spain</td>	<td>1034</td>	<td>1252</td></tr>
+<tr><td>Spanish</td>	<td>Uruguay</td>	<td>14346</td>	<td>1252</td></tr>
+<tr><td>Spanish</td>	<td>Venezuela</td>	<td>8202</td>	<td>1252</td></tr>
+<tr><td>Spanish – Modern Sort<br>(<em>Default Spanish Locale ID</em>)</td>	<td>Spain</td>	<td>3082</td>	<td></td></tr>
+<tr><td>Swahili</td>	<td>Kenya</td>	<td>1089</td>	<td>1252</td></tr>
+<tr><td>Swedish</td>	<td>Finland</td>	<td>2077</td>	<td>1252</td></tr>
+<tr><td>Swedish</td>	<td>Sweden</td>	<td>1053</td>	<td>1252</td></tr>
+<tr><td>Syriac</td>	<td>Syria</td>	<td>1114</td>	<td></td></tr>
+<tr><td>Tajik</td>	<td></td>	<td>1064</td>	<td></td></tr>
+<tr><td>Tamil</td>	<td>India</td>	<td>1097</td>	<td></td></tr>
+<tr><td>Tatar</td>	<td>Tatarstan</td>	<td>1092</td>	<td>1251</td></tr>
+<tr><td>Telugu</td>	<td>India</td>	<td>1098</td>	<td></td></tr>
+<tr><td>Thai</td>	<td>Thailand</td>	<td>1054</td>	<td></td></tr>
+<tr><td>Tibetan</td>	<td></td>	<td>1105</td>	<td></td></tr>
+<tr><td>Tsonga</td>	<td></td>	<td>1073</td>	<td></td></tr>
+<tr><td>Turkish</td>	<td>Turkey</td>	<td>1055</td>	<td>1254</td></tr>
+<tr><td>Turkmen</td>	<td></td>	<td>1090</td>	<td></td></tr>
+<tr><td>Ukrainian</td>	<td>Ukraine</td>	<td>1058</td>	<td>1251</td></tr>
+<tr><td>Urdu</td>	<td>Islamic Republic of Pakistan</td>	<td>1056</td>	<td>1256</td></tr>
+<tr><td>Uzbek (<em>Cyrillic</em>)</td>	<td>Uzbekistan</td>	<td>2115</td>	<td>1251</td></tr>
+<tr><td>Uzbek (<em>Latin</em>)</td>	<td>Uzbekistan</td>	<td>1091</td>	<td>1254</td></tr>
+<tr><td>Venda</td>	<td></td>	<td>1075</td>	<td></td></tr>
+<tr><td>Vietnamese</td>	<td>Viet Nam</td>	<td>1066</td>	<td>1258</td></tr>
+<tr><td>Welsh</td>	<td>United Kingdom</td>	<td>1106</td>	<td></td></tr>
+<tr><td>Xhosa</td>	<td></td>	<td>1076</td>	<td></td></tr>
+<tr><td>Yiddish</td>	<td></td>	<td>1085</td>	<td></td></tr>
+<tr><td>Zulu</td>	<td></td>	<td>1077</td>	<td></td></tr>
+</table>
+
+
+<a name="ansi"></a>
+<h2>Кодовые страницы ANSI в Windows</h2>
+<p>Таблица составлена по материалам: <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd317756%28v=vs.85%29.aspx">Code Page Identifiers</a>, Microsoft Developer Network (MSDN).</p>
+<p>К исходной таблице от MSDN добавлена колонка «Наименование в Lingvo» с формой наименований, используемых в директиве <span class="code">#SOURCE_CODE_PAGE</span>. <em>Знаки вопроса в некоторых строках означают, что работоспособность данных наименований выяснить не удалось.</em></p>
+<table>
+<tr><th>Code Page</th>	<th>.NET наименование</th>	<th>Дополнительная информация</th>	<th>Наименование в Lingvo</th></tr>
+<tr><td>874</td>	<td>windows-874</td>	<td>ANSI/OEM Thai (ISO 8859-11); Thai (Windows)</td>	<td>?</td></tr>
+<tr><td>1250</td>	<td>windows-1250</td>	<td>ANSI Central European; Central European (Windows)</td>	<td>EasternEuropean</td></tr>
+<tr><td>1251</td>	<td>windows-1251</td>	<td>ANSI Cyrillic; Cyrillic (Windows)</td>	<td>Cyrillic</td></tr>
+<tr><td>1252</td>	<td>windows-1252</td>	<td>ANSI Latin 1; Western European (Windows)</td>	<td>Latin</td></tr>
+<tr><td>1253</td>	<td>windows-1253</td>	<td>ANSI Greek; Greek (Windows)</td>	<td>Greek</td></tr>
+<tr><td>1254</td>	<td>windows-1254</td>	<td>ANSI Turkish; Turkish (Windows)</td>	<td>Turkish</td></tr>
+<tr><td>1255</td>	<td>windows-1255</td>	<td>ANSI Hebrew; Hebrew (Windows)</td>	<td>?</td></tr>
+<tr><td>1256</td>	<td>windows-1256</td>	<td>ANSI Arabic; Arabic (Windows)</td>	<td>Arabic</td></tr>
+<tr><td>1257</td>	<td>windows-1257</td>	<td>ANSI Baltic; Baltic (Windows)</td>	<td>Baltic</td></tr>
+<tr><td>1258</td>	<td>windows-1258</td>	<td>ANSI/OEM Vietnamese; Vietnamese (Windows)</td>	<td>?</td></tr>
+</table>
+</div>
+<div id="footer">
+<p>Справочник по DSL • <a href="changes.html">Версия 0.9.6 alpha 2</a> • 04.08.2020</p>
+<p>Public Domain 2020 yozhic. Свободный контент. Все права открыты и неограничены. Никаких гарантий и ответственности.</p>
+</div>
+</body>
+</html>

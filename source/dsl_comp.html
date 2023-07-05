@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+      <title>Компилирование и компилятор DSL</title>
+      <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="header">Справочник по DSL</div>
+<div id="main">
+<h1>Компилирование и компилятор DSL</h1>
+<p class="content"><img src="line.png"></p>
+<p class="content"><a href="#main" class="content">Общие сведения</a></p>
+<p class="content"><a href="#gui" class="content">Графический интерфейс пользователя</a></p>
+<p class="content"><a href="#cmd" class="content">Командная строка</a></p>
+<p class="content"><a href="#syntax" class="content">Отчёт об ошибках</a></p>
+<p class="content"><img src="line.png"></p>
+
+
+
+<a name="main"></a>
+<h2>Общие сведения</h2>
+<p>Для использования словарей DSL в программе Lingvo, их необходимо преобразовать в формат LSD. LSD является форматом, изложенным на машинно-ориентированном языке, т.е. предназначенным для лучшего понимания компьютером. Кроме того, LSD – это своеобразный контейнер, в который помещаются объединённые, сжатые и перекодированные данные исходных файлов DSL, а также упаковываются связанные мультимедиа-файлы, если такие есть и они находятся рядом с основными файлами во время преобразования. Процесс преобразования называется компилированием, а утилита, выполняющая процесс – компилятором.</p>
+<p>Во время компилирования также осуществляется синтаксическая проверка конструкций языка DSL и диагностика ошибок.</p>
+<p>Компилятор входил в состав дистрибутива Lingvo, начиная с первых версий. До версии 6.0 это был небольшой исполняемый файл <span class="code_names">LC.EXE</span> (<em>сокращение от Lingvo Converter</em>), работающий только из командной строки. В версии 6.0 утилита получила графический интерфейс и новое название «Компилятор DSL» (<em>DSL Compiler</em>), которое сохраняется до настоящего времени. Современный DSL Compiler может работать в двух режимах: через диалоговое окно графического интерфейса и из командной строки.</p>
+
+
+<a name="gui"></a>
+<h2>Графический интерфейс пользователя</h2>
+<p>Значение большинства элементов диалогового окна DSL Compiler самоочевидно и не нуждается в комментариях, поэтому данное описание выборочно коснётся лишь некоторых из них.</p>
+<p style="text-align: center;"><img src="dslcomp_gui.png"></p>
+<ul>
+<li>Элемент <strong>Icon</strong> [<strong>Иконка</strong>]. Когда в комплекте DSL словаря есть иконка, она отображается в данном элементе (как это видно на снимке). Иногда файл иконки существует, но она не отображается. Причины могут быть следующие.</li>
+<div class="ol_sk">1) В имени файла иконки содержатся нерекомендуемые символы. Об этом см. в главе «<a href="dict.html#names">Наименование файлов словаря</a>».</div>
+<div class="ol_sk">2) Не соблюдены необходимые свойства графического файла. Об этом см. в главе «<a href="dict.html#bmp">Иконка</a>».</div>
+<li>Радио-кнопка <strong>LUD</strong>. Предназначена для преобразования исходного файла в формат пользовательского редактируемого словаря Lingvo. Становится доступной только в тех случаях, когда исходным файлом является:</li>
+<div class="ol_sk">1) Пользовательский редактируемый словарь <span class="code_names">*.adc</span> – формат, существовавший в первых версиях Lingvo до 5.0 включительно. Для успешного преобразования такого словаря при нём необходимо наличие файла <span class="code_names">*.adt</span>, содержащего тела словарных статей.</div>
+<div class="ol_sk">2) Пользовательский редактируемый словарь <span class="code_names">*.lud</span>, созданный в более ранних, по сравнению с текущей, версиях Lingvo. Для успешного преобразования такого словаря при нём необходимо наличие файла <span class="code_names">*.adх</span>, содержащего тела словарных статей.</div>
+<li>Радио-кнопка <strong>DSL</strong>. Предназначена для декомпилирования словарей LSD в исходный набор файлов словаря DSL, а также, начиная с Lingvo 9.0, словарей LUD в DSL. В компиляторах, входящих в официальный дистрибутив ABBYY Lingvo, при выборе LSD файла эта кнопка всегда недоступна.</li>
+<li>Галочка <strong>Output warnings</strong> [<strong>Выводить предупреждения</strong>]. Влияет на информацию, выводимую компилятором в файл отчёта об ошибках. На появление во время компилирования диалоговых окон с предупреждениями (таких как отсутствие одного из исходных файлов и т.п.) состояние этого элемента не влияет.</li>
+<li>Галочка <abbr title="Автоматически добавлять разметку, необходимую для поиска по содержимому карточек словаря">Create dictionary ready for indexing</abbr>:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Если отмечена, то тело каждой словарной статьи будет заключено в тэг зоны перевода. Наличие этого тэга (и двух других подобных ему) необходимо для осуществления поиска слов по всему тексту словаря.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Компиляторы версий x3 и ранних x5 в этом случае употреляли тэг <span class="code">[trn]</span>. Однако, если таковой тэг изначально уже был в DSL, происходил конфликт и карточки компилировались с ошибкой: <em><abbr title="Повторный открывающий тег «[trn]»">Redundant opening tag "[trn]"</abbr></em>. В версии 15.0.847.0 в употребление был введён недокументированный тэг <span class="code">[trn1]</span>, вследствие чего конфликт с существующими в исходном DSL <span class="code">[trn]</span> более не возникает.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Замечание официального справочного руководства Lingvo x6 о том, что <em>«При компиляции словаря, в котором были проставлены тэги [trn] и [/trn] данную опцию отмечать не следует. В противном случае словарь компилироваться не будет»</em> является ошибочным...
+</li></ul>
+
+
+<a name="cmd"></a>
+<h2>Командная строка</h2>
+<div class="ninja"><span class="ninja">Недокументированная функция</span></div>
+<p>При обращении к компилятору из командной строки становится доступным режим пакетного компилирования словарей. Этот режим появился в компиляторе, начиная с Lingvo версии x5. О его существовании <a href="http://forum.lingvo.ru/actualthread.aspx?bid=2&tid=139095&pg=-1">сообщил</a> специалист тех-поддержки ABBYY, согласно заявлению которого, режим является недокументированным и компания не гарантирует стабильность его работы.</p>
+<p>Ниже приведен список известных на сегодняшний день параметров командной строки. <em>Разделителем имени и значения каждого параметра является символ равенства</em> <span class="code">=</span>.</p>
+<h3>Список известных параметров:</h3>
+<table class="list">
+<col width="180">
+<tr class="list">
+  <td class="tag">[-src="SrcPath"]</td>
+  <td class="list"><strong>Обязательный параметр</strong>.<br><span class="code">SrcPath</span> – имя исходного файла или папки.<br>Если указана папка, в ней будут обработаны все dsl-файлы, не включая подпапки.</td>
+</tr>
+<tr class="list">
+  <td class="tag">[-action=lsd | lud]</td>
+  <td class="list">Тип создаваемого словаря.<br><span class="code">lsd</span> – нередактируемый словарь с форматированием (<em>по умолчанию</em>);<br><span class="code">lud</span> – простой словарь типа слово-перевод. LUD может быть создан только в случае, если исходным файлом является ADC или LUD более ранних, по сравнению с текущей, версий Lingvo.</td>
+</tr>
+<tr class="list">
+  <td class="tag">[-encoding=u | a]</td>
+  <td class="list">Кодировка исходного текста.<br><span class="code">u</span> – Unicode (<em>по умолчанию</em>);<br><span class="code">a</span> – ANSI.</td>
+</tr>
+<tr class="list">
+  <td class="tag">[-dst="DstPath"]</td>
+  <td class="list"><span class="code">DstPath</span> – имя файла словаря или папки. По умолчанию получается из имени исходного файла заменой расширения.<br>Если в параметре <span class="code">-src</span> указана папка, то в параметре <span class="code">-dst</span> тоже должна быть указана папка.</td>
+</tr>
+<tr class="list">
+  <td class="tag">[-dde=0 | 1]</td>
+  <td class="list">Создание файла отчёта об ошибках <span class="code_names">*.dde</span>:<br><span class="code">0</span> – не создавать (<em>по умолчанию</em>);<br><span class="code">1</span> – создавать.</td>
+</tr>
+<tr class="list">
+  <td class="tag">[-warnings=0 | 1]</td>
+  <td class="list">Вывод предупреждений в файл отчёта об ошибках <span class="code_names">*.dde</span>, при его создании:<br><span class="code">0</span> – не выводить (<em>по умолчанию</em>);<br><span class="code">1</span> – выводить.</td>
+</tr>
+<tr class="list">
+  <td class="tag">[-message=0 | 1]</td>
+  <td class="list">Диалоговое окно с сообщением об окончании компилирования:<br><span class="code">0</span> – не показывать;<br><span class="code">1</span> – показывать (<em>по умолчанию</em>).</td>
+</tr>
+<tr class="list">
+  <td class="tag">[-replace]</td>
+  <td class="list">Перезаписывать файлы без вопросов.</td>
+</tr>
+<tr class="list">
+  <td class="tag">[-index=0 | 1]</td>
+  <td class="list">Разметка, необходимая для поиска по содержимому карточек словаря:<br><span class="code">0</span> – не добавлять (<em>по умолчанию</em>)<br><span class="code">1</span> – добавлять автоматически.</td>
+</tr>
+<tr class="list">
+  <td class="tag">[-log=0 | 1]</td>
+  <td class="list">Служебные сообщения компилятора (об отсутствующих частях словаря и пр.):<br><span class="code">0</span> – показывать в диалоговых окнах (<em>по умолчанию</em>);<br><span class="code">1</span> – перенаправлять в файл отчёта <span class="code_names">*.log</span> (т.н. тихий режим).</td>
+</tr>
+</table>
+<br><br>
+<div class="CodeBox">
+<p class="CodeBoxHead">Пример командной строки для DSL Compiler</p>
+<div class="Code"><pre>Dslcomp.exe -src="c:\MyDictionaries\New" -encoding=a -dst="c:\Destination\Result" -dde=1 -warnings=1 -message=0 -replace -index=1 -log=1
+</pre></div></div>
+
+
+<a name="syntax"></a>
+<h2>Отчёт об ошибках</h2>
+<p>В процессе компилирования словаря производится синтаксическая проверка конструкций языка DSL и диагностика ошибок. Результаты проверки могут быть записаны в специальный файл отчёта – для этого нужно отметить соответствующий пункт в настройках компилятора: <em><abbr title="Создавать файл ошибок">Create error log file</abbr></em>. Состояние пункта влияет только на создание отчёта. Синтаксическая проверка выполняется в независимости от него, в любом случае.</p>
+<p>Отчёт создаётся в одной папке с другими файлами компилируемого словаря. Файлу отчёта присваивается имя файла основного текста и расширение <span class="code_names">*.dde</span>.</p>
+<p>Найденные при проверке ошибки делятся на два типа: ошибки и предупреждения. Различия между типами заключается в том, что статьи с ошибками исключаются из скомпилированного словаря, а статьи с предупреждениями – нет.</p>
+<p>Отчёт DDE устроен следующим образом.</p>
+<p>Вся отчётная информация заключается в тэги служебных комментариев <span class="code">{{···}}</span>.</p>
+<p>В начало отчёта из компилируемого словаря полностью копируются статьи, в которых были найдены ошибки. В конец строки с каждой ошибкой добавляется информация с указанием типа ошибки, расположения файла (полного пути) в котором она найдена и номера строки с ошибкой по счёту строк в словаре.</p>
+<div class="CodeBox">
+<p class="CodeBoxHead">Пример отчёта об ошибке в статье :: Запись в DDE</p>
+<div class="Code"><pre>directive bug
+	[m1]this is the bug: ##[/m]{{Error: Pre-processor command must be placed at the beginning of the line. (File: "C:\TestDic\TestDic.dsl", Line: 20)}} 
+</pre></div></div>
+<p>Далее выводится информация об общем количестве ошибок отдельно по каждому типу.</p>
+<div class="CodeBox">
+<p class="CodeBoxHead">Отчёт об общем количестве ошибок :: Запись в DDE</p>
+<div class="Code"><pre>{{Errors: 1. Warnings: 6.}}
+</pre></div></div>
+<p>Затем выводится информация об отсутствующих файлах мультимедиа, если таковые указаны в словаре, но не найдены в папке с файлом основного текста.</p>
+<div class="CodeBox">
+<p class="CodeBoxHead">Отчёт о недостающих файлах мультимедиа :: Запись в DDE</p>
+<div class="Code"><pre>C:\TestDic\edward.jpg was not found.
+</pre></div></div>
+<p>Далее, в конце отчёта выводится информация о количестве заголовков и тел статей, <u>вошедших в скомпилированный LSD</u>, т.е. число статей с ошибками из этого количества исключается.</p>
+<p>При подсчёте заголовков и тел статей учитываются также заголовки и тела подстатей. Так, например, если в словаре 2 статьи и одна из них содержит 3 подстатьи, то общее количество статей в отчёте будет равным 5.</p>
+<div class="CodeBox">
+<p class="CodeBoxHead">Отчёт о количестве заголовков и тел статей :: Запись в DDE</p>
+<div class="Code"><pre>{{Number of headwords: 35. Number of entries: 35.}}
+</pre></div></div>
+<p>Данные о количестве статей из этой части отчёта обычно используются в аннотациях.</p>
+<h3>Список известных ошибок</h3>
+<p>На сегодняшний день выявлено и воспроизведено 67 ошибок.</p>
+<br>
+
+<table class="double_cover">
+<tr    class="double_cover">
+<td    class="double_cover">
+
+<table class="double">
+<tr><th>English</th></tr>
+<tr><td>Closing quotation mark missing inside tag parameters string: "x".</td></tr>
+<tr><td>Closing symbol ")" of optional headword part missing.</td></tr>
+<tr><td>Closing symbol "}" of non-sorted headword part missing.</td></tr>
+<tr><td>Closing tag "[/x]" without an opening one.</td></tr>
+<tr><td>Closing tag missing: "[/x]".</td></tr>
+<tr><td>Code page "x" is not supported.</td></tr>
+<tr><td>Content language not specified.</td></tr>
+<tr><td>Dictionary name not specified.</td></tr>
+<tr><td>Empty card.</td></tr>
+<tr><td>Empty entry headword.</td></tr>
+<tr><td>Empty parameter for pre-processor keyword: "x".</td></tr>
+<tr><td>Empty pre-processor line.</td></tr>
+<tr><td>Empty sub-card.</td></tr>
+<tr><td>Empty sub-heading.</td></tr>
+<tr><td>Empty tag parameter name: "x".</td></tr>
+<tr><td>Empty value of tag parameter: "x".</td></tr>
+<tr><td>File disk:\path\file.dsl already processed.</td></tr>
+<tr><td>File disk:\path\file.dsl must be ANSI encoded.</td></tr>
+<tr><td>File disk:\path\file.dsl must be Unicode encoded.</td></tr>
+<tr><td>Headword too long.</td></tr>
+<tr><td>Incomplete sub-entry.</td></tr>
+<tr><td>Index language not specified.</td></tr>
+<tr><td>Language "x" is not supported.</td></tr>
+<tr><td>Language identifier "x" is not a number.</td></tr>
+<tr><td>Language identifier "x" is not supported.</td></tr>
+<tr><td>Margin value cannot be more than 9.</td></tr>
+<tr><td>Name extension for tag "[trn]" is illegal.</td></tr>
+<tr><td>Nested references to other cards not allowed.</td></tr>
+<tr><td>No comment closing brackets.</td></tr>
+<tr><td>No comment opening brackets.</td></tr>
+<tr><td>No tags allowed in references to cards.</td></tr>
+<tr><td>No tags allowed in transcription zone.</td></tr>
+<tr><td>No tags allowed in URL.</td></tr>
+<tr><td>Only optional part in headword.</td></tr>
+<tr><td>Only preview tags may be placed inside multimedia tags.</td></tr>
+<tr><td>Open reference tag "<<" missing.</td></tr>
+<tr><td>Opening non-sorted headword part symbol "{" missing.</td></tr>
+<tr><td>Opening symbol "(" of optional headword part missing.</td></tr>
+<tr><td>Parameter for pre-processor keyword "x" must be in quotes.</td></tr>
+<tr><td>Preview tags must be placed inside [s] or [video] tags.</td></tr>
+<tr><td>Prohibited quotation marks in tag parameter: "x".</td></tr>
+<tr><td>Prohibited sub-entry symbol "@".</td></tr>
+<tr><td>Prohibited symbol in tag name: "x".</td></tr>
+<tr><td>Prohibited symbol in tag parameter name: "x".</td></tr>
+<tr><td>Prohibited symbol in tag parameter value: "x".</td></tr>
+<tr><td>Redundant opening of non-sorted headword part.</td></tr>
+<tr><td>Redundant opening of optional headword part.</td></tr>
+<tr><td>Redundant opening tag "[x]"</td></tr>
+<tr><td>Repeated symbol "[" is not allowed.</td></tr>
+<tr><td>Tag "[!trs]" must be placed in indexed zones.</td></tr>
+<tr><td>Tag "x" cannot be placed in non-indexed zone.</td></tr>
+<tr><td>Tag "x" may have only one parameter.</td></tr>
+<tr><td>Tag "x" must have no parameters.</td></tr>
+<tr><td>Tag closing symbol "]" missing.</td></tr>
+<tr><td>Tag name is missing.</td></tr>
+<tr><td>Tag opening symbol "[" missing.</td></tr>
+<tr><td>Tag parameters missing: "x".</td></tr>
+<tr><td>The symbol "[" is not allowed inside references.</td></tr>
+<tr><td>There is a tag inside preview tags</td></tr>
+<tr><td>There is no way to substitute an empty headword.</td></tr>
+<tr><td>Unknown colour name: "x".</td></tr>
+<tr><td>Unknown parameter "x" of tag "y".</td></tr>
+<tr><td>Unknown pre-processor keyword: "x".</td></tr>
+<tr><td>Unknown tag name: "x".</td></tr>
+<tr><td>Word too long.</td></tr>
+<tr><td>You cannot refer to another card in tag name.</td></tr>
+<tr><td>You cannot use linefeed character in tag name.</td></tr>
+</table>
+
+</td>
+<td class="double_cover">
+
+<table class="double">
+<tr><th>По русски</th></tr>
+<tr><td>Preview должен находиться внутри тега [s] или [video]</td></tr>
+<tr><td>Величина абзацного отступа не должна превышать 9.</td></tr>
+<tr><td>Вложенная ссылка на карточку недопустима.</td></tr>
+<tr><td>Внутри мультимедиа тегов могут находиться только теги Preview</td></tr>
+<tr><td>Директива препроцессора должна начинаться с новой строки.</td></tr>
+<tr><td>Заголовок целиком состоит из альтернативной части.</td></tr>
+<tr><td>Закрывающий тег "[/x]" при отсутствии открывающего.</td></tr>
+<tr><td>Идентификатор языка "x" не поддерживается.</td></tr>
+<tr><td>Идентификатор языка "x" не является числом.</td></tr>
+<tr><td>Использование расширения имени для тега "[trn]" запрещено.</td></tr>
+<tr><td>Использование символа начала имени тега "[" недопустимо внутри ссылки.</td></tr>
+<tr><td>Использование тегов внутри URL запрещено.</td></tr>
+<tr><td>Использование тегов внутри зоны транскрипции запрещено.</td></tr>
+<tr><td>Использование тегов внутри ссылки на карточку запрещено.</td></tr>
+<tr><td>Кодовая страница "x" не поддерживается.</td></tr>
+<tr><td>Не задано значение параметра тега: "x".</td></tr>
+<tr><td>Не указан исходный язык.</td></tr>
+<tr><td>Не указан параметр для директивы препроцессора: "x".</td></tr>
+<tr><td>Не указан язык перевода.</td></tr>
+<tr><td>Не указано имя параметра тега: "x".</td></tr>
+<tr><td>Не указано имя словаря.</td></tr>
+<tr><td>Не указано имя тега.</td></tr>
+<tr><td>Неверное имя параметра "x" для тега "y".</td></tr>
+<tr><td>Невозможно подставить пустой заголовок.</td></tr>
+<tr><td>Недопустимое использование кавычек в параметре тега: "x".</td></tr>
+<tr><td>Недопустимый символ в значении параметра тега: "x".</td></tr>
+<tr><td>Недопустимый символ в имени параметра тега: "x".</td></tr>
+<tr><td>Недопустимый символ в имени тега: "x".</td></tr>
+<tr><td>Незакрытые кавычки в строке параметров тега: "x".</td></tr>
+<tr><td>Неизвестная директива препроцессора: "x".</td></tr>
+<tr><td>Неизвестное имя тега: "x".</td></tr>
+<tr><td>Неизвестное имя цвета: "x".</td></tr>
+<tr><td>Неправильное использование символа начала подкарточки "@".</td></tr>
+<tr><td>Отсутствует закрывающий тег: "[/x]".</td></tr>
+<tr><td>Отсутствует символ закрытия альтернативной части заголовка ")".</td></tr>
+<tr><td>Отсутствует символ закрытия несортируемой части заголовка "}".</td></tr>
+<tr><td>Отсутствует символ конца имени тега "]".</td></tr>
+<tr><td>Отсутствует символ начала имени тега "[".</td></tr>
+<tr><td>Отсутствует символ открытия альтернативной части заголовка "(".</td></tr>
+<tr><td>Отсутствует символ открытия несортируемой части заголовка "{".</td></tr>
+<tr><td>Отсутствует тег открытия ссылки "<<".</td></tr>
+<tr><td>Отсутствуют закрывающие комментарий скобки.</td></tr>
+<tr><td>Отсутствуют открывающие комментарий скобки.</td></tr>
+<tr><td>Отсутствуют параметры тега: "[x]".</td></tr>
+<tr><td>Параметр для директивы препроцессора "x" должен быть заключен в кавычки.</td></tr>
+<tr><td>Переход на новую строку недопустим внутри имени тега.</td></tr>
+<tr><td>Повторное использование символа начала имени тега "[" недопустимо.</td></tr>
+<tr><td>Повторное открытие альтернативной части заголовка.</td></tr>
+<tr><td>Повторное открытие несортируемой части заголовка.</td></tr>
+<tr><td>Повторный открывающий тег "[x]".</td></tr>
+<tr><td>Подкарточка не окончена.</td></tr>
+<tr><td>Пустая подкарточка</td></tr>
+<tr><td>Пустая статья.</td></tr>
+<tr><td>Пустая строка препроцессора.</td></tr>
+<tr><td>Пустой заголовок карточки.</td></tr>
+<tr><td>Пустой подзаголовок.</td></tr>
+<tr><td>Слишком длинное слово.</td></tr>
+<tr><td>Слишком длинный заголовок.</td></tr>
+<tr><td>Ссылка на карточку недопустима внутри имени тега.</td></tr>
+<tr><td>Тег "[!trs]" может находиться только внутри одной из зон индексации.</td></tr>
+<tr><td>Тег "[x]" может иметь только один параметр.</td></tr>
+<tr><td>Тег "[x]" не должен иметь параметров.</td></tr>
+<tr><td>Тег "[x]" не может находиться внутри неиндексируемой зоны.</td></tr>
+<tr><td>Тег внутри тега Preview</td></tr>
+<tr><td>Файл "disk:\path\file.dsl" должен быть в ANSI кодировке.</td></tr>
+<tr><td>Файл "disk:\path\file.dsl" должен быть в Unicode кодировке.</td></tr>
+<tr><td>Файл "disk:\path\file.dsl" уже обработан.</td></tr>
+<tr><td>Язык "x" не поддерживается.</td></tr>
+</table>
+
+</td>
+</tr>
+</table>
+<br>
+<h3>Список известных предупреждений</h3>
+<p>На сегодняшний день выявлено и воспроизведено 10 предупреждений.</p>
+<br>
+<table class="double_cover">
+<tr    class="double_cover">
+<td    class="double_cover">
+
+<table class="double">
+<tr><th>English</th></tr>
+<tr><td>Contents language redefinition. New language is ignored. Old language "x" is used.</td></tr>
+<tr><td>Dictionary name redefinition. New name is ignored. Old name "x" is used.</td></tr>
+<tr><td>Empty non-sorted headword part.</td></tr>
+<tr><td>Headword "x" already processed: "disk:\path\file.dsl", line 1. This entry is ignored.</td></tr>
+<tr><td>Index language redefinition. New language is ignored. Old language "x" is used.</td></tr>
+<tr><td>Source code page redefinition. New code page is ignored. Old code page "x" is used.</td></tr>
+<tr><td>Suspended reference "x".</td></tr>
+<tr><td>Symbol "\" before line feed has no effect and is ignored.</td></tr>
+<tr><td>The headword contains characters not supported by the current language.</td></tr>
+<tr><td>The image you selected for the dictionary icon has invalid dimensions.<br>Allowed dimensions: 14 x 21 pixels.</td></tr>
+</table>
+
+</td>
+<td class="double_cover">
+
+<table class="double">
+<tr><th>По русски</th></tr>
+<tr><td>В заголовке присутствуют символы, не поддерживаемые в данном языке.</td></tr>
+<tr><td>Заголовок "x" уже обработан: "disk:\path\file.dsl", строка 1. Данная карточка будет игнорирована.</td></tr>
+<tr><td>Изображение для значка словаря имеет неправильные размеры.<br>Правильные размеры изображения: 14 х 21 пикселов.</td></tr>
+<tr><td>Повторное определение имени словаря. Новое имя игнорируется. Будет использовано старое имя "x".</td></tr>
+<tr><td>Повторное определение исходного языка. Новый язык игнорируется. Будет использован старый язык "x".</td></tr>
+<tr><td>Повторное определение кодовой страницы исходных файлов. Новая кодовая страница игнорируется. Будет использована старая кодовая страница "x".</td></tr>
+<tr><td>Повторное определение языка перевода. Новый язык игнорируется. Будет использован старый язык "x".</td></tr>
+<tr><td>Подвешенная ссылка "x".</td></tr>
+<tr><td>Пустая несортируемая часть заголовка.</td></tr>
+<tr><td>Символ "\" в конце строки не имеет силы и игнорируется.</td></tr>
+</table>
+
+</td>
+</tr>
+</table>
+</div>
+<div id="footer">
+<p>Справочник по DSL • <a href="changes.html">Версия 0.9.6 alpha 2</a> • 04.08.2020</p>
+<p>Public Domain 2020 yozhic. Свободный контент. Все права открыты и неограничены. Никаких гарантий и ответственности.</p>
+</div>
+</body>
+</html>

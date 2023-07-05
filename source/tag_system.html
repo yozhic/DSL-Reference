@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+      <title>О тэгах DSL</title>
+      <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="header">Справочник по DSL</div>
+<div id="main">
+<h1>О тэгах DSL</h1>
+<p class="content"><img src="line.png"></p>
+<p class="content"><a href="#main" class="content">Устройство тэгов</a></p>
+<p class="content"><a href="#meta_lit" class="content">Метасимволы и литералы</a></p>
+<p class="content"><a href="#comments" class="content">Общие замечания</a></p>
+<p class="content"><img src="line.png"></p>
+
+
+<a name="main"></a>
+<h2>Устройство тэгов</h2>
+<p>Тэги – это структурные и семантические элементы, которые определяют внешний вид или функциональное значение фрагментов текста.</p>
+<p>Каждый тэг включает в себя два дескриптора: открывающий и закрывающий. Открывающий дескриптор обозначает начало зоны действия тэга, закрывающий – окончание зоны действия тэга. Открывающий дескриптор состоит из имени тэга в обрамлении квадратных скобок. Имя тэга – последовательность латинских букв и, иногда, цифр. Имя тэга – это, как правило, сокращение английского названия той функции, которую тэг выполняет. Например: <span class="code">[i]</span> (<em>от англ. italic – наклонное начертание</em>), <span class="code">[com]</span> (<em>от англ. comment – комментарий</em>) или <span class="code">[m2]</span> (<em>от англ. margin – поле страницы</em>). В закрывающем дескрипторе к имени тэга прибавляется косая черта: <span class="code">[/i]</span>, <span class="code">[/com]</span> и <span class="code">[/m]</span> соответственно. Функция тэга – присваивание определённого свойства тексту, находящемуся в зоне действия тэга.</p>
+<p style="text-align: center;"><img src="tag.png"></p>
+<p>Так, на примере выше, текст «кому-либо, чему-либо» будет отображаться в наклонном начертании, поскольку именно это свойство ему присваивает обрамляющий его тэг <span class="code">[i]</span>. Пара дескрипторов вместе с находящимся между ними содержимым составляют т.н. область тэга.</p>
+<p>Некоторые тэги в DSL располагают атрибутами, а атрибуты, в свою очередь, набором допустимых значений.</p>
+<p style="text-align: center;"><img src="attrib.png"></p>
+<p>В данном примере тэг <span class="code">[lang]</span> (<em>тэг языкового направления</em>) используется с двумя разными атрибутами: <span class="code">id</span> и <span class="code">name</span>. Допустимыми значениями атрибута <span class="code">id</span> являются числовые коды языков, а атрибута <span class="code">name</span> – английские названия языков.</p>
+
+
+<a name="meta_lit"></a>
+<h2>Метасимволы и литералы</h2>
+<p>При чтении текста DSL словаря, словарная программа условно разделяет все встречающиеся символы на две группы: литералы и метасимволы.</p>
+<p><strong>Литералы</strong> – это простые символы. Такие символы программа пропускает и в окне словарной карточки они отображаются «как есть».</p>
+<p><strong>Метасимволы</strong> – это символы со специальным значением. Встретив такой символ, программа воспринимает его как сигнал к выполнению определённой операции, следовательно в окне словарной карточки этот символ уже не будет отображён.</p>
+<p>Для того, чтобы отобразить <abbr title="Символ со специальным значением">метасимвол</abbr> в окне словарной карточки, его необходимо <em><b>экранировать</b></em>, т.е. поставить перед ним обратную косую черту <span class="code">\</span>. Например, чтобы отобразить в карточке метасимвол <span class="code">@</span>, в DSL понадобится сделать такую запись: <span class="code">\@</span>.</p>
+<p>Для литерального отображения квадратных скобок, кроме способа экранирования, можно также их удваивать: <span class="code">[[&hellip;]]</span>. При удваивании за квадратными скобками не должны следовать тэги. Так, например, запись <span class="code_error">[[[t]</span> вызовет ошибку при компилировании словаря. Для корректной обработки этого примера необходимо записать его <span class="code">[[ [t]</span> или <span class="code">\[[t]</span>.</p>
+<h3>Список <span title="Символов со специальным значением">метасимволов</span>, употребляемых в DSL</h3>
+<table class="list">
+	<col width="250px"><col width="40px">
+	<tr class="list">
+	  <td class="list" colspan="3">В <strong>теле</strong> статей и <strong>заголовках</strong> <abbr title="Символами со специальным значением">метасимволами</abbr> являются:</td>
+	</tr>
+	<tr class="list">
+	  <td class="list">&nbsp;</td>
+	  <td class="list"><span class="code">[</span> <span class="code">]</span></td>
+	  <td class="list"><em>квадратные скобки</em></td>
+	</tr>
+	<tr class="list">
+	  <td class="list">&nbsp;</td>
+	  <td class="list"><span class="code">@</span></td>
+	  <td class="list"><em>знак «эт»</em></td>
+	</tr>
+	<tr class="list">
+	  <td class="list">&nbsp;</td>
+	  <td class="list"><span class="code">#</span></td>
+	  <td class="list"><em>знак номера, «решётка»</em></td>
+	</tr>
+	<tr class="list">
+	  <td class="list">&nbsp;</td>
+	  <td class="list"><span class="code">\</span></td>
+	  <td class="list"><em>обратная косая черта</em></td>
+	</tr>
+	<tr class="list">
+	  <td class="list">&nbsp;</td>
+	  <td class="list"><span class="code">~</span></td>
+	  <td class="list"><em>тильда</em></td>
+	</tr>
+	<tr class="list">
+	  <td class="list">&nbsp;</td>
+	  <td class="list"><span class="code">^</span></td>
+	  <td class="list"><em>циркумфлекс, «крышка»</em></td>
+	</tr>
+	<tr class="list">
+	  <td class="list">&nbsp;</td>
+	  <td class="list"><span class="code">&lt;&lt;</span> <span class="code">&gt;&gt;</span></td>
+	  <td class="list"><em>двойные угловые скобки,<br>при этом одинарные воспринимаются как <abbr title="Простые символы">литералы</abbr></em></td>
+	</tr>
+	<tr class="list">
+	  <td class="list">&nbsp;</td>
+	  <td class="list"><span class="code">{{</span> <span class="code">}}</span></td>
+	  <td class="list"><em>двойные фигурные скобки,<br>при этом одинарные воспринимаются как <abbr title="Простые символы">литералы</abbr> только в теле статей</em></td>
+	</tr>
+</table>
+<br>
+<table class="list">
+	<col width="250px"><col width="40px">
+	<tr class="list">
+	  <td class="list" colspan="3">В <strong>заголовках</strong> <abbr title="Символами со специальным значением">метасимволами</abbr> являются: <br>(<em>при этом в теле статей воспринимаются как <abbr title="Простые символы">литералы</abbr></em>)</td>
+	</tr>
+	<tr class="list">
+	  <td class="list">&nbsp;</td>
+	  <td class="list"><span class="code">(</span> <span class="code">)</span></td>
+	  <td class="list"><em>круглые скобки</em></td>
+	</tr>
+	<tr class="list">
+	  <td class="list">&nbsp;</td>
+	  <td class="list"><span class="code">{</span> <span class="code">}</span></td>
+	  <td class="list"><em>фигурные скобки</em></td>
+	</tr>
+</table>
+
+
+<a name="comments"></a>
+<h2>Общие замечания</h2>
+<p>Символы в тэгах должны писаться в нижнем регистре. Например, <span class="code">[ref]</span> — правильно, а <span class="code_error">[REF]</span> — неправильно.</p>
+<p>Не допускается размещение одинаковых тэгов в зоне действия друг друга. Т.е. запись типа <span class="code_error">[b][b]strong[/b][/b]</span> является неправильной и будет отвергнута компилятором при конвертации.</p>
+
+</div>
+<div id="footer">
+<p>Справочник по DSL • <a href="changes.html">Версия 0.9.6 alpha 2</a> • 04.08.2020</p>
+<p>Public Domain 2020 yozhic. Свободный контент. Все права открыты и неограничены. Никаких гарантий и ответственности.</p>
+</div>
+</body>
+</html>

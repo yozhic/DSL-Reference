@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
     styLinks[i].getElementsByTagName('span')[0].addEventListener('contextmenu', (ev) => {
       ev.preventDefault()
       let href = ev.target.getAttribute('onclick').replace(/^openLink\('(.*)'\)$/, '$1')
-      alert(`${parent.location.origin}${parent.location.pathname}?page=${href}`)
+      alert(`${document.location.href.replace(/table_of_contents.html$/, 'index.html')}?page=${href}`)
       return false;
     }, false)
 
@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
     spanFolders[i].getElementsByTagName('span')[0].addEventListener('contextmenu', (ev) => {
       ev.preventDefault()
       let href = ev.target.getAttribute('onclick').replace(/^openLink\('(.*)'\)$/, '$1')
-      alert(`${parent.location.origin}${parent.location.pathname}?page=${href}`)
+      alert(`${document.location.href.replace(/table_of_contents.html$/, 'index.html')}?page=${href}`)
       return false;
     }, false)
 

@@ -1,0 +1,2343 @@
+<HTML>
+ <HEAD>
+  <META name="GENERATOR" content="htm2chm 3.0.9.3">
+  <!-- Sitemap 1.0 -->
+ </HEAD>
+<BODY>
+ <OBJECT type="text/site properties">
+ </OBJECT>
+<UL>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value=" ">
+  <PARAM name="Local" value="index.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="'">
+  <PARAM name="Local" value="tag_format.html#str">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="!trs">
+  <PARAM name="Local" value="tag_handling.html#trs">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="#">
+  <PARAM name="Local" value="tag_service.html#number">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="#CONTENTS_LANGUAGE">
+  <PARAM name="Local" value="directives.html#contents">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="#ICON_FILE">
+  <PARAM name="Local" value="directives.html#icon">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="#INCLUDE">
+  <PARAM name="Local" value="directives.html#include">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="#INDEX_LANGUAGE">
+  <PARAM name="Local" value="directives.html#index">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="#LANGUAGE">
+  <PARAM name="Local" value="directives.html#lang">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="#NAME">
+  <PARAM name="Local" value="directives.html#name">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="#SOURCE_CODE_PAGE">
+  <PARAM name="Local" value="directives.html#source">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="(">
+  <PARAM name="Local" value="tag_service.html#alt">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="( )">
+  <PARAM name="Local" value="tag_service.html#alt">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value=")">
+  <PARAM name="Local" value="tag_service.html#alt">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="*">
+  <PARAM name="Local" value="tag_struct.html#ast">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="@">
+  <PARAM name="Local" value="tag_struct.html#at">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="\">
+  <PARAM name="Local" value="tag_service.html#backslash">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="^">
+  <PARAM name="Local" value="tag_format.html#circ">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="{">
+  <PARAM name="Local" value="tag_service.html#unsort">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="{ }">
+  <PARAM name="Local" value="tag_service.html#unsort">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="{{ }}">
+  <PARAM name="Local" value="tag_service.html#comm">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="}">
+  <PARAM name="Local" value="tag_service.html#unsort">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="~">
+  <PARAM name="Local" value="tag_service.html#tilde">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&lt;&lt; &gt;&gt;">
+  <PARAM name="Local" value="tag_links.html#ref1">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="aliceblue">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="aliceblue (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#white_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="ANSI">
+  <PARAM name="Local" value="langs.html#ansi">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="antiquewhite">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="antiquewhite (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#white_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="aqua">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="aqua (&icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&ucirc;&aring; &icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#basic_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="aquamarine">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="aquamarine (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="asf">
+  <PARAM name="Local" value="tag_mm.html#sound">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="audio">
+  <PARAM name="Local" value="tag_mm.html#sound">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="avi">
+  <PARAM name="Local" value="tag_mm.html#movie">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="azure">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="azure (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#white_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="b">
+  <PARAM name="Local" value="tag_format.html#b">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="beige">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="beige (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#white_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="bisque">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="bisque (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#brown_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="bitmap">
+  <PARAM name="Local" value="tag_mm.html#images">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="black (&icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&ucirc;&aring; &icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#basic_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="black (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#gray_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="blanchedalmond">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="blanchedalmond (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#brown_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="blue">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="blue (&icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&ucirc;&aring; &icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#basic_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="blue (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="blueviolet">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="blueviolet (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#violet_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="bmp">
+  <PARAM name="Local" value="tag_mm.html#images">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="bold">
+  <PARAM name="Local" value="tag_format.html#b">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="br">
+  <PARAM name="Local" value="tag_format.html#br">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="brown">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="brown (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#brown_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="burlywood">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="burlywood (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#brown_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="c">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="cadetblue">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="cadetblue (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="chartreuse">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="chartreuse (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="chocolate">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="chocolate (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#brown_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="cmd-line">
+  <PARAM name="Local" value="dsl_comp.html#cmd">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="code page">
+  <PARAM name="Local" value="langs.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="com">
+  <PARAM name="Local" value="tag_handling.html#com">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="compiler">
+  <PARAM name="Local" value="dsl_comp.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="CONTENTS_LANGUAGE">
+  <PARAM name="Local" value="directives.html#contents">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="coral">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="coral (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#orange_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="cornflower">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="cornflowerblue (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="cornsilk">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="cornsilk (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#brown_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="crimson">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="crimson (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#red_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="cyan">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkblue">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkblue (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkcyan">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkcyan (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkgoldenrod">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkgoldenrod (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#brown_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkgray">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkgray (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#gray_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkgreen">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkgreen (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkkhaki">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkkhaki (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#yellow_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkmagenta">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkmagenta (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#violet_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkolivegreen">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkolivegreen (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkorange">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkorange (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#orange_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkorchid">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkorchid (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#violet_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkred">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkred (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#red_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darksalmon">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darksalmon (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#red_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkseagreen">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkseagreen (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkslateblue">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkslateblue (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#violet_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkslategray">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkslategray (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#gray_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkturquoise">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkturquoise (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkviolet">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="darkviolet (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#violet_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="dcx">
+  <PARAM name="Local" value="tag_mm.html#images">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="deeppink">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="deeppink (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#rose_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="deepskyblue">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="deepskyblue (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="dimgray">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="dimgray (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#gray_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="directives">
+  <PARAM name="Local" value="directives.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="dodgerblue">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="dodgerblue (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="DSL">
+  <PARAM name="Local" value="dsl.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="DSL Compiler">
+  <PARAM name="Local" value="dsl_comp.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="emf">
+  <PARAM name="Local" value="tag_mm.html#images">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="ex">
+  <PARAM name="Local" value="tag_handling.html#ex">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="example">
+  <PARAM name="Local" value="tag_handling.html#ex">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="firebrick">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="firebrick (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#red_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="floralwhite">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="floralwhite (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#white_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="forestgreen">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="forestgreen (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="fuchsia">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="fuchsia (&icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&ucirc;&aring; &icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#basic_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="gainsboro">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="gainsboro (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#gray_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="ghostwhite">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="ghostwhite (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#white_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="gif">
+  <PARAM name="Local" value="tag_mm.html#images">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="gold">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="gold (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#yellow_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="goldenrod">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="goldenrod (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#brown_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="gray">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="gray (&icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&ucirc;&aring; &icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#basic_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="gray (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#gray_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="green">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="green (&icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&ucirc;&aring; &icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#basic_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="green (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="greenyellow">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="greenyellow (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="GUI &ecirc;&icirc;&igrave;&iuml;&egrave;&euml;&yuml;&ograve;&icirc;&eth;&agrave;">
+  <PARAM name="Local" value="dsl_comp.html#gui">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="honeydew">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="honeydew (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#white_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="hotpink">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="hotpink (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#rose_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="i">
+  <PARAM name="Local" value="tag_format.html#i">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="icon">
+  <PARAM name="Local" value="dict.html#bmp">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="ICON_FILE">
+  <PARAM name="Local" value="directives.html#icon">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="images">
+  <PARAM name="Local" value="tag_mm.html#images">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="INCLUDE">
+  <PARAM name="Local" value="directives.html#include">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="INDEX_LANGUAGE">
+  <PARAM name="Local" value="directives.html#index">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="indianred">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="indianred (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#red_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="indigo">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="indigo (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#violet_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="ISO 639-1">
+  <PARAM name="Local" value="langs.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="ISO 639-2">
+  <PARAM name="Local" value="langs.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="ISO 639-3">
+  <PARAM name="Local" value="langs.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="italic">
+  <PARAM name="Local" value="tag_format.html#i">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="ivory">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="ivory (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#white_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="jpeg">
+  <PARAM name="Local" value="tag_mm.html#images">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="jpg">
+  <PARAM name="Local" value="tag_mm.html#images">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="khaki">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="khaki (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#yellow_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lang">
+  <PARAM name="Local" value="tag_handling.html#lang">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="LANGUAGE">
+  <PARAM name="Local" value="directives.html#lang">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lavender">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lavender (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#violet_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lavenderblush">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lavenderblush (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#white_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lawngreen">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lawngreen (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="LCID">
+  <PARAM name="Local" value="langs.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lemonchiffon">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lemonchiffon (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#yellow_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightblue">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightblue (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightcoral">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightcoral (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#red_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightcyan">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightcyan (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightgoldenrodyellow">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightgoldenrodyellow (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#yellow_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightgreen">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightgreen (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightgrey">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightgrey (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#gray_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightpink">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightpink (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#rose_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightsalmon">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightsalmon (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#red_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightseagreen">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightseagreen (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightskyblue">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightskyblue (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightslategray">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightslategray (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#gray_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightsteelblue">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightsteelblue (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightyellow">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lightyellow (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#yellow_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lime">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lime (&icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&ucirc;&aring; &icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#basic_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="lime (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="limegreen">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="limegreen (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="linen">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="linen (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#white_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="m">
+  <PARAM name="Local" value="tag_format.html#m">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="m0">
+  <PARAM name="Local" value="tag_format.html#m">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="m1">
+  <PARAM name="Local" value="tag_format.html#m">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="m2">
+  <PARAM name="Local" value="tag_format.html#m">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="m3">
+  <PARAM name="Local" value="tag_format.html#m">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="m4">
+  <PARAM name="Local" value="tag_format.html#m">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="m5">
+  <PARAM name="Local" value="tag_format.html#m">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="m6">
+  <PARAM name="Local" value="tag_format.html#m">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="m7">
+  <PARAM name="Local" value="tag_format.html#m">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="m8">
+  <PARAM name="Local" value="tag_format.html#m">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="m9">
+  <PARAM name="Local" value="tag_format.html#m">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="magenta">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="margin">
+  <PARAM name="Local" value="tag_format.html#m">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="maroon">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="maroon (&icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&ucirc;&aring; &icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#basic_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="maroon (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#brown_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mediumaquamarine">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mediumaquamarine (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mediumblue">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mediumblue (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mediumorchid">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mediumorchid (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#violet_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mediumpurple">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mediumpurple (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#violet_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mediumseagreen">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mediumseagreen (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mediumslateblue">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mediumslateblue (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mediumspringgreen">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mediumspringgreen (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mediumturquoise">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mediumturquoise (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mediumvioletred">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mediumvioletred (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#rose_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="midnightblue">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="midnightblue (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mintcream">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mintcream (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#white_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mistyrose">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mistyrose (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#white_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="moccasin">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="moccasin (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#yellow_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mp3">
+  <PARAM name="Local" value="tag_mm.html#sound">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="mp4">
+  <PARAM name="Local" value="tag_mm.html#movie">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="NAME">
+  <PARAM name="Local" value="directives.html#name">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="navajowhite">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="navajowhite (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#brown_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="navy">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="navy (&icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&ucirc;&aring; &icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#basic_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="navy (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="oldlace">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="oldlace (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#white_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="olive">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="olive (&icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&ucirc;&aring; &icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#basic_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="olive (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="olivedrab">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="olivedrab (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="orange">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="orange (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#orange_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="orangered">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="orangered (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#orange_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="orchid">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="orchid (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#violet_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="p">
+  <PARAM name="Local" value="tag_struct.html#p">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="palegoldenrod">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="palegoldenrod (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#yellow_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="palegreen">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="palegreen (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="paleturquoise">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="paleturquoise (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="palevioletred">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="palevioletred (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#rose_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="papayawhip">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="papayawhip (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#yellow_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="pcx">
+  <PARAM name="Local" value="tag_mm.html#images">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="peachpuff">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="peachpuff (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#yellow_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="peru">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="peru (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#brown_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="pictures">
+  <PARAM name="Local" value="tag_mm.html#images">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="pink">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="pink (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#rose_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="plum">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="plum (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#violet_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="png">
+  <PARAM name="Local" value="tag_mm.html#images">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="powderblue">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="powderblue (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="preprocessor commands">
+  <PARAM name="Local" value="directives.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="preprocessor directives">
+  <PARAM name="Local" value="directives.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="preview">
+  <PARAM name="Local" value="tag_mm.html#preview">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="purple">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="purple (&icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&ucirc;&aring; &icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#basic_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="purple (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#violet_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="red">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="red (&icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&ucirc;&aring; &icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#basic_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="red (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#red_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="ref">
+  <PARAM name="Local" value="tag_links.html#ref2">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="rosybrown">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="rosybrown (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#brown_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="royalblue">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="royalblue (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="s">
+  <PARAM name="Local" value="tag_mm.html#s">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="saddlebrown">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="saddlebrown (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#brown_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="salmon">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="salmon (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#red_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="sandybrown">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="sandybrown (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#brown_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="seagreen">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="seagreen (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="seashell">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="seashell (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#white_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="sienna">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="sienna (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#brown_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="silver">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="silver (&icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&ucirc;&aring; &icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#basic_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="silver (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#gray_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="skyblue">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="skyblue (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="slateblue">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="slateblue (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#violet_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="slategray">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="slategray (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#gray_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="snow">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="snow (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#white_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="sound">
+  <PARAM name="Local" value="tag_mm.html#sound">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="SOURCE_CODE_PAGE">
+  <PARAM name="Local" value="directives.html#source">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="springgreen">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="springgreen (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="steelblue">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="steelblue (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="sub">
+  <PARAM name="Local" value="tag_format.html#sub">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="sup">
+  <PARAM name="Local" value="tag_format.html#sup">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="t">
+  <PARAM name="Local" value="tag_struct.html#t">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="tan">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="tan (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#brown_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="target (ref)">
+  <PARAM name="Local" value="tag_links.html#target_ref">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="target (url)">
+  <PARAM name="Local" value="tag_links.html#target_url">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="teal">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="teal (&icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&ucirc;&aring; &icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#basic_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="teal (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="thistle">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="thistle (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#violet_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="tif">
+  <PARAM name="Local" value="tag_mm.html#images">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="tiff">
+  <PARAM name="Local" value="tag_mm.html#images">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="tomato">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="tomato (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#orange_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="transcription">
+  <PARAM name="Local" value="tag_struct.html#t">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="trn">
+  <PARAM name="Local" value="tag_handling.html#trn">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="trn1">
+  <PARAM name="Local" value="tag_handling.html#trn1">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="trs">
+  <PARAM name="Local" value="tag_handling.html#trs">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="turquoise">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="turquoise (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="u">
+  <PARAM name="Local" value="tag_format.html#u">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="url">
+  <PARAM name="Local" value="tag_links.html#url">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="video">
+  <PARAM name="Local" value="tag_mm.html#video">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="violet">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="violet (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#violet_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="wav">
+  <PARAM name="Local" value="tag_mm.html#sound">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="wheat">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="wheat (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#brown_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="white">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="white (&icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&ucirc;&aring; &icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#basic_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="white (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#white_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="whitesmoke">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="whitesmoke (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#white_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="wmf">
+  <PARAM name="Local" value="tag_mm.html#images">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="yellow">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="yellow (&icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&ucirc;&aring; &icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#basic_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="yellow (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#yellow_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="yellowgreen">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="yellowgreen (&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;)">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&agrave;&aacute;&aacute;&eth;&aring;&acirc;&egrave;&agrave;&ograve;&oacute;&eth;&ucirc;">
+  <PARAM name="Local" value="dict.html#abrv">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&agrave;&euml;&ocirc;&agrave;&acirc;&egrave;&ograve;">
+  <PARAM name="Local" value="colors.html#colors_abc">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&agrave;&euml;&ocirc;&agrave;&acirc;&egrave;&ograve;&iacute;&agrave;&yuml; &ntilde;&icirc;&eth;&ograve;&egrave;&eth;&icirc;&acirc;&ecirc;&agrave;">
+  <PARAM name="Local" value="colors.html#colors_abc">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&agrave;&euml;&uuml;&ograve;&aring;&eth;&iacute;&agrave;&ograve;&egrave;&acirc;&iacute;&agrave;&yuml; &divide;&agrave;&ntilde;&ograve;&uuml; &ccedil;&agrave;&atilde;&icirc;&euml;&icirc;&acirc;&ecirc;&agrave;">
+  <PARAM name="Local" value="tag_service.html#alt">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&agrave;&iacute;&atilde;&euml;&egrave;&eacute;&ntilde;&ecirc;&icirc;&aring; &iacute;&agrave;&egrave;&igrave;&aring;&iacute;&icirc;&acirc;&agrave;&iacute;&egrave;&aring;">
+  <PARAM name="Local" value="langs.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&agrave;&iacute;&iacute;&icirc;&ograve;&agrave;&ouml;&egrave;&yuml;">
+  <PARAM name="Local" value="dict.html#ann">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&agrave;&ograve;&eth;&egrave;&aacute;&oacute;&ograve; target &ograve;&aring;&atilde;&agrave; ref">
+  <PARAM name="Local" value="tag_links.html#target_ref">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&agrave;&ograve;&eth;&egrave;&aacute;&oacute;&ograve; target &ograve;&aring;&atilde;&agrave; url">
+  <PARAM name="Local" value="tag_links.html#target_url">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&agrave;&oacute;&auml;&egrave;&icirc;">
+  <PARAM name="Local" value="tag_mm.html#sound">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&aacute;&aring;&euml;&ucirc;&aring; &ograve;&icirc;&iacute;&agrave;">
+  <PARAM name="Local" value="colors.html#white_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&acirc;&egrave;&auml;&aring;&icirc;">
+  <PARAM name="Local" value="tag_mm.html#movie">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&acirc;&iacute;&aring;&oslash;&iacute;&egrave;&aring; &ntilde;&ntilde;&ucirc;&euml;&ecirc;&egrave;">
+  <PARAM name="Local" value="tag_links.html#url">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&acirc;&ntilde;&aring; &ecirc;&icirc;&igrave;&agrave;&iacute;&auml;&ucirc; dsl">
+  <PARAM name="Local" value="tag_list.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&acirc;&ntilde;&aring; &ograve;&aring;&atilde;&egrave; dsl">
+  <PARAM name="Local" value="tag_list.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&acirc;&ntilde;&iuml;&icirc;&igrave;&icirc;&atilde;&agrave;&ograve;&aring;&euml;&uuml;&iacute;&ucirc;&eacute; &ntilde;&euml;&icirc;&acirc;&agrave;&eth;&uuml; &agrave;&aacute;&aacute;&eth;&aring;&acirc;&egrave;&agrave;&ograve;&oacute;&eth;">
+  <PARAM name="Local" value="dict.html#abrv">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&acirc;&ograve;&icirc;&eth;&egrave;&divide;&iacute;&icirc;&aring; &icirc;&ograve;&icirc;&aacute;&eth;&agrave;&aelig;&aring;&iacute;&egrave;&aring;">
+  <PARAM name="Local" value="tag_struct.html#ast">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&acirc;&ucirc;&auml;&aring;&euml;&aring;&iacute;&egrave;&aring; &iuml;&icirc;&auml;&divide;&cedil;&eth;&ecirc;&egrave;&acirc;&agrave;&iacute;&egrave;&aring;&igrave;">
+  <PARAM name="Local" value="tag_format.html#u">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&acirc;&ucirc;&auml;&aring;&euml;&aring;&iacute;&egrave;&aring; &ouml;&acirc;&aring;&ograve;&icirc;&igrave;">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&atilde;&eth;&agrave;&ocirc;&egrave;&divide;&aring;&ntilde;&ecirc;&egrave;&eacute; &egrave;&iacute;&ograve;&aring;&eth;&ocirc;&aring;&eacute;&ntilde; &iuml;&icirc;&euml;&uuml;&ccedil;&icirc;&acirc;&agrave;&ograve;&aring;&euml;&yuml;">
+  <PARAM name="Local" value="dsl_comp.html#gui">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&atilde;&eth;&oacute;&iuml;&iuml;&ucirc; &icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&icirc;&acirc;">
+  <PARAM name="Local" value="colors.html#colors_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&auml;&egrave;&eth;&aring;&ecirc;&ograve;&egrave;&acirc;&agrave; #CONTENTS_LANGUAGE">
+  <PARAM name="Local" value="directives.html#contents">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&auml;&egrave;&eth;&aring;&ecirc;&ograve;&egrave;&acirc;&agrave; #ICON_FILE">
+  <PARAM name="Local" value="directives.html#icon">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&auml;&egrave;&eth;&aring;&ecirc;&ograve;&egrave;&acirc;&agrave; #INCLUDE">
+  <PARAM name="Local" value="directives.html#include">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&auml;&egrave;&eth;&aring;&ecirc;&ograve;&egrave;&acirc;&agrave; #INDEX_LANGUAGE">
+  <PARAM name="Local" value="directives.html#index">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&auml;&egrave;&eth;&aring;&ecirc;&ograve;&egrave;&acirc;&agrave; #LANGUAGE">
+  <PARAM name="Local" value="directives.html#lang">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&auml;&egrave;&eth;&aring;&ecirc;&ograve;&egrave;&acirc;&agrave; #NAME">
+  <PARAM name="Local" value="directives.html#name">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&auml;&egrave;&eth;&aring;&ecirc;&ograve;&egrave;&acirc;&agrave; #SOURCE_CODE_PAGE">
+  <PARAM name="Local" value="directives.html#source">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&auml;&egrave;&eth;&aring;&ecirc;&ograve;&egrave;&acirc;&ucirc; &iuml;&eth;&aring;&auml;&acirc;&agrave;&eth;&egrave;&ograve;&aring;&euml;&uuml;&iacute;&icirc;&eacute; &icirc;&aacute;&eth;&agrave;&aacute;&icirc;&ograve;&ecirc;&egrave;">
+  <PARAM name="Local" value="directives.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&auml;&egrave;&eth;&aring;&ecirc;&ograve;&egrave;&acirc;&ucirc; &iuml;&eth;&aring;&iuml;&eth;&icirc;&ouml;&aring;&ntilde;&ntilde;&icirc;&eth;&agrave;">
+  <PARAM name="Local" value="directives.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&aelig;&cedil;&euml;&ograve;&ucirc;&aring; &ograve;&icirc;&iacute;&agrave;">
+  <PARAM name="Local" value="colors.html#yellow_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ccedil;&agrave;&atilde;&icirc;&euml;&icirc;&acirc;&icirc;&ecirc; &ntilde;&ograve;&agrave;&ograve;&uuml;&egrave;">
+  <PARAM name="Local" value="entry.html#headword">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ccedil;&acirc;&oacute;&ecirc;">
+  <PARAM name="Local" value="tag_mm.html#sound">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ccedil;&aring;&euml;&cedil;&iacute;&ucirc;&aring; &ograve;&icirc;&iacute;&agrave;">
+  <PARAM name="Local" value="colors.html#green_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ccedil;&icirc;&iacute;&agrave; &acirc;&ograve;&icirc;&eth;&egrave;&divide;&iacute;&icirc;&atilde;&icirc; &icirc;&ograve;&icirc;&aacute;&eth;&agrave;&aelig;&aring;&iacute;&egrave;&yuml;">
+  <PARAM name="Local" value="tag_struct.html#ast">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ccedil;&icirc;&iacute;&agrave; &ecirc;&icirc;&igrave;&igrave;&aring;&iacute;&ograve;&agrave;&eth;&egrave;&aring;&acirc;">
+  <PARAM name="Local" value="tag_handling.html#com">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ccedil;&icirc;&iacute;&agrave; &iuml;&aring;&eth;&aring;&acirc;&icirc;&auml;&icirc;&acirc;">
+  <PARAM name="Local" value="tag_handling.html#trn">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ccedil;&icirc;&iacute;&agrave; &iuml;&eth;&egrave;&igrave;&aring;&eth;&icirc;&acirc;">
+  <PARAM name="Local" value="tag_handling.html#ex">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&egrave;&ccedil;&icirc;&aacute;&eth;&agrave;&aelig;&aring;&iacute;&egrave;&yuml;">
+  <PARAM name="Local" value="tag_mm.html#images">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&egrave;&ecirc;&icirc;&iacute;&ecirc;&agrave;">
+  <PARAM name="Local" value="dict.html#bmp">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&egrave;&igrave;&aring;&iacute;&agrave; &ocirc;&agrave;&eacute;&euml;&icirc;&acirc; &ntilde;&euml;&icirc;&acirc;&agrave;&eth;&yuml;">
+  <PARAM name="Local" value="dict.html#names">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&egrave;&iacute;&auml;&aring;&ecirc;&ntilde;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&egrave;&aring; &acirc; Lingvo">
+  <PARAM name="Local" value="search.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&egrave;&ntilde;&ecirc;&euml;&thorn;&divide;&aring;&iacute;&egrave;&aring; &egrave;&ccedil; &ccedil;&icirc;&iacute;&ucirc; &egrave;&iacute;&auml;&aring;&ecirc;&ntilde;&agrave;&ouml;&egrave;&egrave;">
+  <PARAM name="Local" value="tag_handling.html#trs">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ecirc;&agrave;&eth;&ograve;&egrave;&iacute;&ecirc;&egrave;">
+  <PARAM name="Local" value="tag_mm.html#images">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ecirc;&icirc;&auml;&icirc;&acirc;&ucirc;&aring; &ntilde;&ograve;&eth;&agrave;&iacute;&egrave;&ouml;&ucirc; ANSI &acirc; Windows">
+  <PARAM name="Local" value="langs.html#ansi">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ecirc;&icirc;&auml;&ucirc; &euml;&icirc;&ecirc;&agrave;&euml;&aring;&eacute; Microsoft">
+  <PARAM name="Local" value="langs.html#lcid">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ecirc;&icirc;&auml;&ucirc; &iacute;&agrave;&egrave;&igrave;&aring;&iacute;&icirc;&acirc;&agrave;&iacute;&egrave;&eacute; &yuml;&ccedil;&ucirc;&ecirc;&icirc;&acirc;">
+  <PARAM name="Local" value="langs.html#iso">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ecirc;&icirc;&igrave;&agrave;&iacute;&auml;&agrave; #">
+  <PARAM name="Local" value="tag_service.html#number">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ecirc;&icirc;&igrave;&agrave;&iacute;&auml;&agrave; ( )">
+  <PARAM name="Local" value="tag_service.html#alt">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ecirc;&icirc;&igrave;&agrave;&iacute;&auml;&agrave; @">
+  <PARAM name="Local" value="tag_struct.html#at">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ecirc;&icirc;&igrave;&agrave;&iacute;&auml;&agrave; \">
+  <PARAM name="Local" value="tag_service.html#backslash">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ecirc;&icirc;&igrave;&agrave;&iacute;&auml;&agrave; ^">
+  <PARAM name="Local" value="tag_format.html#circ">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ecirc;&icirc;&igrave;&agrave;&iacute;&auml;&agrave; { }">
+  <PARAM name="Local" value="tag_service.html#unsort">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ecirc;&icirc;&igrave;&agrave;&iacute;&auml;&agrave; ~">
+  <PARAM name="Local" value="tag_service.html#tilde">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ecirc;&icirc;&igrave;&agrave;&iacute;&auml;&iacute;&agrave;&yuml; &ntilde;&ograve;&eth;&icirc;&ecirc;&agrave;">
+  <PARAM name="Local" value="dsl_comp.html#cmd">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ecirc;&icirc;&igrave;&igrave;&aring;&iacute;&ograve;&agrave;&eth;&egrave;&egrave;">
+  <PARAM name="Local" value="tag_handling.html#com">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ecirc;&icirc;&igrave;&iuml;&egrave;&euml;&yuml;&ograve;&icirc;&eth; DSL">
+  <PARAM name="Local" value="dsl_comp.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ecirc;&icirc;&eth;&egrave;&divide;&iacute;&aring;&acirc;&ucirc;&aring; &ograve;&icirc;&iacute;&agrave;">
+  <PARAM name="Local" value="colors.html#brown_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ecirc;&eth;&agrave;&ntilde;&iacute;&agrave;&yuml; &ntilde;&ograve;&eth;&icirc;&ecirc;&agrave;">
+  <PARAM name="Local" value="entry.html#blank_line">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ecirc;&eth;&agrave;&ntilde;&iacute;&ucirc;&aring; &ograve;&icirc;&iacute;&agrave;">
+  <PARAM name="Local" value="colors.html#red_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ecirc;&eth;&ucirc;&oslash;&ecirc;&agrave;">
+  <PARAM name="Local" value="tag_format.html#circ">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&euml;&egrave;&ograve;&aring;&eth;&agrave;&euml;">
+  <PARAM name="Local" value="tag_system.html#meta_lit">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&euml;&icirc;&ecirc;&agrave;&euml;&uuml;">
+  <PARAM name="Local" value="langs.html#lcid">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&igrave;&aring;&ograve;&agrave;&ntilde;&egrave;&igrave;&acirc;&icirc;&euml;">
+  <PARAM name="Local" value="tag_system.html#meta_lit">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&igrave;&aring;&ograve;&agrave;&ntilde;&egrave;&igrave;&acirc;&icirc;&euml;&ucirc; &egrave; &euml;&egrave;&ograve;&aring;&eth;&agrave;&euml;&ucirc;">
+  <PARAM name="Local" value="tag_system.html#meta_lit">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&igrave;&oacute;&euml;&uuml;&ograve;&egrave;&igrave;&aring;&auml;&egrave;&agrave; &ograve;&aring;&atilde;&egrave;">
+  <PARAM name="Local" value="tag_mm.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iacute;&agrave;&auml;&ntilde;&ograve;&eth;&icirc;&divide;&iacute;&ucirc;&eacute; &egrave;&iacute;&auml;&aring;&ecirc;&ntilde;">
+  <PARAM name="Local" value="tag_format.html#sup">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iacute;&agrave;&egrave;&igrave;&aring;&iacute;&icirc;&acirc;&agrave;&iacute;&egrave;&aring; &ocirc;&agrave;&eacute;&euml;&icirc;&acirc; &ntilde;&euml;&icirc;&acirc;&agrave;&eth;&yuml;">
+  <PARAM name="Local" value="dict.html#names">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iacute;&agrave;&ecirc;&euml;&icirc;&iacute;&iacute;&icirc;&aring; &iacute;&agrave;&divide;&aring;&eth;&ograve;&agrave;&iacute;&egrave;&aring;">
+  <PARAM name="Local" value="tag_format.html#i">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iacute;&agrave;&ecirc;&euml;&icirc;&iacute;&iacute;&ucirc;&eacute; &oslash;&eth;&egrave;&ocirc;&ograve;">
+  <PARAM name="Local" value="tag_format.html#i">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iacute;&aring;&auml;&icirc;&ecirc;&oacute;&igrave;&aring;&iacute;&ograve;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&iacute;&agrave;&yuml; &auml;&egrave;&eth;&aring;&ecirc;&ograve;&egrave;&acirc;&agrave; #ICON_FILE">
+  <PARAM name="Local" value="directives.html#icon">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iacute;&aring;&auml;&icirc;&ecirc;&oacute;&igrave;&aring;&iacute;&ograve;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&iacute;&agrave;&yuml; &ecirc;&icirc;&igrave;&agrave;&iacute;&auml;&iacute;&agrave;&yuml; &ntilde;&ograve;&eth;&icirc;&ecirc;&agrave;">
+  <PARAM name="Local" value="dsl_comp.html#cmd">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iacute;&aring;&auml;&icirc;&ecirc;&oacute;&igrave;&aring;&iacute;&ograve;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&iacute;&ucirc;&aring; &iuml;&agrave;&eth;&agrave;&igrave;&aring;&ograve;&eth;&ucirc; &ecirc;&icirc;&igrave;&agrave;&iacute;&auml;&iacute;&icirc;&eacute; &ntilde;&ograve;&eth;&icirc;&ecirc;&egrave;">
+  <PARAM name="Local" value="dsl_comp.html#cmd">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iacute;&aring;&auml;&icirc;&ecirc;&oacute;&igrave;&aring;&iacute;&ograve;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&iacute;&ucirc;&eacute; &ograve;&aring;&atilde; br">
+  <PARAM name="Local" value="tag_format.html#br">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iacute;&aring;&auml;&icirc;&ecirc;&oacute;&igrave;&aring;&iacute;&ograve;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&iacute;&ucirc;&eacute; &ograve;&aring;&atilde; preview">
+  <PARAM name="Local" value="tag_mm.html#preview">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iacute;&aring;&auml;&icirc;&ecirc;&oacute;&igrave;&aring;&iacute;&ograve;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&iacute;&ucirc;&eacute; &ograve;&aring;&atilde; t">
+  <PARAM name="Local" value="tag_struct.html#t">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iacute;&aring;&auml;&icirc;&ecirc;&oacute;&igrave;&aring;&iacute;&ograve;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&iacute;&ucirc;&eacute; &ograve;&aring;&atilde; trn1">
+  <PARAM name="Local" value="tag_handling.html#trn1">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iacute;&aring;&auml;&icirc;&ecirc;&oacute;&igrave;&aring;&iacute;&ograve;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&iacute;&ucirc;&eacute; &ograve;&aring;&atilde; video">
+  <PARAM name="Local" value="tag_mm.html#video">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iacute;&aring;&auml;&icirc;&ecirc;&oacute;&igrave;&aring;&iacute;&ograve;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&iacute;&ucirc;&eacute; &ograve;&aring;&atilde; &ograve;&eth;&agrave;&iacute;&ntilde;&ecirc;&eth;&egrave;&iuml;&ouml;&egrave;&egrave;">
+  <PARAM name="Local" value="tag_struct.html#t">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iacute;&aring;&ntilde;&icirc;&eth;&ograve;&egrave;&eth;&oacute;&aring;&igrave;&agrave;&yuml; &divide;&agrave;&ntilde;&ograve;&uuml; &ccedil;&agrave;&atilde;&icirc;&euml;&icirc;&acirc;&ecirc;&agrave;">
+  <PARAM name="Local" value="tag_service.html#unsort">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&icirc; &ograve;&aring;&atilde;&agrave;&otilde; dsl">
+  <PARAM name="Local" value="tag_system.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&icirc; &ocirc;&icirc;&eth;&igrave;&agrave;&ograve;&aring; dsl">
+  <PARAM name="Local" value="dsl.html#format">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&icirc; &yuml;&ccedil;&ucirc;&ecirc;&aring; dsl">
+  <PARAM name="Local" value="dsl.html#lang">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&icirc;&atilde;&eth;&agrave;&iacute;&egrave;&divide;&aring;&iacute;&egrave;&yuml; dsl">
+  <PARAM name="Local" value="dsl.html#limit">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&icirc;&eth;&agrave;&iacute;&aelig;&aring;&acirc;&ucirc;&aring; &ograve;&icirc;&iacute;&agrave;">
+  <PARAM name="Local" value="colors.html#orange_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&icirc;&eacute; &ograve;&aring;&ecirc;&ntilde;&ograve;">
+  <PARAM name="Local" value="dict.html#dsl">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&ucirc;&aring; &ograve;&icirc;&iacute;&agrave;">
+  <PARAM name="Local" value="colors.html#basic_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&icirc;&ograve;&aacute;&egrave;&acirc;&ecirc;&agrave;">
+  <PARAM name="Local" value="entry.html#blank_line">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&icirc;&ograve;&ntilde;&ograve;&oacute;&iuml;&ucirc;">
+  <PARAM name="Local" value="tag_format.html#m">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&egrave;">
+  <PARAM name="Local" value="colors.html#colors_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iuml;&agrave;&eth;&agrave;&igrave;&aring;&ograve;&eth;&ucirc; &ecirc;&icirc;&igrave;&agrave;&iacute;&auml;&iacute;&icirc;&eacute; &ntilde;&ograve;&eth;&icirc;&ecirc;&egrave;">
+  <PARAM name="Local" value="dsl_comp.html#cmd">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iuml;&aring;&eth;&aring;&acirc;&cedil;&eth;&ograve;&ucirc;&oslash;">
+  <PARAM name="Local" value="tag_format.html#circ">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iuml;&aring;&eth;&aring;&acirc;&icirc;&auml; &ntilde;&ograve;&eth;&icirc;&ecirc;&egrave;">
+  <PARAM name="Local" value="tag_format.html#br">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iuml;&aring;&eth;&aring;&acirc;&icirc;&auml;&ucirc;">
+  <PARAM name="Local" value="tag_handling.html#trn">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iuml;&aring;&eth;&aring;&divide;&aring;&iacute;&uuml; &ograve;&aring;&atilde;&icirc;&acirc; &egrave; &ecirc;&icirc;&igrave;&agrave;&iacute;&auml; dsl">
+  <PARAM name="Local" value="tag_list.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iuml;&icirc;&auml;&ccedil;&agrave;&atilde;&icirc;&euml;&icirc;&acirc;&icirc;&ecirc;">
+  <PARAM name="Local" value="tag_struct.html#at">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iuml;&icirc;&auml;&ecirc;&agrave;&eth;&ograve;&icirc;&divide;&ecirc;&agrave;">
+  <PARAM name="Local" value="tag_struct.html#at">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iuml;&icirc;&auml;&ntilde;&ograve;&agrave;&ograve;&uuml;&yuml;">
+  <PARAM name="Local" value="tag_struct.html#at">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iuml;&icirc;&auml;&ntilde;&ograve;&eth;&icirc;&divide;&iacute;&ucirc;&eacute; &egrave;&iacute;&auml;&aring;&ecirc;&ntilde;">
+  <PARAM name="Local" value="tag_format.html#sub">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iuml;&icirc;&auml;&divide;&cedil;&eth;&ecirc;&egrave;&acirc;&agrave;&iacute;&egrave;&aring;">
+  <PARAM name="Local" value="tag_format.html#u">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iuml;&icirc;&egrave;&ntilde;&ecirc; &egrave; &egrave;&iacute;&auml;&aring;&ecirc;&ntilde;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&egrave;&aring; &acirc; Lingvo">
+  <PARAM name="Local" value="search.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iuml;&icirc;&egrave;&ntilde;&ecirc;&icirc;&acirc;&icirc;&eacute; &icirc;&aacute;&eth;&agrave;&aacute;&icirc;&ograve;&ecirc;&egrave; &ograve;&aring;&atilde;&egrave;">
+  <PARAM name="Local" value="tag_handling.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iuml;&icirc;&euml;&iacute;&ucirc;&eacute; &ntilde;&iuml;&egrave;&ntilde;&icirc;&ecirc; &ograve;&aring;&atilde;&icirc;&acirc; &egrave; &ecirc;&icirc;&igrave;&agrave;&iacute;&auml; dsl">
+  <PARAM name="Local" value="tag_list.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iuml;&icirc;&euml;&oacute;&aelig;&egrave;&eth;&iacute;&icirc;&aring; &iacute;&agrave;&divide;&aring;&eth;&ograve;&agrave;&iacute;&egrave;&aring;">
+  <PARAM name="Local" value="tag_format.html#b">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iuml;&icirc;&euml;&oacute;&aelig;&egrave;&eth;&iacute;&ucirc;&eacute; &oslash;&eth;&egrave;&ocirc;&ograve;">
+  <PARAM name="Local" value="tag_format.html#b">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iuml;&icirc;&igrave;&aring;&ograve;&ucirc;">
+  <PARAM name="Local" value="tag_struct.html#p">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iuml;&eth;&aring;&acirc;&uuml;&thorn;">
+  <PARAM name="Local" value="tag_mm.html#preview">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iuml;&eth;&aring;&iuml;&eth;&icirc;&ouml;&aring;&ntilde;&ntilde;&icirc;&eth;">
+  <PARAM name="Local" value="directives.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&iuml;&eth;&egrave;&igrave;&aring;&eth;&ucirc;">
+  <PARAM name="Local" value="tag_handling.html#ex">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&eth;&aring;&oslash;&cedil;&ograve;&ecirc;&agrave;">
+  <PARAM name="Local" value="tag_service.html#number">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&eth;&icirc;&ccedil;&icirc;&acirc;&ucirc;&aring; &ograve;&icirc;&iacute;&agrave;">
+  <PARAM name="Local" value="colors.html#rose_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&aring;&eth;&ucirc;&aring; &ograve;&icirc;&iacute;&agrave;">
+  <PARAM name="Local" value="colors.html#gray_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&egrave;&igrave;&acirc;&icirc;&euml; &yacute;&ecirc;&eth;&agrave;&iacute;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&egrave;&yuml;">
+  <PARAM name="Local" value="tag_service.html#backslash">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&egrave;&iacute;&egrave;&aring; &ograve;&icirc;&iacute;&agrave;">
+  <PARAM name="Local" value="colors.html#blue_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&euml;&icirc;&acirc;&agrave;&eth;&iacute;&agrave;&yuml; &ntilde;&ograve;&agrave;&ograve;&uuml;&yuml;">
+  <PARAM name="Local" value="entry.html#article">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&euml;&icirc;&acirc;&agrave;&eth;&iacute;&icirc;&eacute; &ntilde;&ograve;&eth;&oacute;&ecirc;&ograve;&oacute;&eth;&ucirc; &ograve;&aring;&atilde;&egrave;">
+  <PARAM name="Local" value="tag_struct.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&euml;&icirc;&acirc;&agrave;&eth;&uuml; dsl">
+  <PARAM name="Local" value="dict.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&euml;&oacute;&aelig;&aring;&aacute;&iacute;&ucirc;&aring; &ecirc;&icirc;&igrave;&igrave;&aring;&iacute;&ograve;&agrave;&eth;&egrave;&egrave;">
+  <PARAM name="Local" value="tag_service.html#comm">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&euml;&oacute;&aelig;&aring;&aacute;&iacute;&ucirc;&aring; &ograve;&aring;&atilde;&egrave; &egrave; &ecirc;&icirc;&igrave;&agrave;&iacute;&auml;&ucirc;">
+  <PARAM name="Local" value="tag_service.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&icirc;&iuml;&oacute;&ograve;&ntilde;&ograve;&acirc;&oacute;&thorn;&ugrave;&egrave;&aring; &ntilde;&acirc;&aring;&auml;&aring;&iacute;&egrave;&yuml;">
+  <PARAM name="Local" value="additional.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&icirc;&eth;&ograve;&egrave;&eth;&icirc;&acirc;&ecirc;&agrave; &iuml;&icirc; &agrave;&euml;&ocirc;&agrave;&acirc;&egrave;&ograve;&oacute;">
+  <PARAM name="Local" value="colors.html#colors_abc">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&icirc;&eth;&ograve;&egrave;&eth;&icirc;&acirc;&ecirc;&agrave; &iuml;&icirc; &atilde;&eth;&oacute;&iuml;&iuml;&agrave;&igrave; &icirc;&ograve;&ograve;&aring;&iacute;&ecirc;&icirc;&acirc;">
+  <PARAM name="Local" value="colors.html#colors_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&icirc;&eth;&ograve;&egrave;&eth;&icirc;&acirc;&ecirc;&agrave; &iuml;&icirc; &ouml;&acirc;&aring;&ograve;&icirc;&acirc;&icirc;&eacute; &atilde;&agrave;&igrave;&igrave;&aring; (&acirc;&ograve;&icirc;&eth;&icirc;&eacute; &ntilde;&iuml;&icirc;&ntilde;&icirc;&aacute;)">
+  <PARAM name="Local" value="colors.html#colors_gamma2">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&icirc;&eth;&ograve;&egrave;&eth;&icirc;&acirc;&ecirc;&agrave; &iuml;&icirc; &ouml;&acirc;&aring;&ograve;&icirc;&acirc;&icirc;&eacute; &atilde;&agrave;&igrave;&igrave;&aring; (&iuml;&aring;&eth;&acirc;&ucirc;&eacute; &ntilde;&iuml;&icirc;&ntilde;&icirc;&aacute;)">
+  <PARAM name="Local" value="colors.html#colors_gamma1">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&iuml;&egrave;&ntilde;&ecirc;&egrave; &yuml;&ccedil;&ucirc;&ecirc;&icirc;&acirc;">
+  <PARAM name="Local" value="langs.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&iuml;&egrave;&ntilde;&icirc;&ecirc; &agrave;&aacute;&aacute;&eth;&aring;&acirc;&egrave;&agrave;&ograve;&oacute;&eth;">
+  <PARAM name="Local" value="dict.html#abrv">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&iuml;&egrave;&ntilde;&icirc;&ecirc; &oacute;&ntilde;&euml;&icirc;&acirc;&iacute;&ucirc;&otilde; &ntilde;&icirc;&ecirc;&eth;&agrave;&ugrave;&aring;&iacute;&egrave;&eacute;">
+  <PARAM name="Local" value="dict.html#abrv">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&ntilde;&ucirc;&euml;&ecirc;&egrave;">
+  <PARAM name="Local" value="tag_links.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&ograve;&agrave;&ograve;&uuml;&yuml;">
+  <PARAM name="Local" value="entry.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&ograve;&eth;&icirc;&aring;&iacute;&egrave;&aring; &ntilde;&euml;&icirc;&acirc;&agrave;&eth;&yuml;">
+  <PARAM name="Local" value="dict.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ntilde;&ograve;&eth;&oacute;&ecirc;&ograve;&oacute;&eth;&agrave; &ntilde;&euml;&icirc;&acirc;&agrave;&eth;&iacute;&icirc;&eacute; &ntilde;&ograve;&agrave;&ograve;&uuml;&egrave;">
+  <PARAM name="Local" value="entry.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; !trs">
+  <PARAM name="Local" value="tag_handling.html#trs">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; *">
+  <PARAM name="Local" value="tag_struct.html#ast">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; {{ }}">
+  <PARAM name="Local" value="tag_service.html#comm">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; &lt;&lt; &gt;&gt;">
+  <PARAM name="Local" value="tag_links.html#ref1">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; b">
+  <PARAM name="Local" value="tag_format.html#b">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; br">
+  <PARAM name="Local" value="tag_format.html#br">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; c">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; com">
+  <PARAM name="Local" value="tag_handling.html#com">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; ex">
+  <PARAM name="Local" value="tag_handling.html#ex">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; i">
+  <PARAM name="Local" value="tag_format.html#i">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; lang">
+  <PARAM name="Local" value="tag_handling.html#lang">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; m">
+  <PARAM name="Local" value="tag_format.html#m">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; p">
+  <PARAM name="Local" value="tag_struct.html#p">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; preview">
+  <PARAM name="Local" value="tag_mm.html#preview">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; ref">
+  <PARAM name="Local" value="tag_links.html#ref2">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; s">
+  <PARAM name="Local" value="tag_mm.html#s">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; sub">
+  <PARAM name="Local" value="tag_format.html#sub">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; sup">
+  <PARAM name="Local" value="tag_format.html#sup">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; t">
+  <PARAM name="Local" value="tag_struct.html#t">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; trn">
+  <PARAM name="Local" value="tag_handling.html#trn">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; trn1">
+  <PARAM name="Local" value="tag_handling.html#trn1">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; u">
+  <PARAM name="Local" value="tag_format.html#u">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; urL">
+  <PARAM name="Local" value="tag_links.html#url">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; video">
+  <PARAM name="Local" value="tag_mm.html#video">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; &iuml;&icirc;&igrave;&aring;&ograve;">
+  <PARAM name="Local" value="tag_struct.html#p">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; &ograve;&eth;&agrave;&iacute;&ntilde;&ecirc;&eth;&egrave;&iuml;&ouml;&egrave;&egrave;">
+  <PARAM name="Local" value="tag_struct.html#t">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde; &oacute;&auml;&agrave;&eth;&aring;&iacute;&egrave;&yuml;">
+  <PARAM name="Local" value="tag_format.html#str">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde;&egrave; dsl">
+  <PARAM name="Local" value="tag_system.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde;&egrave; &igrave;&oacute;&euml;&uuml;&ograve;&egrave;&igrave;&aring;&auml;&egrave;&agrave;">
+  <PARAM name="Local" value="tag_mm.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde;&egrave; &iuml;&icirc;&egrave;&ntilde;&ecirc;&icirc;&acirc;&icirc;&eacute; &icirc;&aacute;&eth;&agrave;&aacute;&icirc;&ograve;&ecirc;&egrave;">
+  <PARAM name="Local" value="tag_handling.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde;&egrave; &ntilde;&euml;&icirc;&acirc;&agrave;&eth;&iacute;&icirc;&eacute; &ntilde;&ograve;&eth;&oacute;&ecirc;&ograve;&oacute;&eth;&ucirc;">
+  <PARAM name="Local" value="tag_struct.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&atilde;&egrave; &ocirc;&icirc;&eth;&igrave;&agrave;&ograve;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&egrave;&yuml; &ograve;&aring;&ecirc;&ntilde;&ograve;&agrave;">
+  <PARAM name="Local" value="tag_format.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&aring;&euml;&icirc; &ntilde;&ograve;&agrave;&ograve;&uuml;&egrave;">
+  <PARAM name="Local" value="entry.html#body">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&egrave;&euml;&uuml;&auml;&agrave;">
+  <PARAM name="Local" value="tag_service.html#tilde">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&eth;&agrave;&iacute;&ntilde;&ecirc;&eth;&egrave;&iuml;&ouml;&egrave;&yuml;">
+  <PARAM name="Local" value="tag_struct.html#t">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ograve;&eth;&agrave;&iacute;&ntilde;&ecirc;&eth;&egrave;&iuml;&ouml;&egrave;&yuml;">
+  <PARAM name="Local" value="tag_struct.html#t">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&oacute;&ntilde;&ograve;&eth;&icirc;&eacute;&ntilde;&ograve;&acirc;&icirc; &ograve;&aring;&atilde;&icirc;&acirc;">
+  <PARAM name="Local" value="tag_system.html#main">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ocirc;&agrave;&eacute;&euml; &agrave;&aacute;&aacute;&eth;&aring;&acirc;&egrave;&agrave;&ograve;&oacute;&eth;">
+  <PARAM name="Local" value="dict.html#abrv">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ocirc;&agrave;&eacute;&euml; &agrave;&iacute;&iacute;&icirc;&ograve;&agrave;&ouml;&egrave;&egrave;">
+  <PARAM name="Local" value="dict.html#ann">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ocirc;&agrave;&eacute;&euml; &egrave;&ecirc;&icirc;&iacute;&ecirc;&egrave;">
+  <PARAM name="Local" value="dict.html#bmp">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ocirc;&agrave;&eacute;&euml; &icirc;&ntilde;&iacute;&icirc;&acirc;&iacute;&icirc;&atilde;&icirc; &ograve;&aring;&ecirc;&ntilde;&ograve;&agrave;">
+  <PARAM name="Local" value="dict.html#dsl">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ocirc;&agrave;&eacute;&euml;&ucirc; &ntilde;&euml;&icirc;&acirc;&agrave;&eth;&yuml;">
+  <PARAM name="Local" value="dict.html#names">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ocirc;&egrave;&icirc;&euml;&aring;&ograve;&icirc;&acirc;&ucirc;&aring; &ograve;&icirc;&iacute;&agrave;">
+  <PARAM name="Local" value="colors.html#violet_hue">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ocirc;&icirc;&eth;&igrave;&agrave;&ograve; dsl">
+  <PARAM name="Local" value="dsl.html#format">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ocirc;&icirc;&eth;&igrave;&agrave;&ograve;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&egrave;&aring; &ograve;&aring;&ecirc;&ntilde;&ograve;&agrave;">
+  <PARAM name="Local" value="tag_format.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ocirc;&icirc;&eth;&igrave;&agrave;&ograve;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&iacute;&ucirc;&eacute; &ntilde;&euml;&icirc;&acirc;&agrave;&eth;&uuml; dsl">
+  <PARAM name="Local" value="create.html#cool">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ouml;&acirc;&aring;&ograve;&agrave; dsl">
+  <PARAM name="Local" value="colors.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ouml;&acirc;&aring;&ograve;&iacute;&icirc;&eacute; &ograve;&aring;&ecirc;&ntilde;&ograve;">
+  <PARAM name="Local" value="tag_format.html#c">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ouml;&acirc;&aring;&ograve;&icirc;&acirc;&agrave;&yuml; &atilde;&agrave;&igrave;&igrave;&agrave; 1">
+  <PARAM name="Local" value="colors.html#colors_gamma1">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ouml;&acirc;&aring;&ograve;&icirc;&acirc;&agrave;&yuml; &atilde;&agrave;&igrave;&igrave;&agrave; 2">
+  <PARAM name="Local" value="colors.html#colors_gamma2">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&ouml;&acirc;&aring;&ograve;&icirc;&acirc;&agrave;&yuml; &iuml;&agrave;&euml;&egrave;&ograve;&eth;&agrave; dsl">
+  <PARAM name="Local" value="colors.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&divide;&ograve;&icirc; &ograve;&agrave;&ecirc;&icirc;&aring; dsl">
+  <PARAM name="Local" value="dsl.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&yacute;&ecirc;&eth;&agrave;&iacute;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&egrave;&aring;">
+  <PARAM name="Local" value="tag_service.html#backslash">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&yuml;&ccedil;&ucirc;&ecirc; dsl">
+  <PARAM name="Local" value="dsl.html#lang">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&yuml;&ccedil;&ucirc;&ecirc;&egrave;">
+  <PARAM name="Local" value="langs.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&yuml;&ccedil;&ucirc;&ecirc;&egrave;, &iuml;&icirc;&auml;&auml;&aring;&eth;&aelig;&egrave;&acirc;&agrave;&aring;&igrave;&ucirc;&aring; Lingvo">
+  <PARAM name="Local" value="langs.html#supported">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="&yuml;&ccedil;&ucirc;&ecirc;&icirc;&acirc;&agrave;&yuml; &eth;&agrave;&ccedil;&igrave;&aring;&ograve;&ecirc;&agrave;">
+  <PARAM name="Local" value="tag_handling.html#lang">
+ </OBJECT>
+</BODY>
+</HTML>

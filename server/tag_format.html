@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>Тэги форматирования текста</title>
+      <link href="files/style.css" rel="stylesheet">
+      <script src="files/jquery-2.1.0.min.js" type="text/javascript"></script>
+      <script src="files/main.js"></script>
+</head>
+
+
+<body>
+<div id="header">Справочник по DSL</div>
+<div id="main">
+<h1>Тэги форматирования текста</h1>
+<p class="content"><img src="images/line.png"></p>
+<p class="content"><a href="#b" class="content">Тэг <span class="code">[b]&hellip;[/b]</span></a></p>
+<p class="content"><a href="#i" class="content">Тэг <span class="code">[i]&hellip;[/i]</span></a></p>
+<p class="content"><a href="#u" class="content">Тэг <span class="code">[u]&hellip;[/u]</span></a></p>
+<p class="content"><a href="#c" class="content">Тэг <span class="code">[c]&hellip;[/c]</span></a></p>
+<p class="content"><a href="#sup" class="content">Тэг <span class="code">[sup]&hellip;[/sup]</span></a></p>
+<p class="content"><a href="#sub" class="content">Тэг <span class="code">[sub]&hellip;[/sub]</span></a></p>
+<p class="content"><a href="#m" class="content">Тэг <span class="code">[m]&hellip;[/m]</span></a></p>
+<p class="content"><a href="#str" class="content">Тэг <span class="code">[']&hellip;[/']</span></a></p>
+<p class="content"><a href="#br" class="content">Тэг <span class="code">[br]</span></a></p>
+<p class="content"><a href="#circ" class="content">Команда <span class="code">^</span></a></p>
+<p class="content"><img src="images/line.png"></p>
+
+<a name="b"></a>
+<h2>Тэг <span class="code">[b]&hellip;[/b]</span></h2>
+<p><strong>Назначение:</strong> Выделение текста полужирным начертанием.</p>
+<p><strong>Этимология:</strong> <span class="code">b</span> — сокращение от англ. <em>bold</em> (жирное начертание).</p>
+<p><strong>Использование:</strong> Только в теле словарных статей. В заголовках не работает.</p>
+<p><strong>Особенности:</strong> В зоне действия <span class="code">[b]&nbsp;[/b]</span> разрешается размещать любые другие тэги.</p>
+
+<div class="CodeBox">
+<p class="CodeBoxHead">Пример полужирного выделения :: Запись в DSL</p>
+<div class="Code"><pre>bold
+	[m1]Выделение [b]полужирным[/b] начертанием[/m]
+	[m2][b]Пример действия [i]других тэгов [u]в зоне действия[/u][/i] данного[/b][/m]</pre></div></div>
+<br>
+<div class="EntryBox">
+<p class="EntryBoxHead">Пример полужирного выделения :: Вид в словарной карточке</p>
+<div class="Entry"><div class="EntryTitle"><span class="EntryTitle">Пример (En-Ru)</span></div><span class="dsl_headword">bold</span><div class="dsl_m1">Выделение <strong>полужирным</strong> начертанием</div>
+<div class="dsl_m2"><strong>Пример действия <em>других тэгов <span style="text-decoration: underline;">в зоне действия</span></em> данного</strong></div></div></div>
+<p><strong>История:</strong> Использование тэга наблюдается в словарях Lingvo 5.0. В 6.0 появляется первое упоминание о нём в официальной документации.</p>
+
+
+<a name="i"></a>
+<h2>Тэг <span class="code">[i]&hellip;[/i]</span></h2>
+<p><strong>Назначение:</strong> Выделение текста наклонным начертанием.</p>
+<p><strong>Этимология:</strong> <span class="code">i</span> — сокращение от англ. <em>italic</em> (наклонное начертание).</p>
+<p><strong>Использование:</strong> Только в теле словарных статей. В заголовках не работает.</p>
+<p><strong>Особенности:</strong> В зоне действия <span class="code">[i]&nbsp;[/i]</span> разрешается размещать любые другие тэги.</p>
+
+<div class="CodeBox">
+<p class="CodeBoxHead">Пример наклонного выделения :: Запись в DSL</p>
+<div class="Code"><pre>italic
+	[m1]Выделение [i]наклонным[/i] начертанием[/m]
+	[m2][i]Пример действия [u]других тэгов [b]в зоне действия[/b][/u] данного[/i][/m]</pre></div></div>
+<br>
+<div class="EntryBox">
+<p class="EntryBoxHead">Пример наклонного выделения :: Вид в словарной карточке</p>
+<div class="Entry"><div class="EntryTitle"><span class="EntryTitle">Пример (En-Ru)</span></div><span class="dsl_headword">italic</span><div class="dsl_m1">Выделение <em>наклонным</em> начертанием</div><div class="dsl_m2"><em>Пример действия <span style="text-decoration: underline;">других тэгов <strong>в зоне действия</strong></span> данного</em></div></div></div>
+<p><strong>История:</strong> Использование тэга наблюдается в словарях Lingvo 5.0. В 6.0 появляется первое упоминание о нём в официальной документации.</p>
+
+
+<a name="u"></a>
+<h2>Тэг <span class="code">[u]&hellip;[/u]</span></h2>
+<p><strong>Назначение:</strong> Выделение текста подчёркиванием.</p>
+<p><strong>Этимология:</strong> <span class="code">u</span> — сокращение от англ. <em>underline</em> (подчёркивание).</p>
+<p><strong>Использование:</strong> Только в теле словарных статей. В заголовках не работает.</p>
+<p><strong>Особенности:</strong> В зоне действия <span class="code">[u]&nbsp;[/u]</span> разрешается размещать любые другие тэги.</p>
+<div class="CodeBox">
+<p class="CodeBoxHead">Пример выделения подчёркиванием :: Запись в DSL</p>
+<div class="Code"><pre>underline
+	[m1]Выделение [u]подчёркиванием[/u][/m]
+	[m2][u]Пример действия [i]других тэгов [b]в зоне действия[/b][/i] данного[/u][/m]</pre></div></div>
+<br>
+<div class="EntryBox">
+<p class="EntryBoxHead">Пример выделения подчёркиванием :: Вид в словарной карточке</p>
+<div class="Entry"><div class="EntryTitle"><span class="EntryTitle">Пример (En-Ru)</span></div><span class="dsl_headword">underline</span><div class="dsl_m1">Выделение <span style="text-decoration: underline;">подчёркиванием</span></div><div class="dsl_m2"><span style="text-decoration: underline;">Пример действия <em>других тэгов <strong>в зоне действия</strong></em> данного</span></div></div></div>
+<p><strong>История:</strong> Тэг введён в употребление в Lingvo 6.0.</p>
+
+
+<a name="c"></a>
+<h2>Тэг <span class="code">[c]&hellip;[/c]</span></h2>
+<p><strong>Назначение:</strong> Выделение текста цветом.</p>
+<p><strong>Этимология:</strong> <span class="code">c</span> — сокращение от англ. <em>color</em> (цвет).</p>
+<p><strong>Использование:</strong> В теле словарных статей и заголовках.</p>
+<p><em>В заголовках необходимо скрывать дескрипторы при помощи команды несортируемой части <span class="code">{&hellip;}</span>, иначе они отобразятся как обычный текст в списке найденных слов. Скрывают также и всю область тэга, чтобы не перегружать список второстепенной информацией.</em></p>
+
+<p><strong>Синтаксис:</strong> Тэг существует в двух формах: <em>базовой</em> и <em>с атрибутом</em>.</p>
+<ul>
+  <li><em>Базовая форма</em>: <span class="code">[c]&nbsp;[/c]</span>. Текст в зоне действия тэга окрашивается в цвет, назначенный в настройках программы тэгу помет <span class="code">[p]&nbsp;[/p]</span>, по умолчанию зелёный <span style="color:green;">[green]</span>. Цвет можно поменять в диалоге настроек: <abbr title="Сервис">Tools</abbr> &rarr; <abbr title="Настройки программы&hellip;">Options&hellip;</abbr> &rarr; <abbr title="Вид карточек">Entry Window View</abbr> &rarr; <abbr title="Цвета: Пометы">Colours: Labels</abbr> (<em>вызывается также клавишами</em> <span class="key">Ctrl</span>+<span class="key">O</span>).</li>
+  <br><li><em>Форма с атрибутом</em>: <span class="code">[c <em>значение</em>]&nbsp;[/c]</span>. В качестве <em>значений</em> используются ключевые названия цветов по спецификации HTML — см. их полный список в главе <a href="colors.html">«Цветовая палитра DSL»</a>. <em>Значения</em> чувствительны к регистру: буквы должны быть строчными, использование прописных не допускается. Например, запись <span class="code">[c red]</span> будет обработана, а <span class="code_error">[c Red]</span> вызовет протест компилятора.</li>
+</ul>
+<p><strong>Особенности:</strong> В зоне действия данного тэга разрешается размещать любые другие тэги.</p>
+
+<div class="CodeBox">
+<p class="CodeBoxHead">Использование тэга цвета :: Запись в DSL</p>
+<div class="Code"><pre>RGB
+	[m1]([i]аббревиатура английских слов [b][c red]Red[/c][/b] [b][c green]Green[/c][/b] [b][c blue]Blue[/c][/b][/i])[/m]
+	[m1]аддитивная цветовая модель[/m]
+	[m2][c][i]Подробнее[/i][/c] [p]см.[/p] [ref]Цветовые модели[/ref].</pre></div></div>
+<br>
+<div class="EntryBox">
+<p class="EntryBoxHead">Использование тэга цвета :: Вид в словарной карточке</p>
+<div class="Entry"><div class="EntryTitle"><span class="EntryTitle">Пример (En-Ru)</span></div><span class="dsl_headword">RGB</span>
+<div class="dsl_m1">(<em>аббревиатура английских слов <span style="color: red;"><b>Red</b></span> <span style="color: green;"><b>Green</b></span> <span style="color: blue;"><b>Blue</b></span></em>)
+<br>аддитивная цветовая модель</div>
+<div class="dsl_m2"><span style="color: green;"><em>Подробнее</em></span> <abbr title="Смотри" class="dsl_p">см.</abbr> <span class="dsl_ref">Цветовые модели</span>.</div></div></div>
+<br>
+<div class="CodeBox">
+<p class="CodeBoxHead">Тэг цвета в заголовке :: Запись в DSL</p>
+<div class="Code"><pre>перед лицом {[c slategray]}кого-л.{[/c]}
+	[m1]in the face of [i]smb[/i].[/m]</pre></div></div>
+<br>
+<div class="EntryBox">
+<p class="EntryBoxHead">Тэг цвета в заголовке :: Вид в словарной карточке</p>
+<div class="Entry"><div class="EntryTitle"><span class="EntryTitle">Пример (Ru-En)</span></div>
+<span class="dsl_headword">перед лицом <span style="color: slategray;">кого-л.</span></span>
+<div class="dsl_m1">in the face of <em>smb</em>.</div></div></div>
+
+<p><strong>История:</strong> Использование базовой формы тэга <span class="code">[c]&nbsp;[/c]</span> наблюдается в словарях Lingvo 5.0. С того же времени выбор цвета для выделения осуществляется в диалоге настроек программы. В 6.0 появляется первое упоминание о нём в официальной документации. Начиная с 8.0 параллельно существованию базовой формы вводится форма с атрибутом: <span class="code">[c <i>атрибут</i>]&nbsp;[/c]</span>.</p>
+
+
+<a name="sup"></a>
+<h2>Тэг <span class="code">[sup]&hellip;[/sup]</span></h2>
+<p><strong>Назначение:</strong> Отображение текста в виде верхнего (надстрочного) индекса.</p>
+<p><strong>Этимология:</strong> <span class="code">sup</span> — сокращение от англ. <em>superscript</em> (надстрочный индекс).</p>
+<p><strong>Использование:</strong> В теле словарных статей. Использование в заголовках допускается, но не рекомендутся из-за некорректной обработки: меняется только положение текста относительно строки, но не меняется размер шрифта.</p>
+<p><strong>Особенности:</strong> В зоне действия <span class="code">[sup]&nbsp;[/sup]</span> разрешается размещать любые другие тэги, кроме его антипода <span class="code_error">[sub]&nbsp;[/sub]</span>.</p>
+<div class="CodeBox">
+<p class="CodeBoxHead">Надстрочный индекс :: Запись в DSL</p>
+<div class="Code"><pre>биквадратное уравнение
+	[m1]уравнение вида ах[sup]4[/sup] + bx[sup]2[/sup] + с = 0[/m]</pre></div></div>
+<br>
+<div class="EntryBox">
+<p class="EntryBoxHead">Надстрочный индекс :: Вид в словарной карточке</p>
+<div class="Entry"><div class="EntryTitle"><span class="EntryTitle">Пример (Ru-Ru)</span></div>
+<span class="dsl_headword">биквадратное уравнение</span><div class="dsl_m1">уравнение вида ах<sup>4</sup> + bx<sup>2</sup> + с = 0</div></div></div>
+<p><strong>История:</strong> Тэг введён в употребление в Lingvo 8.0.</p>
+
+
+<a name="sub"></a>
+<h2>Тэг <span class="code">[sub]&hellip;[/sub]</span></h2>
+<p><strong>Назначение:</strong> Отображение текста в виде нижнего (подстрочного) индекса.</p>
+<p><strong>Этимология:</strong> <span class="code">sub</span> — сокращение от англ. <em>subscript</em> (подстрочный индекс).</p>
+<p><strong>Использование:</strong> В теле словарных статей. Использование в заголовках допускается, но не рекомендуется из-за некорректной обработки: меняется только положение текста относительно строки, но не меняется размер шрифта.</p>
+<p><strong>Особенности:</strong> В зоне действия <span class="code">[sub]&nbsp;[/sub]</span> разрешается размещать любые другие тэги, кроме его антипода <span class="code_error">[sup]&nbsp;[/sup]</span>.</p>
+<div class="CodeBox">
+<p class="CodeBoxHead">Подстрочный индекс :: Запись в DSL</p>
+<div class="Code"><pre>этиловый спирт
+	[m1]этанол, винный спирт, C[sub]2[/sub]H[sub]5[/sub]OH[/m]</pre></div></div>
+<br>
+<div class="EntryBox">
+<p class="EntryBoxHead">Подстрочный индекс :: Вид в словарной карточке</p>
+<div class="Entry"><div class="EntryTitle"><span class="EntryTitle">Пример (Ru-Ru)</span></div>
+<span class="dsl_headword">этиловый спирт</span><div class="dsl_m1">этанол, винный спирт, C<sub>2</sub>H<sub>5</sub>OH</div></div></div>
+<p><strong>История:</strong> Тэг введён в употребление в Lingvo 8.0.</p>
+
+
+<a name="m"></a>
+<h2>Тэг <span class="code">[m]&hellip;[/m]</span></h2>
+<p><strong>Назначение:</strong> Установка сдвига абзаца относительно левого края словарной карточки.</p>
+<p><strong>Этимология:</strong> <span class="code">m</span> — сокращение от англ. <em>margin</em> (поле страницы).</p>
+<p><strong>Использование:</strong> Только в теле словарных статей.</p>
+<p><strong>Синтаксис:</strong> Тэг существует в двух формах: <em>без значения</em> и <em>со значением</em>.</p>
+<ul>
+  <li><em>Форма без значения</em>: <span class="code">[m]&nbsp;[/m]</span>. Сдвиг абзаца равен нулю, т.е. абзац не сдвигается. Не рекомендуется к использованию, т.к. может вызывать искажения отображения (в некоторых случаях) и трудности при конвертации словаря в иной формат.</li>
+  <br><li><em>Форма со значением</em>: <span class="code">[m<em>N</em>]&nbsp;[/m]</span>. В качестве значения для <em>N</em> употребляется произвольная цифра от 0 до 9. Цифра означает величину, кратную числу пробелов, на которые абзац будет сдвинут относительно левого края словарной карточки.</li>
+</ul>
+<p><strong>Особенности:</strong> В зоне действия данного тэга разрешается размещать любые другие тэги.</p>
+<p>Наличие закрывающего дескриптора не требуется. Однако, употреблять его рекомендуется для того, чтобы избежать возможных проблем с конвертацией словаря в иной формат, а также чтобы в целом привыкать быть аккуратным и сводить к нулю возможные ошибки.</p>
+<p>Зона действия тэга простирается от открывающего дескриптора до закрывающего, или до следующего открывающего при отсутствии закрывающего. Зона действия может распространяться на несколько абзацев. Иными словами, тэг будет действовать на текст до тех пор, пока в теле статьи не встретится один из его дескрипторов, или до окончания статьи.</p>
+<div class="CodeBox">
+<p class="CodeBoxHead">Сдвигаем абзац :: Запись в DSL</p>
+<div class="Code"><pre>сдвиг абзаца
+	[m0]Абзац не сдвинут[/m]
+	[m1]Абзац сдвинут на 1 величину[/m]
+	[m2]Абзац сдвинут на 2 величины[/m]
+	[m3]Абзац сдвинут на 3 величины[/m]
+	[m4]Абзац сдвинут на 4 величины[/m]
+	[m5]Абзац сдвинут на 5 величин[/m]
+	[m6]Абзац сдвинут на 6 величин[/m]
+	[m7]Абзац сдвинут на 7 величин[/m]
+	[m8]Абзац сдвинут на 8 величин[/m]
+	[m9]Абзац сдвинут на 9 величин[/m]</pre></div></div>
+<br>
+<div class="EntryBox">
+<p class="EntryBoxHead">Сдвигаем абзац :: Вид в словарной карточке</p>
+<div class="Entry"><div class="EntryTitle"><span class="EntryTitle">Пример (Ru-Ru)</span></div>
+<span class="dsl_headword">сдвиг абзаца</span>
+<div class="dsl_m0">Абзац не сдвинут</div>
+<div class="dsl_m1">Абзац сдвинут на 1 величину</div>
+<div class="dsl_m2">Абзац сдвинут на 2 величины</div>
+<div class="dsl_m3">Абзац сдвинут на 3 величины</div>
+<div class="dsl_m4">Абзац сдвинут на 4 величины</div>
+<div class="dsl_m5">Абзац сдвинут на 5 величин</div>
+<div class="dsl_m6">Абзац сдвинут на 6 величин</div>
+<div class="dsl_m7">Абзац сдвинут на 7 величин</div>
+<div class="dsl_m8">Абзац сдвинут на 8 величин</div>
+<div class="dsl_m9">Абзац сдвинут на 9 величин</div>
+</div></div>
+<p>Открывающий дескриптор тэга обладает также свойством перевода строки. Таким образом, несколько открывающих дескрипторов, расставленных по длине строки, превратят её в последовательность абзацев.</p>
+<div class="CodeBox">
+<p class="CodeBoxHead">Перевод строки при помощи тэга [m] :: Запись в DSL</p>
+<div class="Code"><pre>150000000
+	[m0]Жаром,[m3]жженьем,[m6]железом,[m9]светом,[m0]жарь,[m3]жги,[m6]режь,[m9]рушь![/m]
+</pre></div></div>
+<br>
+<div class="EntryBox">
+<p class="EntryBoxHead">Перевод строки при помощи тэга [m] :: Вид в словарной карточке</p>
+<div class="Entry"><div class="EntryTitle"><span class="EntryTitle">Маяковский (Ru-Ru)</span></div><div class="dsl_headword">150000000</div>
+<div class="dsl_m0">Жаром,</div><div class="dsl_m3">жженьем,</div><div class="dsl_m6">железом,</div><div class="dsl_m9">светом,</div>
+<div class="dsl_m0">жарь,</div><div class="dsl_m3">жги,</div><div class="dsl_m6">режь,</div><div class="dsl_m9">рушь!</div>
+</div></div>
+<p><strong>История:</strong> Использование тэга наблюдается в словарях Lingvo 5.0. В 6.0 появляется первое упоминание о нём в официальной документации.</p>
+
+
+<a name="str"></a>
+<h2>Тэг <span class="code">[']&hellip;[/']</span></h2>
+<p><strong>Назначение:</strong> Выделение ударной гласной в слове.</p>
+<p><strong>Использование:</strong> В теле словарных статей и заголовках.</p>
+<p><em>В заголовках необходимо скрывать дескрипторы при помощи команды несортируемой части <span class="code">{&hellip;}</span>, иначе они отобразятся как обычный текст в списке найденных слов.</em></p>
+<p><strong>Отображение в карточках:</strong> По умолчанию ударные гласные отображаются красным цветом. Цвет можно поменять в настройках программы: <abbr title="Сервис">Tools</abbr> &rarr; <abbr title="Настройки программы&hellip;">Options&hellip;</abbr> &rarr; <abbr title="Вид карточек">Entry Window View</abbr> &rarr; <abbr title="Цвета: Ударения">Colours: Stress</abbr> (<em>вызывается также клавишами</em> <span class="key">Ctrl</span>+<span class="key">O</span>).</p>
+<div class="CodeBox">
+<p class="CodeBoxHead">Ударение в заголовке и в статье :: Запись в DSL</p>
+<div class="Code"><pre>д{[']}о{[/']}гмат
+	[m1][p]мн.ч.[/p] д[']о[/']гматы, [p]Р.п.[/p] д[']о[/']гматов[/m]</pre></div></div>
+<br>
+<div class="EntryBox">
+<p class="EntryBoxHead">Ударение в заголовке и в статье :: Вид в словарной карточке</p>
+<div class="Entry"><div class="EntryTitle"><span class="EntryTitle">Орфография (Ru-Ru)</span></div>
+<span class="dsl_headword">д<span style="color: red;">о</span>гмат</span>
+<div class="dsl_m1"><abbr title="Множественное число" class="dsl_p">мн.ч.</abbr> д<span style="color: red;">о</span>гматы, <abbr title="Родительный падеж" class="dsl_p">Р.п.</abbr> д<span style="color: red;">о</span>гматов</div></div></div>
+<p><strong>Замечание:</strong> В GoldenDict посредством пользовательских стилей можно настроить выделение ударений как с помощью цвета, так и с помощью символа ударения.</p>
+<p><strong>История:</strong> Первое полное описание тэга в официальной документации появляется в Lingvo 11.0. Но существовал он, похоже, и в ранних версиях, хотя неизвестно в какой именно форме. В справочном руководстве к Lingvo 6.0 упоминается о символе обратного апострофа <span class="code">`</span>, зарезервированном для выделения ударений, однако не уточняются способы его применения.</p>
+
+
+<a name="br"></a>
+<h2>Тэг <span class="code">[br]</span></h2>
+<div class="ninja"><span class="ninja">Недокументированный тэг</span></div>
+<p><strong>Назначение:</strong> Перенос текста на новую строку.</p>
+<p><strong>Этимология:</strong> <span class="code">br</span> — сокращение от англ. <em>break</em> (разрыв строки).</p>
+<p><strong>Использование:</strong> В теле словарных статей и заголовках.</p>
+<p><em>В заголовках тэг необходимо скрывать при помощи команды несортируемой части <span class="code">{&hellip;}</span>, иначе он отобразится как обычный текст в списке найденных слов.</em></p>
+<p><strong>Особенности:</strong> У тэга нет закрывающего дескриптора.</p>
+<div class="CodeBox">
+<p class="CodeBoxHead">Перенос строки в статье и в заголовке :: Запись в DSL</p>
+<div class="Code"><pre>Хоть есть нечего, {[br]}да жить весело
+	[m1]Хоть есть нечего, да жить весело.[br]Скоморохова жена всегда весела.[br][p]См.[/p] [ref]Глава 155. Игры – Забавы – Ловля[/ref][/m]</pre></div></div>
+<br>
+<div class="EntryBox">
+<p class="EntryBoxHead">Перенос строки в статье и в заголовке :: Вид в словарной карточке</p>
+<div class="Entry"><div class="EntryTitle"><span class="EntryTitle">Пословицы Даля (Ru-Ru)</span></div>
+<span class="dsl_headword">Хоть есть нечего,<br>да жить весело</span><div class="dsl_m1">Хоть есть нечего, да жить весело.<br>Скоморохова жена всегда весела.<br><abbr title="Смотри" class="dsl_p">См.</abbr> <span class="dsl_ref">Глава 155. Игры – Забавы – Ловля</span></div></div></div>
+<p><strong>История:</strong> Впервые тэг начинает признавать DSL Compiler x5 (15.0).</p>
+
+
+<a name="circ"></a>
+<h2>Команда <span class="code">^</span></h2>
+<p><strong>Назначение:</strong> Изменение регистра последующего символа на противоположный.</p>
+<p><strong>Использование:</strong> В теле словарных статей.</p>
+<p><strong>Замечания:</strong> У команды также есть неформальное наименование: перевёртыш.</p>
+<p>На практике команда может пригодиться в словарях, где у заголовочных слов первая буква прописная, а остальные — строчные. В таких случаях, в сочетании с тильдой (командой клонирования заголовка) <span class="code">^~</span> перевёртыш поменяет регистр первой буквы клона, и он корректно отобразится в теле статьи.</p>
+<div class="CodeBox">
+<p class="CodeBoxHead">Употребление перевёртыша :: Запись в DSL</p>
+<div class="Code"><pre>Кубарем
+	[m1]вертясь, стремительно (о падении)[/m]
+	[m2][*][ex]Скатиться ^~ с лестницы.[/ex][/*][/m]</pre></div></div>
+<br>
+<div class="EntryBox">
+<p class="EntryBoxHead">Употребление перевёртыша :: Вид в словарной карточке</p>
+<div class="Entry"><div class="EntryTitle"><span class="EntryTitle">Пример (Ru-Ru)</span></div>
+<span class="dsl_headword">Кубарем</span><div class="dsl_m1">вертясь, стремительно (о падении)</div>
+<div class="dsl_m2"><span class="dsl_ast">Скатиться кубарем с лестницы.</span></div></div></div>
+<p>Чтобы предотвратить специальную обработку перевёртыша и <abbr title="«как есть», как простые символы">литерально</abbr> отобразить его в словарной карточке, нужно его экранировать: <span class="code">\^</span>.</p>
+<p><strong>История:</strong> Команда введена в употребление в Lingvo 6.0.</p>
+
+</div>
+<div id="footer">
+<p>Справочник по DSL • <a href="changes.html">Версия 0.9.6 alpha 2</a> • 04.08.2020</p>
+<p>Public Domain 2020 yozhic. Свободный контент. Все права открыты и неограничены. Никаких гарантий и ответственности.</p>
+</div>
+</body>
+</html>

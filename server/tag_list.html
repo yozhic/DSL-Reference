@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>Перечень тэгов и команд DSL</title>
+      <link href="files/style.css" rel="stylesheet">
+      <script src="files/jquery-2.1.0.min.js" type="text/javascript"></script>
+      <script src="files/main.js"></script>
+</head>
+
+
+<body>
+<div id="header">Справочник по DSL</div>
+<div id="main">
+<h1>Перечень тэгов и команд DSL</h1>
+<p>Все тэги можно условно разделить на следующие группы:</p>
+<p class="content"><img src="images/line.png"></p>
+<p class="content"><a href="#format" class="content">Тэги форматирования текста</a></p>
+<p class="content"><a href="#struct" class="content">Тэги словарной структуры</a></p>
+<p class="content"><a href="#handling" class="content">Тэги поисковой обработки</a></p>
+<p class="content"><a href="#multimedia" class="content">Тэги мультимедиа</a></p>
+<p class="content"><a href="#links" class="content">Ссылки</a></p>
+<p class="content"><a href="#service" class="content">Служебные тэги</a></p>
+<p class="content"><a href="#preprocess" class="content">Директивы предварительной обработки</a></p>
+<p class="content"><img src="images/line.png"></p>
+
+
+<a name="format"></a>
+<h2>Тэги форматирования текста</h2>
+<table class="taglist">
+<col class="col1">
+	<tr class="list">
+		<td class="tag">[b]···[/b]</td>
+		<td class="link"><a href="tag_format.html#b"><img src="images/linkB.png"></a></td>
+		<td class="taglist"><strong>полужирное</strong> начертание</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">[i]···[/i]</td>
+		<td class="link"><a href="tag_format.html#i"><img src="images/linkB.png"></a></td>
+		<td class="taglist"><em>наклонное</em> начертание</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">[u]···[/u]</td>
+		<td class="link"><a href="tag_format.html#u"><img src="images/linkB.png"></a></td>
+		<td class="taglist"><u>подчёркнутый</u> текст</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">[c]···[/c]</td>
+		<td class="link"><a href="tag_format.html#c"><img src="images/linkB.png"></a></td>
+		<td class="taglist"><span style="color:green;">цвет<span style="color:blue;">ной</span> <span style="color:fuchsia;">текст</span></td>
+	</tr>
+	<tr class="list">
+		<td class="tag">[sup]···[/sup]</td>
+		<td class="link"><a href="tag_format.html#sup"><img src="images/linkB.png"></a></td>
+		<td class="taglist">верхний (надстрочный) индекс</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">[sub]···[/sub]</td>
+		<td class="link"><a href="tag_format.html#sub"><img src="images/linkB.png"></a></td>
+		<td class="taglist">нижний (подстрочный) индекс</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">[m]···[/m]</td>
+		<td class="link"><a href="tag_format.html#m"><img src="images/linkB.png"></a></td>
+		<td class="taglist">отступ от левого края</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">[']···[/']</td>
+		<td class="link"><a href="tag_format.html#str"><img src="images/linkB.png"></a></td>
+		<td class="taglist">удар<span style="color:red;">е</span>ние в слове</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">[br]</td>
+		<td class="link"><a href="tag_format.html#br"><img src="images/linkB.png"></a></td>
+		<td class="taglist">перенос текста на другую строку (<em>недокументированный</em>)</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">^</td>
+		<td class="link"><a href="tag_format.html#circ"><img src="images/linkB.png"></a></td>
+		<td class="taglist">команда изменения регистра на противоположный</td>
+	</tr>
+</table>
+
+
+<a name="struct"></a>
+<h2>Тэги словарной структуры</h2>
+<table class="taglist">
+<col class="col1">
+	<tr class="list">
+		<td class="tag">[p]···[/p]</td>
+		<td class="link"><a href="tag_struct.html#p"><img src="images/linkB.png"></a></td>
+		<td class="taglist">пометы</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">[t]···[/t]</td>
+		<td class="link"><a href="tag_struct.html#t"><img src="images/linkB.png"></a></td>
+		<td class="taglist">транскрипция (<em>недокументированный</em>)</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">[*]···[/*]</td>
+		<td class="link"><a href="tag_struct.html#ast"><img src="images/linkB.png"></a></td>
+		<td class="taglist">зона вторичного отображения</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">@</td>
+		<td class="link"><a href="tag_struct.html#at"><img src="images/linkB.png"></a></td>
+		<td class="taglist">вложенная подкарточка</td>
+	</tr>
+</table>
+
+
+<a name="handling"></a>
+<h2>Тэги поисковой обработки</h2>
+<table class="taglist">
+<col class="col1">
+	<tr class="list">
+		<td class="tag">[ex]···[/ex]</td>
+		<td class="link"><a href="tag_handling.html#ex"><img src="images/linkB.png"></a></td>
+		<td class="taglist">зона примера</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">[com]···[/com]</td>
+		<td class="link"><a href="tag_handling.html#com"><img src="images/linkB.png"></a></td>
+		<td class="taglist">зона словарного комментария</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">[trn]···[/trn]</td>
+		<td class="link"><a href="tag_handling.html#trn"><img src="images/linkB.png"></a></td>
+		<td class="taglist">зона перевода</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">[trn1]···[/trn1]</td>
+		<td class="link"><a href="tag_handling.html#trn1"><img src="images/linkB.png"></a></td>
+		<td class="taglist">зона перевода (<em>недокументированный</em>)</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">[!trs]···[/!trs]</td>
+		<td class="link"><a href="tag_handling.html#trs"><img src="images/linkB.png"></a></td>
+		<td class="taglist">исключение из зоны индексирования</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">[lang]···[/lang]</td>
+		<td class="link"><a href="tag_handling.html#lang"><img src="images/linkB.png"></a></td>
+		<td class="taglist">указание языка</td>
+	</tr>
+</table>
+
+
+<a name="multimedia"></a>
+<h2>Тэги мультимедиа</h2>
+<table class="taglist">
+<col class="col1">
+	<tr class="list">
+		<td class="tag">[s]···[/s]</td>
+		<td class="link"><a href="tag_mm.html#s"><img src="images/linkB.png"></a></td>
+		<td class="taglist">зона мультимедиа</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">[video]···[/video]</td>
+		<td class="link"><a href="tag_mm.html#video"><img src="images/linkB.png"></a></td>
+		<td class="taglist">видео (<em>недокументированный</em>)</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">[preview]···[/preview]</td>
+		<td class="link"><a href="tag_mm.html#preview"><img src="images/linkB.png"></a></td>
+		<td class="taglist">превью (<em>недокументированный, недействующий</em>)</td>
+	</tr>
+</table>
+
+
+<a name="links"></a>
+<h2>Ссылки</h2>
+<table class="taglist">
+<col class="col1">
+	<tr class="list">
+		<td class="tag">&lt;&lt;···&gt;&gt;</td>
+		<td class="link"><a href="tag_links.html#ref1"><img src="images/linkB.png"></a></td>
+		<td class="taglist">ссылка на словарную карточку в пределах текущего словаря</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">[ref]···[/ref]</td>
+		<td class="link"><a href="tag_links.html#ref2"><img src="images/linkB.png"></a></td>
+		<td class="taglist">ссылка на словарную карточку в пределах и за пределами текущего словаря</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">[url]···[/url]</td>
+		<td class="link"><a href="tag_links.html#url"><img src="images/linkB.png"></a></td>
+		<td class="taglist">ссылка на внешний адрес в интернет</td>
+	</tr>
+</table>
+
+
+<a name="service"></a>
+<h2>Служебные тэги и команды</h2>
+<table class="taglist">
+<col class="col1">
+	<tr class="list">
+		<td class="tag">{{···}}</td>
+		<td class="link"><a href="tag_service.html#comm"><img src="images/linkB.png"></a></td>
+		<td class="taglist">зона служебного комментария</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">(···)</td>
+		<td class="link"><a href="tag_service.html#alt"><img src="images/linkB.png"></a></td>
+		<td class="taglist">альтернативная часть заголовка</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">{···}</td>
+		<td class="link"><a href="tag_service.html#unsort"><img src="images/linkB.png"></a></td>
+		<td class="taglist">несортируемая часть заголовка</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">~</td>
+		<td class="link"><a href="tag_service.html#tilde"><img src="images/linkB.png"></a></td>
+		<td class="taglist">вставка заголовка в карточку</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">\</td>
+		<td class="link"><a href="tag_service.html#backslash"><img src="images/linkB.png"></a></td>
+		<td class="taglist">команда преобразования <abbr title="Символа со специальным значением">метасимвола</abbr> в <abbr title="Простой символ">литерал</abbr> (символ экранирования)</td>
+	</tr>
+	<tr class="list">
+		<td class="tag">#</td>
+		<td class="link"><a href="tag_service.html#number"><img src="images/linkB.png"></a></td>
+		<td class="taglist">команда директивы предварительной обработки (pre-processor command)</td>
+	</tr>
+</table>
+
+<a name="preprocess"></a>
+<h2>Директивы предварительной обработки</h2>
+<table class="taglist">
+<col class="col1">
+	<tr class="list">
+	  <td class="tag">#NAME</td>
+	  <td class="link"><a href="directives.html#name"><img src="images/linkB.png"></a></td>
+	  <td class="taglist">указание «внутреннего» наименования словаря</td>
+	</tr>
+	<tr class="list">
+	  <td class="tag">#INDEX_LANGUAGE</td>
+	  <td class="link"><a href="directives.html#index"><img src="images/linkB.png"></a></td>
+	  <td class="taglist">указание языка заголовков</td>
+	</tr>
+	<tr class="list">
+	  <td class="tag">#CONTENTS_LANGUAGE</td>
+	  <td class="link"><a href="directives.html#contents"><img src="images/linkB.png"></a></td>
+	  <td class="taglist">указание языка переводной / толковательной части</td>
+	</tr>
+	<tr class="list">
+	  <td class="tag">#SOURCE_CODE_PAGE</td>
+	  <td class="link"><a href="directives.html#source"><img src="images/linkB.png"></a></td>
+	  <td class="taglist">указание имени кодовой страницы</td>
+	</tr>
+	<tr class="list">
+	  <td class="tag">#INCLUDE</td>
+	  <td class="link"><a href="directives.html#include"><img src="images/linkB.png"></a></td>
+	  <td class="taglist">добавление дополнительных файлов с текстом словаря</td>
+	</tr>
+	<tr class="list">
+	  <td class="tag">#ICON_FILE</td>
+	  <td class="link"><a href="directives.html#icon"><img src="images/linkB.png"></a></td>
+	  <td class="taglist">указание местонахождения файла иконки для словаря (<em>недокументированная</em>)</td>
+	</tr>
+	<tr class="list">
+	  <td class="tag">#LANGUAGE</td>
+	  <td class="link"><a href="directives.html#lang"><img src="images/linkB.png"></a></td>
+	  <td class="taglist">языковая разметка словарных аннотаций</td>
+	</tr>
+</table>
+</div>
+<div id="footer">
+<p>Справочник по DSL • <a href="changes.html">Версия 0.9.6 alpha 2</a> • 04.08.2020</p>
+<p>Public Domain 2020 yozhic. Свободный контент. Все права открыты и неограничены. Никаких гарантий и ответственности.</p>
+</div>
+</body>
+</html>

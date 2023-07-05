@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>Lingvo 6.0</title>
+      <link href="files/style.css" rel="stylesheet">
+      <script src="files/jquery-2.1.0.min.js" type="text/javascript"></script>
+      <script src="files/main.js"></script>
+</head>
+
+<body>
+<div id="header">Справочник по DSL</div>
+<div id="main">
+<h1>Lingvo 6.0</h1>
+
+<h2>Замечания</h2>
+<p>Версия программы выпущена в 1999 году.</p>
+<p>Поддерживаются только два языковых направления: английское и русское.</p>
+<p>В этой версии впервые начинают использоваться форматы <span class="code_names">*.lsd</span> и <span class="code_names">*.lud</span>.</p>
+<p>Впервые в комплекте с программой поставляется оконный компилятор «DSL Compiler» (по сравнению с консольным в версии 4.0). Прилагается также отдельный файл <span class="code_names">DSL1.HLP</span> с описанием синтаксиса языка DSL.</p>
+<p>По сравнению с версией 4.0 вводятся в употребление тэги:</p>
+<ul>
+  <li>полужирного начертания <span class="code">[b]</span></li>
+  <li>наклонного начертания <span class="code">[i]</span></li>
+  <li>подчёркнутого текста <span class="code">[u]</span></li>
+  <li>цветного текста (<i>в базовой форме</i>) <span class="code">[c]</span></li>
+  <li>отступов <span class="code">[m]</span></li>
+  <li>зоны вторичного отображения <span class="code">[*]</span></li>
+  <li>зоны переводов <span class="code">[trn]</span></li>
+  <li>зоны примеров <span class="code">[ex]</span></li>
+  <li>зоны словарных комментариев <span class="code">[com]</span></li>
+  <li>исключения из поисковой обработки <span class="code">[!trs]</span></li>
+  <li>ссылок в пределах текущего словаря <span class="code">&lt;&lt; &gt;&gt;</span></li>
+</ul>
+<p>В справочном руководстве не упоминается о возможности создания аннотаций к пользовательским словарям. Однако, по факту, компилятор принимает аннотации и присоединяет их к словарю.</p>
+<p>Также в документации отсутствует упоминание об иконках для пользовательских словарей. По факту компилятор принимает две иконки: большую и маленькую, для двух режимов отображения кнопок на панели инструментов программы. Для большой иконки используется изображение *.bmp с размерами 12х24 пикселей, для маленькой &ndash; 12х15 пикселей.</p>
+<p>Ещё одной недокументированной возможностью является использование директив предварительной обработки. В словарях этой версии используются две директивы: <span class="code">#FULL_NAME</span> &ndash; наименование словаря, и <span class="code">#LANGUAGE</span> &ndash; язык словарных заголовков.</p>
+<p>Любопытно, что настройка цвета для тэга <span class="code">[c]</span> в диалоге настроек именуется «Labels». Видимо на этой стадии развития, тэг <span class="code">[c]</span> несёт функции тэга <span class="code">[p]</span>, который возник позже.</p>
+<p>Также, в диалоге настроек программы, серый цвет по умолчанию присвоен отображению «Optional text» / «Факультативный текст», что, по-видимому, свидетельствует об отношении этого цвета к зоне вторичного отображения (<em>см. <a href="tag_struct.html#perplexity">недоумение</a> по поводу наименования этой настройки в более поздних версиях</em>).</p>
+
+
+<h2>Внешний вид</h2>
+<p>Вид основного окна программы.</p>
+<p style="text-align:center;"><img src="images/lingvo6-0_main.png"></p>
+<p>Вид словарной карточки.</p>
+<p style="text-align:center;"><img src="images/lingvo6-0_entry.png"></p>
+<p>Вкладка «Цвет» в диалоге настроек программы.</p>
+<p style="text-align:center;"><img src="images/lingvo6-0_options.png"></p>
+<p>Вид окна компилятора пользовательских словарей.</p>
+<p style="text-align:center;"><img src="images/lingvo6-0_comp.png"></p>
+
+
+<h2>Состав словарей</h2>
+<h3>Англо-русские и русско-английские словари</h3><br>
+<table width="90%">
+<tr>	<th>№</th>	<th>Наименование</th>	<th>Автор, издание</th>	<th>Объём</th>	</tr>
+<tr>	<td>1.</td>	<td>LingvoUniversal-E<br>Англо-русский словарь общей лексики<br>The Universal English-Russian Dictionary</td>	<td>© ABBYY. 1999. - 1-е изд.</td>	<td>Ок. 90 тыс. статей.</td>	</tr>
+<tr>	<td>2.</td>	<td>LingvoUniversal-R<br>Русско-английский словарь общей лексики<br>The Universal Russian-English Dictionary</td>	<td>© ABBYY. 1999. - 1-е изд.</td>	<td>70 тыс. статей</td>	</tr>
+<tr>	<td>3.</td>	<td>LingvoEconomy-E<br>Англо-русский экономический словарь<br>The English-Russian Dictionary of Economics</td>	<td>© ABBYY. 1995-1999, - 3-е изд., переработанное и дополненное</td>	<td>50 тыс. статей</td>	</tr>
+<tr>	<td>4.</td>	<td>LingvoEconomy-R<br>Русско-английский экономический словарь<br>The Russian-English Dictionary of Economics<br>Обратный словарь к LingvoEconomy-E</td>	<td>© ABBYY, 1995-1999. - 3-е изд., переработанное и дополненное</td>	<td>35 тыс. статей</td>	</tr>
+<tr>	<td>5.</td>	<td>LingvoComputer-E<br>Англо-русский словарь по вычислительной технике и программированию<br>The English-Russian Dictionary of Computer Science</td>	<td>© ABBYY, Е.К. Масловский. 1999 г. - 1-е изд.</td>	<td>50 тыс. статей</td>	</tr>
+<tr>	<td>6.</td>	<td>LingvoComputer-R<br>Русско-ангийский словарь по вычислительной технике и программированию<br>The Russian- English Dictionary of Computer Science<br>Обратный словарь к LingvoComputer-E</td>	<td>© ABBYY,  Е.К. Масловский. 1999 г. - 1-е изд.</td>	<td>35 тыс. статей</td>	</tr>
+<tr>	<td>7.</td>	<td>LingvoScience-E<br>Англо-русский научно-технический словарь<br>The English-Russian Scientific Dictionary</td>	<td>© ABBYY. - 1-е изд. 1999</td>	<td>160 тыс. статей</td>	</tr>
+<tr>	<td>8.</td>	<td>LingvoScience-R<br>Русско-английский научно-технический словарь<br>The Russian- English Scientific Dictionary</td>	<td>© ABBYY. - 1-е изд.</td>	<td>155 тыс. статей</td>	</tr>
+<tr>	<td>9.</td>	<td>LingvoSound-E<br>Краткий англо-русский озвученный словарь<br>The Concise English-Russian Sound Dictionary</td>	<td>© ABBYY. 1995-1999. - 2-е изд.</td>	<td>5 тыс. статей</td>	</tr>
+<tr>	<td>10.</td>	<td>Polytechnical-R<br>Русско-английский индекс индекс к<br>Большому англо-русскому политехническому словарю</td>	<td>© РУССО. - 1-е изд.</td>	<td>Ок. 45 тыс. статей</td>	</tr>
+<tr>	<td>11.</td>	<td>OilAndGas-E<br>Большой англо-русский словарь по нефти и газу<br>English-Russian Dictionary on Oil and Gas</td>	<td>© ВНИИГАЗ, РАО "ГАЗПРОМ", 1998<br>Автор Е. Г. Коваленко<br>Под научной редакцией члена-корреспондента РАН А.И. Гриценко</td>	<td>50 тыс. статей</td>	</tr>
+<tr>	<td>12.</td>	<td>OilAndGas-R<br>Русско-английский индекс к <br>Большому англо-русскому словарю по нефти и газу</td>	<td>© ВНИИГАЗ, РАО "ГАЗПРОМ", 1998</td>	<td>35 тыс. статей</td>	</tr>
+</table>
+<h3>Русские словари</h3><br>
+<table width="90%">
+<tr>	<th>№</th>	<th>Наименование</th>	<th>Автор, издание</th>	<th>Объём</th>	</tr>
+<tr>	<td>1.</td>	<td>LingvoThesaurus-R<br>Тезаурус русской деловой лексики<br>The Thesaurus of Russian Business Words</td>	<td>© ABBYY. 1997-1999 - 2-е изд.</td>	<td>16 тыс. статей</td>	</tr>
+</table>
+
+</div>
+<div id="footer">
+<p>Справочник по DSL • <a href="changes.html">Версия 0.9.6 alpha 2</a> • 04.08.2020</p>
+<p>Public Domain 2020 yozhic. Свободный контент. Все права открыты и неограничены. Никаких гарантий и ответственности.</p>
+</div>
+</body>
+</html>

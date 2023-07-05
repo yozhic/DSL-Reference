@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>Об использовании нестандартных пробелов</title>
+      <link href="files/style.css" rel="stylesheet">
+      <script src="files/jquery-2.1.0.min.js" type="text/javascript"></script>
+      <script src="files/main.js"></script>
+</head>
+
+
+<body>
+<div id="header">Справочник по DSL</div>
+<div id="main">
+<h1>Об использовании нестандартных пробелов</h1>
+<p>В таблице символов Unicode имеется несколько видов нестандартных пробелов. Эти пробелы могут применяться для форматирования текста словарей такими способами, которые невозможно реализовать стандартными средствами DSL. Например, при помощи нестандартных пробелов можно создать «отбивку» (т.е. пустые строки) между абзацами, «красную строку» в начале абзаца, эффект разрядки между буквами в словах.</p>
+<p>При наборе упомянутых пробелов, как и многих других специальных символов, возникает относительное неудобство: для доступа к ним напрямую с клавиатуры не предусмотрены отдельные клавиши. Существует несколько вариантов решения этой проблемы.</p>
+<p>Можно воспользоваться утилитой «PopChar» (или её аналогом – системной утилитой «Character Map»&thinsp;/&thinsp;«Таблица символов»), при помощи которой откопировать нужный символ в текст словаря и далее дублировать его по необходимости.</p>
+<p>Можно использовать способ набора с клавиатуры при помощи т.н. <em>Alt-кодов</em>. Как правило в профессиональных текстовых редакторах такой способ доступен и заключается в следующем. Для вставки в текст любого символа, нужно набрать на цифровой клавиатуре (отдельная группа клавиш в правой части полной клавиатуры, т.н. NumPad) десятичный код этого символа и при наборе держать зажатой клавишу <span class="key">Alt</span>. Так, например, для вставки M-пробела (Em space) необходимо зажать <span class="key">Alt</span> и набрать 8195 на NumPad (<span class="key">Alt</span>+<span class="key">8</span><span class="key">1</span><span class="key">9</span><span class="key">5</span>).</p>
+<p>Можно воспользоваться возможностями поиска/замены. Вначале набрать произвольный символ в местах, где необходимо вставить нестандартный пробел, а затем заменить набранный символ на нужный пробел при помощи регулярных выражений. Например:</p>
+<div class="ol_sk">1. Набираем слово <span class="code">р@а@з@р@я@д@к@а</span>.</div>
+<div class="ol_sk">2. Выделяем это слово и вызываем диалог поиска/замены.</div>
+<div class="ol_sk">3. В поле «Найти» набираем <span class="code">@</span>, а в поле «Заменить» – <span class="code">\u2008</span> (Escape-последовательность с шестнадцатеричным кодом т.н. пунктуационного пробела).</div>
+<div class="ol_sk">4. Ставим галку «Регулярные выражения», галку «Заменить в выделенном отрывке» и жмём на кнопку «Заменить всё».</div>
+<div class="ol_sk">5. Смотрим на результат: слово <span class="code">р&#8200;а&#8200;з&#8200;р&#8200;я&#8200;д&#8200;к&#8200;а</span> отображается на экране с эффектом разреженного текста.</div>
+<p><strong>Замечание</strong>: При использовании нестандартных пробелов необходимо учитывать, что они отображаются не во всех шрифтах.</p><br>
+<table style="text-align:center">
+<col><col><col><col width="125">
+<tbody>
+  <tr>
+    <th rowspan="2">Название<br>в Юникоде</th>
+    <th colspan="2" style="text-align:center">Код в Юникоде</th>
+    <th rowspan="2" style="text-align:center">Выглядит</th>
+    <th rowspan="2">Мнемоника<br>в <span style="white-space: nowrap;">HTML 4</span></th>
+    <th rowspan="2">Пояснения</th>
+  </tr>
+  <tr>
+    <th><small>шестнадцатеричный</small></th>
+    <th><small>десятичный</small></th>
+  </tr>
+  <tr>
+    <td style="text-align:left">EN QUAD</td>
+    <td>2000</td>
+    <td>8192</td>
+    <td>п&#8192;р&#8192;и&#8192;м&#8192;е&#8192;р</td>
+    <td></td>
+    <td style="text-align:left">канонически эквивалентен символу <span style="white-space: nowrap;">U+2002 EN SPACE</span></td>
+  </tr>
+  <tr>
+    <td style="text-align:left">EM QUAD</td>
+    <td>2001</td>
+    <td>8193</td>
+    <td>п&#8193;р&#8193;и&#8193;м&#8193;е&#8193;р</td>
+    <td></td>
+    <td style="text-align:left">канонически эквивалентен символу <span style="white-space: nowrap;">U+2003 EM SPACE</span></td>
+  </tr>
+  <tr>
+    <td style="text-align:left">EN SPACE</td>
+    <td>2002</td>
+    <td>8194</td>
+    <td>п&#8194;р&#8194;и&#8194;м&#8194;е&#8194;р</td>
+    <td>&amp;ensp;</td>
+    <td style="text-align:left">равен половине кегля шрифта (исторически происходит от ширины заглавной буквы «N»)</td>
+  </tr>
+  <tr>
+    <td style="text-align:left">EM SPACE</td>
+    <td>2003</td>
+    <td>8195</td>
+    <td>п&#8195;р&#8195;и&#8195;м&#8195;е&#8195;р</td>
+    <td>&amp;emsp;</td>
+    <td style="text-align:left">равен кеглю шрифта (исторически происходит от ширины заглавной буквы «M»)</td>
+  </tr>
+  <tr>
+    <td style="text-align:left">THREE-PER-EM SPACE</td>
+    <td>2004</td>
+    <td>8196</td>
+    <td>п&#8196;р&#8196;и&#8196;м&#8196;е&#8196;р</td>
+    <td></td>
+    <td style="text-align:left">ближе всех к обычному пробелу, втрое меньше, чем EM-SPACE</td>
+  </tr>
+  <tr>
+    <td style="text-align:left">FOUR-PER-EM SPACE</td>
+    <td>2005</td>
+    <td>8197</td>
+    <td>п&#8197;р&#8197;и&#8197;м&#8197;е&#8197;р</td>
+    <td></td>
+    <td style="text-align:left">в четыре раза меньше, чем EM-SPACE</td>
+  </tr>
+  <tr>
+    <td style="text-align:left">SIX-PER-EM SPACE</td>
+    <td>2006</td>
+    <td>8198</td>
+    <td>п&#8198;р&#8198;и&#8198;м&#8198;е&#8198;р</td>
+    <td></td>
+    <td style="text-align:left">в шесть раз меньше, чем EM-SPACE</td>
+  </tr>
+  <tr>
+    <td style="text-align:left">FIGURE SPACE</td>
+    <td>2007</td>
+    <td>8199</td>
+    <td>п&#8199;р&#8199;и&#8199;м&#8199;е&#8199;р</td>
+    <td></td>
+    <td style="text-align:left">имеет такую же ширину, что и цифры в данном шрифте, и предназначен для набора таблиц. <b>Неразрывный</b>.</td>
+  </tr>
+  <tr>
+    <td style="text-align:left">PUNCTUATION SPACE</td>
+    <td>2008</td>
+    <td>8200</td>
+    <td>п&#8200;р&#8200;и&#8200;м&#8200;е&#8200;р</td>
+    <td></td>
+    <td style="text-align:left">ширина равна ширине точки</td>
+  </tr>
+  <tr>
+    <td style="text-align:left">THIN SPACE</td>
+    <td>2009</td>
+    <td>8201</td>
+    <td>п&#8201;р&#8201;и&#8201;м&#8201;е&#8201;р</td>
+    <td>&amp;thinsp;</td>
+    <td style="text-align:left">обычно имеет ширину в <span style="white-space:nowrap"><span style="font-size:0.8em"><sup>1</sup><big>&#8260;</big><sub>5</sub></span></span> (реже&nbsp;— в <span style="white-space:nowrap"><span style="font-size:0.8em"><sup>1</sup><big>&#8260;</big><sub>6</sub></span></span>) кегля. По пропорциям соответствует двухпунктовой шпации при наборе кеглем в <span style="white-space: nowrap;">10&nbsp;пунктов</span>.</td>
+  </tr>
+  <tr>
+    <td style="text-align:left">HAIR SPACE</td>
+    <td>200A</td>
+    <td>8202</td>
+    <td>п&#8202;р&#8202;и&#8202;м&#8202;е&#8202;р</td>
+    <td></td>
+    <td style="text-align:left">самый тонкий пробел, соответствует самой тонкой шпации в кассе наборщика</td>
+  </tr>
+  <tr>
+    <td style="text-align:left">ZERO-WIDTH SPACE</td>
+    <td>200B</td>
+    <td>8203</td>
+    <td>п&#8203;р&#8203;и&#8203;м&#8203;е&#8203;р</td>
+    <td></td>
+    <td style="text-align:left">показывает места, в которых можно разрывать 
+    строку, не добавляя знак переноса; ширина его нулевая. Применяется в 
+    языках, в которых пробелов нет. При выравнивании текста по ширине может 
+    расширяться, как и любой другой пробел.</td>
+  </tr>
+  <tr>
+    <td style="text-align:left">NARROW NO-BREAK SPACE</td>
+    <td>202F</td>
+    <td>8239</td>
+    <td>п&#8239;р&#8239;и&#8239;м&#8239;е&#8239;р</td>
+    <td></td>
+    <td style="text-align:left">узкий <b>неразрывный</b> пробел</td>
+  </tr>
+  <tr>
+    <td style="text-align:left">MEDIUM MATHEMATICAL SPACE</td>
+    <td>205F</td>
+    <td>8287</td>
+    <td>п&#8287;р&#8287;и&#8287;м&#8287;е&#8287;р</td>
+    <td></td>
+    <td style="text-align:left">узкий пробел, применяемый в математических формулах</td>
+  </tr>
+  <tr>
+    <td style="text-align:left">WORD JOINER</td>
+    <td>2060</td>
+    <td>8288</td>
+    <td>п&#8288;р&#8288;и&#8288;м&#8288;е&#8288;р</td>
+    <td></td>
+    <td style="text-align:left">аналогичен ZERO-WIDTH SPACE, но <b>неразрывный</b></td>
+  </tr>
+  <tr>
+    <td style="text-align:left">IDEOGRAPHIC SPACE</td>
+    <td>3000</td>
+    <td>12288</td>
+    <td>п&#12288;р&#12288;и&#12288;м&#12288;е&#12288;р</td>
+    <td></td>
+    <td style="text-align:left">используется в восточных языках, равняется ширине одного иероглифа.</td>
+  </tr>
+</tbody></table>
+<p><em>Источник таблицы: Русская Википедия, статья «<a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%B1%D0%B5%D0%BB">Пробел</a>»</em>.</p>
+
+</div>
+<div id="footer">
+<p>Справочник по DSL • <a href="changes.html">Версия 0.9.6 alpha 2</a> • 04.08.2020</p>
+<p>Public Domain 2020 yozhic. Свободный контент. Все права открыты и неограничены. Никаких гарантий и ответственности.</p>
+</div>
+</body>
+</html>

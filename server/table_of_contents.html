@@ -1,0 +1,503 @@
+<html>
+<head>
+<meta HTTP-EQUIV="content-type" CONTENT="text/html; charset=UTF-8">
+
+
+
+<link rel="stylesheet" href="files/jquery-ui-1.11.4/jquery-ui.css">
+<script src="files/jquery-2.1.0.min.js" type="text/javascript"></script>
+<script src="files/jquery-ui-1.11.4/jquery-ui.js"></script>
+<script src="files/search.js"></script>
+
+
+
+<style>
+
+.ui-menu-item
+{
+  white-space: nowrap;
+  font-size: 9px;	
+  font-family: Verdana,Arial,sans-serif;
+}
+
+.ui-state-focus{
+  font-weight: normal !important;
+}
+
+#searchfield {
+  background: #FFF url("images/search.gif") no-repeat scroll 5px center;
+  padding-top: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  outline: 0;
+  padding-left: 22px !important;
+}
+
+	
+html, body {
+  background-color: #F1F1F1;
+}
+
+h3{
+  margin: 0px 0px 10px 10px;
+}
+
+#sfdiv{
+  margin: 0px 0px 10px 4px;
+}
+
+.styFolder
+{
+  vertical-align:baseline;
+  white-space: nowrap;
+}
+
+.spanFolder span
+{
+  cursor: pointer;
+}
+
+.spanFolder img
+{
+  margin-right: 6px;
+}
+
+.styLink img
+{
+  margin-right: 3px;
+}
+
+.styLink
+{
+  cursor: pointer;
+}
+
+.styNodeRegion {
+  margin-left:15px;
+}
+</style>
+
+<script>
+var imgRoot = './images/'
+function hideShow(el) {
+	
+	var folder = el.parentNode.parentNode
+	var div = folder.getElementsByClassName('styNodeRegion')[0]
+	
+
+	if (div.style.display=="none") {
+		div.style.display="block"
+		el.src = imgRoot + "002-2.gif"
+	}	else {
+		div.style.display="none"
+		el.src = imgRoot + "002-1.gif"
+	}
+
+}
+
+
+function openLink(tarlink) {
+	parent.frames[1].location = tarlink
+}
+
+function load() {
+	document.getElementById('searchfield').value = ''
+}
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  
+  let styLinks = document.getElementsByClassName("styLink")
+
+
+  for (let i = 0; i < styLinks.length; i++) {
+    styLinks[i].getElementsByTagName('span')[0].setAttribute('oncontextmenu', () => {
+    })
+
+    styLinks[i].getElementsByTagName('span')[0].addEventListener('contextmenu', (ev) => {
+      ev.preventDefault()
+      let href = ev.target.getAttribute('onclick').replace(/^openLink\('(.*)'\)$/, '$1')
+      alert(`${parent.location.origin}${parent.location.pathname}?page=${href}`)
+      return false;
+    }, false)
+
+  }
+
+  let spanFolders = document.getElementsByClassName("spanFolder")
+
+  for (let i = 0; i < spanFolders.length; i++) {
+    spanFolders[i].getElementsByTagName('span')[0].setAttribute('oncontextmenu', () => {
+    })
+
+    spanFolders[i].getElementsByTagName('span')[0].addEventListener('contextmenu', (ev) => {
+      ev.preventDefault()
+      let href = ev.target.getAttribute('onclick').replace(/^openLink\('(.*)'\)$/, '$1')
+      alert(`${parent.location.origin}${parent.location.pathname}?page=${href}`)
+      return false;
+    }, false)
+
+  }
+
+
+})
+
+
+</script>
+
+
+<TITLE></TITLE>
+</head>
+<body onload=load()>
+
+<h3>Содержание</h3>
+
+<div id=sfdiv><input id=searchfield type=text value=""></div>
+
+<div id="Tree">
+
+	<div class="styLink"><span onclick="openLink('title_page.html')"><img src="./images/001.gif">Титульный лист</span></div>
+
+	<div class="styFolder">
+
+		<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('preface.html')">Предисловие</span></span>
+
+		<div class="styNodeRegion" style="display:none">
+
+			<div class="styLink"><span onclick="openLink('preface.html#author')"><img src="./images/001.gif">От составителя</span></div>
+			<div class="styLink"><span onclick="openLink('preface.html#terms')"><img src="./images/001.gif">Особенности терминологии</span></div>
+			<div class="styLink"><span onclick="openLink('preface.html#legend')"><img src="./images/001.gif">Условные обозначения</span></div>
+			<div class="styLink"><span onclick="openLink('preface.html#thanks')"><img src="./images/001.gif">Благодарности</span></div>
+
+		</div>
+
+	</div>
+
+
+	<div class="styFolder">
+
+		<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('dsl.html')">Что такое DSL</span></span>
+
+		<div class="styNodeRegion" style="display:none">
+
+			<div class="styLink"><span onclick="openLink('dsl.html#lang')"><img src="./images/001.gif">О языке DSL</span></div>
+			<div class="styLink"><span onclick="openLink('dsl.html#format')"><img src="./images/001.gif">О формате DSL</span></div>
+      <div class="styLink"><span onclick="openLink('dsl.html#limit')"><img src="./images/001.gif">Ограничения формата DSL</span></div>
+
+		</div>
+
+	</div>
+
+
+	<div class="styFolder">
+
+		<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('create.html')">О создании словарей DSL</span></span>
+
+		<div class="styNodeRegion" style="display:none">
+
+			<div class="styLink"><span onclick="openLink('create.html#easy')"><img src="./images/001.gif">Простой словарь DSL</span></div>
+			<div class="styLink"><span onclick="openLink('create.html#cool')"><img src="./images/001.gif">Структурированный словарь DSL с форматированием</span></div>
+			<div class="styLink"><span onclick="openLink('create.html#tools')"><img src="./images/001.gif">Рекомендуемые инструменты</span></div>
+			<div class="styLink"><span onclick="openLink('create.html#books')"><img src="./images/001.gif">Рекомендуемая литература</span></div>
+
+		</div>
+
+	</div>
+
+
+	<div class="styFolder">
+
+		<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('dict.html')">Строение словаря DSL</span></span>
+
+		<div class="styNodeRegion" style="display:none">
+
+			<div class="styLink"><span onclick="openLink('dict.html#main')"><img src="./images/001.gif">Общие сведения</span></div>
+			<div class="styLink"><span onclick="openLink('dict.html#names')"><img src="./images/001.gif">Наименование файлов словаря</span></div>
+			<div class="styLink"><span onclick="openLink('dict.html#dsl')"><img src="./images/001.gif">Файл основного текста</span></div>
+			<div class="styLink"><span onclick="openLink('dict.html#ann')"><img src="./images/001.gif">Файл аннотации</span></div>
+			<div class="styLink"><span onclick="openLink('dict.html#bmp')"><img src="./images/001.gif">Иконка</span></div>
+			<div class="styLink"><span onclick="openLink('dict.html#abrv')"><img src="./images/001.gif">Файл аббревиатур</span></div>
+
+		</div>
+
+	</div>
+
+
+	<div class="styFolder">
+
+		<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('entry.html')">Структура словарной статьи</span></span>
+
+		<div class="styNodeRegion" style="display:none">
+
+			<div class="styLink"><span onclick="openLink('entry.html#article')"><img src="./images/001.gif">Словарная статья</span></div>
+			<div class="styLink"><span onclick="openLink('entry.html#headword')"><img src="./images/001.gif">Заголовок статьи</span></div>
+			<div class="styLink"><span onclick="openLink('entry.html#body')"><img src="./images/001.gif">Тело статьи</span></div>
+
+		</div>
+
+	</div>
+
+
+	<div class="styFolder">
+
+		<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('tag_list.html')">Тэги DSL</span></span>
+
+		<div class="styNodeRegion" style="display:none">
+
+				<div class="styFolder">
+			
+					<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('tag_system.html')">О тэгах DSL</span></span>
+			
+					<div class="styNodeRegion" style="display:none">
+			
+						<div class="styLink"><span onclick="openLink('tag_system.html#main')"><img src="./images/001.gif">Устройство тэгов </span></div>
+						<div class="styLink"><span onclick="openLink('tag_system.html#meta_lit')"><img src="./images/001.gif">Метасимволы и литералы</span></div>
+						<div class="styLink"><span onclick="openLink('tag_system.html#comments')"><img src="./images/001.gif">Общие замечания</span></div>
+			
+					</div>
+			
+				</div>
+
+			<div class="styLink"><span onclick="openLink('tag_list.html')"><img src="./images/001.gif">Перечень тэгов и команд DSL</span></div>
+
+				<div class="styFolder">
+			
+					<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('tag_format.html')">Тэги форматирования текста</span></span>
+			
+					<div class="styNodeRegion" style="display:none">
+			
+						<div class="styLink"><span onclick="openLink('tag_format.html#b')"><img src="./images/001.gif">Тэг B</span></div>
+						<div class="styLink"><span onclick="openLink('tag_format.html#i')"><img src="./images/001.gif">Тэг I</span></div>
+						<div class="styLink"><span onclick="openLink('tag_format.html#u')"><img src="./images/001.gif">Тэг U</span></div>
+						<div class="styLink"><span onclick="openLink('tag_format.html#c')"><img src="./images/001.gif">Тэг C</span></div>
+						<div class="styLink"><span onclick="openLink('tag_format.html#sup')"><img src="./images/001.gif">Тэг SUP</span></div>
+						<div class="styLink"><span onclick="openLink('tag_format.html#sub')"><img src="./images/001.gif">Тэг SUB</span></div>
+						<div class="styLink"><span onclick="openLink('tag_format.html#m')"><img src="./images/001.gif">Тэг M</span></div>
+						<div class="styLink"><span onclick="openLink('tag_format.html#str')"><img src="./images/001.gif">Тэг ударения</span></div>
+						<div class="styLink"><span onclick="openLink('tag_format.html#br')"><img src="./images/001.gif">Тэг BR</span></div>
+						<div class="styLink"><span onclick="openLink('tag_format.html#circ')"><img src="./images/001.gif">Команда ^</span></div>
+			
+					</div>
+			
+				</div>
+
+
+				<div class="styFolder">
+			
+					<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('tag_struct.html')">Тэги словарной структуры</span></span>
+			
+					<div class="styNodeRegion" style="display:none">
+			
+						<div class="styLink"><span onclick="openLink('tag_struct.html#p')"><img src="./images/001.gif">Тэг P</span></div>
+						<div class="styLink"><span onclick="openLink('tag_struct.html#t')"><img src="./images/001.gif">Тэг T</span></div>
+						<div class="styLink"><span onclick="openLink('tag_struct.html#ast')"><img src="./images/001.gif">Тэг *</span></div>
+						<div class="styLink"><span onclick="openLink('tag_struct.html#at')"><img src="./images/001.gif">Команда @</span></div>
+			
+					</div>
+			
+				</div>
+
+
+				<div class="styFolder">
+			
+					<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('tag_handling.html')">Тэги поисковой обработки</span></span>
+			
+					<div class="styNodeRegion" style="display:none">
+			
+						<div class="styLink"><span onclick="openLink('tag_handling.html#ex')"><img src="./images/001.gif">Тэг EX</span></div>
+						<div class="styLink"><span onclick="openLink('tag_handling.html#com')"><img src="./images/001.gif">Тэг COM</span></div>
+						<div class="styLink"><span onclick="openLink('tag_handling.html#trn')"><img src="./images/001.gif">Тэг TRN</span></div>
+						<div class="styLink"><span onclick="openLink('tag_handling.html#trn1')"><img src="./images/001.gif">Тэг TRN1</span></div>
+						<div class="styLink"><span onclick="openLink('tag_handling.html#trs')"><img src="./images/001.gif">Тэг !TRS</span></div>
+						<div class="styLink"><span onclick="openLink('tag_handling.html#lang')"><img src="./images/001.gif">Тэг LANG</span></div>
+			
+					</div>
+			
+				</div>
+
+
+				<div class="styFolder">
+			
+					<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('tag_mm.html')">Тэги мультимедиа</span></span>
+			
+					<div class="styNodeRegion" style="display:none">
+			
+
+								<div class="styFolder">
+							
+									<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('tag_mm.html')">Тэг S</span></span>
+							
+									<div class="styNodeRegion" style="display:none">
+							
+										<div class="styLink"><span onclick="openLink('tag_mm.html#images')"><img src="./images/001.gif">Изображения</span></div>
+										<div class="styLink"><span onclick="openLink('tag_mm.html#sound')"><img src="./images/001.gif">Звук</span></div>
+										<div class="styLink"><span onclick="openLink('tag_mm.html#movie')"><img src="./images/001.gif">Видео</span></div>
+							
+									</div>
+							
+								</div>
+			
+						<div class="styLink"><span onclick="openLink('tag_mm.html#video')"><img src="./images/001.gif">Тэг VIDEO</span></div>
+						<div class="styLink"><span onclick="openLink('tag_mm.html#preview')"><img src="./images/001.gif">Тэг PREVIEW</span></div>
+			
+					</div>
+			
+				</div>
+
+
+
+				<div class="styFolder">
+			
+					<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('tag_links.html')">Ссылки</span></span>
+			
+					<div class="styNodeRegion" style="display:none">
+			
+						<div class="styLink"><span onclick="openLink('tag_links.html#main')"><img src="./images/001.gif">Общие сведения</span></div>
+						<div class="styLink"><span onclick="openLink('tag_links.html#ref1')"><img src="./images/001.gif">&lt;&lt;&gt;&gt;</span></div>
+						<div class="styLink"><span onclick="openLink('tag_links.html#ref2')"><img src="./images/001.gif">Тэг REF</span></div>
+						<div class="styLink"><span onclick="openLink('tag_links.html#url')"><img src="./images/001.gif">Тэг URL</span></div>
+			
+					</div>
+			
+				</div>
+
+
+				<div class="styFolder">
+			
+					<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('tag_service.html')">Служебные тэги и команды</span></span>
+			
+					<div class="styNodeRegion" style="display:none">
+			
+						<div class="styLink"><span onclick="openLink('tag_service.html#comm')"><img src="./images/001.gif">Тэг {{&nbsp;}}</span></div>
+						<div class="styLink"><span onclick="openLink('tag_service.html#alt')"><img src="./images/001.gif">Команда (&nbsp;)</span></div>
+						<div class="styLink"><span onclick="openLink('tag_service.html#unsort')"><img src="./images/001.gif">Команда {&nbsp;}</span></div>
+						<div class="styLink"><span onclick="openLink('tag_service.html#tilde')"><img src="./images/001.gif">Команда ~</span></div>
+						<div class="styLink"><span onclick="openLink('tag_service.html#backslash')"><img src="./images/001.gif">Команда \</span></div>
+						<div class="styLink"><span onclick="openLink('tag_service.html#number')"><img src="./images/001.gif">Команда #</span></div>
+			
+					</div>
+			
+				</div>
+
+
+				<div class="styFolder">
+			
+					<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('directives.html')">Директивы предварительной обработки</span></span>
+			
+					<div class="styNodeRegion" style="display:none">
+			
+						<div class="styLink"><span onclick="openLink('directives.html#main')"><img src="./images/001.gif">Общее описание</span></div>
+						<div class="styLink"><span onclick="openLink('directives.html#name')"><img src="./images/001.gif">Директива #NAME</span></div>
+						<div class="styLink"><span onclick="openLink('directives.html#index')"><img src="./images/001.gif">Директива #INDEX_LANGUAGE</span></div>
+						<div class="styLink"><span onclick="openLink('directives.html#contents')"><img src="./images/001.gif">Директива #CONTENTS_LANGUAGE</span></div>
+						<div class="styLink"><span onclick="openLink('directives.html#source')"><img src="./images/001.gif">Директива #SOURCE_CODE_PAGE</span></div>
+						<div class="styLink"><span onclick="openLink('directives.html#include')"><img src="./images/001.gif">Директива #INCLUDE</span></div>
+						<div class="styLink"><span onclick="openLink('directives.html#icon')"><img src="./images/001.gif">Директива #ICON_FILE</span></div>
+						<div class="styLink"><span onclick="openLink('directives.html#lang')"><img src="./images/001.gif">Директива #LANGUAGE</span></div>
+			
+					</div>
+			
+				</div>
+
+
+		</div>
+
+	</div>
+
+
+	<div class="styFolder">
+
+		<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('dsl_comp.html')">Компиляция и компилятор DSL</span></span>
+
+		<div class="styNodeRegion" style="display:none">
+
+			<div class="styLink"><span onclick="openLink('dsl_comp.html#main')"><img src="./images/001.gif">Общие сведения </span></div>
+			<div class="styLink"><span onclick="openLink('dsl_comp.html#gui')"><img src="./images/001.gif">Графический интерфейс пользователя </span></div>
+			<div class="styLink"><span onclick="openLink('dsl_comp.html#cmd')"><img src="./images/001.gif">Командная строка </span></div>
+			<div class="styLink"><span onclick="openLink('dsl_comp.html#syntax')"><img src="./images/001.gif">Отчёт об ошибках </span></div>
+
+		</div>
+
+	</div>
+
+
+	<div class="styFolder">
+
+		<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('colors.html')">Цветовая палитра DSL</span></span>
+
+		<div class="styNodeRegion" style="display:none">
+
+			<div class="styLink"><span onclick="openLink('colors.html#colors_hue')"><img src="./images/001.gif">Сортировка по группам оттенков </span></div>
+			<div class="styLink"><span onclick="openLink('colors.html#colors_gamma1')"><img src="./images/001.gif">Сортировка по цветовой гамме (первый способ)</span></div>
+			<div class="styLink"><span onclick="openLink('colors.html#colors_gamma2')"><img src="./images/001.gif">Сортировка по цветовой гамме (второй способ)</span></div>
+			<div class="styLink"><span onclick="openLink('colors.html#colors_abc')"><img src="./images/001.gif">Сортировка по алфавиту</span></div>
+
+		</div>
+
+	</div>
+
+
+
+	<div class="styFolder">
+
+		<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('langs.html')">Списки языков</span></span>
+
+		<div class="styNodeRegion" style="display:none">
+
+			<div class="styLink"><span onclick="openLink('langs.html#supported')"><img src="./images/001.gif">Языки, поддерживаемые Lingvo</span></div>
+			<div class="styLink"><span onclick="openLink('langs.html#iso')"><img src="./images/001.gif">Коды наименований языков</span></div>
+			<div class="styLink"><span onclick="openLink('langs.html#lcid')"><img src="./images/001.gif">Коды локалей Microsoft</span></div>
+			<div class="styLink"><span onclick="openLink('langs.html#ansi')"><img src="./images/001.gif">Кодовые страницы ANSI в Windows</span></div>
+
+		</div>
+
+	</div>
+
+
+	<div class="styFolder">
+
+		<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('additional.html')">Сопутствующие сведения</span></span>
+
+		<div class="styNodeRegion" style="display:none">
+
+			<div class="styLink"><span onclick="openLink('search.html')"><img src="./images/001.gif">Поиск и индексирование в Lingvo</span></div>
+			<div class="styLink"><span onclick="openLink('var_dicts.html')"><img src="./images/001.gif">Виды файлов словарей в Lingvo</span></div>
+			<div class="styLink"><span onclick="openLink('spaces.html')"><img src="./images/001.gif">Об использовании нестандартных пробелов</span></div>
+			<div class="styLink"><span onclick="openLink('lexicography.html')"><img src="./images/001.gif">Немного о лексикографии</span></div>
+
+		</div>
+
+	</div>
+
+
+
+	<div class="styFolder">
+
+		<span class=spanFolder><img src="./images/002-1.gif" onclick="hideShow(this)"><span onclick="openLink('history.html')">Из истории Lingvo</span></span>
+
+		<div class="styNodeRegion" style="display:none">
+
+			<div class="styLink"><span onclick="openLink('history.html#table')"><img src="./images/001.gif">Сводная таблица по истории развития синтаксиса языка DSL</span></div>
+			<div class="styLink"><span onclick="openLink('lingvo4.html')"><img src="./images/001.gif">Lingvo 4.0</span></div>
+			<div class="styLink"><span onclick="openLink('lingvo5.html')"><img src="./images/001.gif">Lingvo 5.0</span></div>
+			<div class="styLink"><span onclick="openLink('lingvo6.html')"><img src="./images/001.gif">Lingvo 6.0</span></div>
+			<div class="styLink"><span onclick="openLink('lingvo6_5.html')"><img src="./images/001.gif">Lingvo 6.5</span></div>
+			<div class="styLink"><span onclick="openLink('lingvo7.html')"><img src="./images/001.gif">Lingvo 7.0</span></div>
+			<div class="styLink"><span onclick="openLink('lingvo8.html')"><img src="./images/001.gif">Lingvo 8.0</span></div>
+			<div class="styLink"><span onclick="openLink('lingvo9.html')"><img src="./images/001.gif">Lingvo 9.0</span></div>
+			<div class="styLink"><span onclick="openLink('lingvo10.html')"><img src="./images/001.gif">Lingvo 10.0</span></div>
+			<div class="styLink"><span onclick="openLink('lingvo11.html')"><img src="./images/001.gif">Lingvo 11.0</span></div>
+			<div class="styLink"><span onclick="openLink('lingvo12.html')"><img src="./images/001.gif">Lingvo 12.0</span></div>
+			<div class="styLink"><span onclick="openLink('lingvo14.html')"><img src="./images/001.gif">Lingvo x3 (14.0)</span></div>
+			<div class="styLink"><span onclick="openLink('lingvo15.html')"><img src="./images/001.gif">Lingvo x5 (15.0)</span></div>
+			<div class="styLink"><span onclick="openLink('lingvo16.html')"><img src="./images/001.gif">Lingvo x6 (16.0)</span></div>
+
+		</div>
+
+	</div>
+
+
+</div>
+
+
+</body>
+</html>

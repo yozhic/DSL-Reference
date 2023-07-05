@@ -1,18 +1,22 @@
+/******************************************************************************/
+/**                            DSL REFERENCE CSS                             **/
+/**                           Updated: 05.07.2023                            **/
+/******************************************************************************/
+
 /**** ШАПКА *******************************************************************/
+
 #header, #footer {
 	display: block;
 	padding: 8px 20px;
 	/* width: 100%; */
 	}
- 
 #header {
- 	background: #607DA0 url(../images/dslcompicon.png) no-repeat;
+	background: #607DA0 url(../images/DslCompIcon.png) no-repeat;
 	background-position: right center;
 	font-size: 16pt;
 	font-family: "Segoe UI Black", Arial Black, sans-serif;
 	color: #fff;
 	}
-
 #footer {
 	background: #E6E7E8;
 	border-top: 2px solid #BBBDBF;
@@ -20,7 +24,6 @@
 	bottom: -40px;
 	position: relative;
 	}
-
 #footer p {
 	margin: 3px 0;
 	font-size: 8pt;
@@ -34,21 +37,18 @@ h1 {
 	font: 17pt "Segoe UI", Tahoma, Arial, sans-serif;
 	font-weight: bold;
 	}
-
-h2 { 
+h2 {
 	font: 14pt "Segoe UI Semibold", Tahoma, Arial, sans-serif;
 	color: #467AB9;
 	margin: 30px 0 0; 
 	font-weight: normal;
 	}
-
 h3 {
 	font: 12pt 'Segoe UI Semibold', 'Myriad Pro Semibold', Tahoma, Arial, sans-serif;
 	font-style: italic;
 	margin: 20px 0 0 30px;
 	width: 50%;
 	}
-
 h2 span.code {
 	font-family: "Courier New", Courier, monospace;
 	background: ghostwhite;
@@ -61,9 +61,11 @@ h2 span.code {
 /**** ТЕКСТ *******************************************************************/
 
 #main {
-padding: 20px;
+	padding: 20px;
 	}
-[title] { cursor: help; }
+[title] {
+	cursor: help;
+	}
 abbr {
 	color: green;
 	font-family: "Segoe UI", Verdana, Tahoma, sans-serif;
@@ -86,8 +88,12 @@ div.ninja {
 div.ol_sk {
 	margin: 2px 50px;
 	}
-p { margin: 10px 20px 10px 30px; }
-p.list { padding: 0 40px 0; }
+p {
+	margin: 10px 20px 10px 30px;
+	}
+p.list {
+	padding: 0 40px 0;
+	}
 p + div.ol_sk {
 	margin-top: 0px;
 	}
@@ -103,7 +109,7 @@ span.ninja {
 	}
 span.ninja-td {
 	background: url(../images/ninja.png) no-repeat;
-	padding-left: 30px;
+	padding-left: 24px;
 	}
 a {
 	text-decoration:none;
@@ -111,16 +117,36 @@ a {
 a:hover {
 	text-decoration:underline;
 	}
-hr { margin-left: 30px; }
+hr {
+	margin-left: 30px;
+	}
+nobr.minor {
+	color:slategray;
+	}
+
 /**** СПИСКИ ******************************************************************/
 
 ol, ul {
 	margin: 10px 20px 10px 40px;
 	}
-li.none { list-style-type: none; }
-p.content { margin: 5px 8px; }
-h3 + p.content { margin-top: 10px; }
-p.content img { padding-left: 25px; }
+ol.level_2 {
+	margin: 10px 20px 10px 70px;
+	}
+ul.level_2 {
+	margin: 10px 20px 10px 50px;
+	}
+li.none {
+	list-style-type: none;
+	}
+p.content {
+	margin: 5px 8px;
+	}
+h3 + p.content {
+	margin-top: 10px;
+	}
+p.content img {
+	padding-left: 25px;
+	}
 a.content {
 	text-decoration: none;
 	color: black;
@@ -141,6 +167,7 @@ a img {
 a:visited img {
 	border: none;
 	}
+
 /**** ТАБЛИЦЫ *****************************************************************/
 
 table {
@@ -234,27 +261,50 @@ td.double_cover {
 	vertical-align: top;
 	padding: 15px 5px;
 	}
+table.t td {
+	min-width: 1.5em;
+	text-align: center;
+	}
+table.t td[colspan] {
+	text-align: right;
+	padding-right: 0.6em;
+	}
+table.conv td {
+	min-width: 1.5em;
+	text-align: center;
+	}
+table.conv td.hex {
+	color: #909090;
+	}
+table.conv td.hex + td {
+	background: #E8E8E8
+	}
+table.conv td.hex + td + td {
+	color: darkblue;
+	background: #E8F8FF;
+	font-weight: 600;
+	}
+
 /**** КОД *********************************************************************/
 
 .code {
 	background: #E8F8FF;
 	font-family: "Courier New", Courier, monospace;
+	font-style: normal !important;
 	}
-
 span.code {
 	border-top: 1px dashed #009EEA;
 	border-bottom: 1px dashed #009EEA;
 	padding: 0.5px 1px;
 	}
-
 .code_error {
 	background: #FFE8EA;
 	font-family: "Courier New", Courier, monospace;
+	font-style: normal !important;
 	border-top: 1px dashed #E90106;
 	border-bottom: 1px dashed #E90106;
 	padding: 0.5px 1px;
 	}
-
 .code_names {
 	font-family: Consolas, "Courier New", Courier, monospace;
 	background: ghostwhite;
@@ -262,27 +312,23 @@ span.code {
 	border-bottom: 1px dashed silver;
 	padding: 0.5px 1px;
 	}
-
 div.CodeBox {
 	border: 1px solid #009EEA;
 	background: #E8F8FF;
 	padding: 6px;
 	margin: 0 20px 0 40px;
 	}
-
 div.CodeBox_li {
 	border: 1px solid #009EEA;
 	background: #E8F8FF;
 	padding: 6px;
 	margin: 0 40px 0 0;
 	}
-
 p.CodeBoxHead {
 	background: #D3E4F5;
 	padding: 2px 4px 2px 6px;
 	margin: 0 0 6px 0;
 	}
-
 div.Code {
 	border: 1px dashed #009EEA;
 	background: #EEF5F9;
@@ -290,18 +336,21 @@ div.Code {
 	margin: 0;
 	overflow: scroll;
 	}
-
 pre {
 	margin: 0;
 	}
 span.key {
-	border: 1px solid #808080;
+	border: 1px solid #CDCDCD;
+	border-right: 2px solid #CDCDCD;
+	border-bottom: 3px solid #CDCDCD;
+	border-radius: 4px;
 	padding: 0.5px 6px;
 	background: #F0F0F0;
 	font-family: "Courier New", Courier, monospace;
 	margin-left: 1px;
 	margin-right: 1px;
 	}
+
 /**** КАРТОЧКА ****************************************************************/
 
 div.EntryBox {
@@ -311,35 +360,31 @@ div.EntryBox {
 	margin: 0 20px 0 40px;
 	width: 500px;
 	}
-
 p.EntryBoxHead {
 	background: #E7E7F5;
 	padding: 2px 4px 2px 6px;
 	margin: 0 0 6px 0;
 	}
-
 div.Entry {
 	border: 1px dashed darkgray;
 	background: #FFFFFF;
 	padding: 0 10px 10px 10px;
 	margin: 0;
 	}
-
 div.EntryTitle {
 	text-align: right;
 	bottom: -10px;
 	position: relative;
 	}
-
 span.EntryTitle {
 	border: 1px solid #D2D2FF;
 	background-color: #FBFCFF;
 	color: darkslategray;
 	padding: 0 3px 1px 3px;
 	}
-
-div.NoEntryTitle { padding-top: 10px; }
-
+div.NoEntryTitle {
+	padding-top: 10px;
+	}
 .dsl_headword {
 	font-weight: bold;
 	font-size: 11pt;
@@ -347,16 +392,36 @@ div.NoEntryTitle { padding-top: 10px; }
 
 /**** DSL ТЕГИ ****************************************************************/
 
-.dsl_m0 { margin-left: 0;}
-.dsl_m1 { margin-left: 10px;}
-.dsl_m2 { margin-left: 20px;}
-.dsl_m3 { margin-left: 30px;}
-.dsl_m4 { margin-left: 40px;}
-.dsl_m5 { margin-left: 50px;}
-.dsl_m6 { margin-left: 60px;}
-.dsl_m7 { margin-left: 70px;}
-.dsl_m8 { margin-left: 80px;}
-.dsl_m9 { margin-left: 90px;}
+.dsl_m0 {
+	margin-left: 0;
+	}
+.dsl_m1 {
+	margin-left: 10px;
+	}
+.dsl_m2 {
+	margin-left: 20px;
+	}
+.dsl_m3 {
+	margin-left: 30px;
+	}
+.dsl_m4 {
+	margin-left: 40px;
+	}
+.dsl_m5 {
+	margin-left: 50px;
+	}
+.dsl_m6 {
+	margin-left: 60px;
+	}
+.dsl_m7 {
+	margin-left: 70px;
+	}
+.dsl_m8 {
+	margin-left: 80px;
+	}
+.dsl_m9 {
+	margin-left: 90px;
+	}
 .dsl_p {
 	color: green;
 	font-style: italic;
@@ -366,14 +431,19 @@ div.NoEntryTitle { padding-top: 10px; }
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 10.5pt;
 	}
-.dsl_ref { color: darkblue;}
+.dsl_ref {
+	color: darkblue;
+	}
 .dsl_ref:hover {
 	text-decoration: underline;
 	cursor: pointer;
 	}
-.dsl_ast { color: gray; }
+.dsl_ast {
+	color: gray; 
+	}
 
 /**** DEBUG *******************************************************************/
+
 span.debug {
 	background-color:#FFFF9D;
 	font-style: italic;

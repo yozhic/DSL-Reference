@@ -1,0 +1,56 @@
+[OPTIONS]
+Binary Index=No
+Compatibility=1.1 or later
+Compiled file=..\DSLReference.chm
+Contents file=TOC.hhc
+Default Window=Navigation Pane
+Default topic=index.html
+Display compile progress=Yes
+Full-text search=Yes
+Index file=Index.hhk
+Language=0x419 Russian (Russia)
+Title=Справочник по DSL
+
+[WINDOWS]
+Navigation Pane="Справочник по DSL","TOC.hhc","Index.hhk","index.html","tag_list.html",,,,,0x63520,,0x104c,[50,50,1070,760],0x840000,,,,,,0
+
+
+[FILES]
+additional.html
+colors.html
+create.html
+dict.html
+directives.html
+dsl.html
+dsl_comp.html
+entry.html
+fix.html
+history.html
+index.html
+langs.html
+lexicography.html
+lingvo4.html
+lingvo5.html
+lingvo6.html
+lingvo6_5.html
+lingvo7.html
+lingvo8.html
+lingvo12.html
+lingvo14.html
+lingvo15.html
+lingvo16.html
+preface.html
+search.html
+spaces.html
+tag_format.html
+tag_handling.html
+tag_links.html
+tag_list.html
+tag_mm.html
+tag_service.html
+tag_struct.html
+tag_system.html
+var_dicts.html
+
+[INFOTYPES]
+

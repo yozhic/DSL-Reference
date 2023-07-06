@@ -137,6 +137,8 @@ ul.level_2 {
 	}
 li.none {
 	list-style-type: none;
+	margin-bottom: .4em;
+	margin-right: 10em;
 	}
 p.content {
 	margin: 5px 8px;

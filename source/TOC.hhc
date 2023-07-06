@@ -508,6 +508,10 @@
 			<param name="Local" value="history.html#table">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="&Aacute;&icirc;&aacute;&cedil;&eth; Lingvo">
+			<param name="Local" value="bober.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Lingvo 4.0">
 			<param name="Local" value="lingvo4.html">
 			</OBJECT>

@@ -3,28 +3,28 @@
 <head>
       <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
       <title>О тэгах DSL</title>
-      <link href="style.css" rel="stylesheet">
+      <link href="files/style.css" rel="stylesheet">
 </head>
 
 <body>
 <div id="header">Справочник по DSL</div>
 <div id="main">
 <h1>О тэгах DSL</h1>
-<p class="content"><img src="line.png"></p>
+<p class="content"><img src="images/line.png"></p>
 <p class="content"><a href="#main" class="content">Устройство тэгов</a></p>
 <p class="content"><a href="#meta_lit" class="content">Метасимволы и литералы</a></p>
 <p class="content"><a href="#comments" class="content">Общие замечания</a></p>
-<p class="content"><img src="line.png"></p>
+<p class="content"><img src="images/line.png"></p>
 
 
 <a name="main"></a>
 <h2>Устройство тэгов</h2>
 <p>Тэги – это структурные и семантические элементы, которые определяют внешний вид или функциональное значение фрагментов текста.</p>
 <p>Каждый тэг включает в себя два дескриптора: открывающий и закрывающий. Открывающий дескриптор обозначает начало зоны действия тэга, закрывающий – окончание зоны действия тэга. Открывающий дескриптор состоит из имени тэга в обрамлении квадратных скобок. Имя тэга – последовательность латинских букв и, иногда, цифр. Имя тэга – это, как правило, сокращение английского названия той функции, которую тэг выполняет. Например: <span class="code">[i]</span> (<em>от англ. italic – наклонное начертание</em>), <span class="code">[com]</span> (<em>от англ. comment – комментарий</em>) или <span class="code">[m2]</span> (<em>от англ. margin – поле страницы</em>). В закрывающем дескрипторе к имени тэга прибавляется косая черта: <span class="code">[/i]</span>, <span class="code">[/com]</span> и <span class="code">[/m]</span> соответственно. Функция тэга – присваивание определённого свойства тексту, находящемуся в зоне действия тэга.</p>
-<p style="text-align: center;"><img src="tag.png"></p>
+<p style="text-align: center;"><img src="images/tag.png"></p>
 <p>Так, на примере выше, текст «кому-либо, чему-либо» будет отображаться в наклонном начертании, поскольку именно это свойство ему присваивает обрамляющий его тэг <span class="code">[i]</span>. Пара дескрипторов вместе с находящимся между ними содержимым составляют т.н. область тэга.</p>
 <p>Некоторые тэги в DSL располагают атрибутами, а атрибуты, в свою очередь, набором допустимых значений.</p>
-<p style="text-align: center;"><img src="attrib.png"></p>
+<p style="text-align: center;"><img src="images/attrib.png"></p>
 <p>В данном примере тэг <span class="code">[lang]</span> (<em>тэг языкового направления</em>) используется с двумя разными атрибутами: <span class="code">id</span> и <span class="code">name</span>. Допустимыми значениями атрибута <span class="code">id</span> являются числовые коды языков, а атрибута <span class="code">name</span> – английские названия языков.</p>
 
 

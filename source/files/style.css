@@ -4,13 +4,14 @@
 /******************************************************************************/
 
 /**** ÿ¿œ ¿ *******************************************************************/
+
 #header, #footer {
 	display: block;
 	padding: 8px 20px;
 	/* width: 100%; */
 	}
 #header {
-	background: #607DA0 url(./DslCompIcon.png) no-repeat;
+	background: #607DA0 url(../images/DslCompIcon.png) no-repeat;
 	background-position: right center;
 	font-size: 16pt;
 	font-family: "Segoe UI Black", Arial Black, sans-serif;
@@ -101,13 +102,13 @@ span.bold {
 	font-weight: bold;
 	}
 span.ninja {
-	background: #FFFFE1 url(./ninja.png) no-repeat 10px 8px;
+	background: #FFFFE1 url(../images/ninja.png) no-repeat 10px 8px;
 	border: 1px solid #FFEF82;
 	border-radius: 10px;
 	padding: 10px 20px 10px 40px;
 	}
 span.ninja-td {
-	background: url(./ninja.png) no-repeat;
+	background: url(../images/ninja.png) no-repeat;
 	padding-left: 24px;
 	}
 a {
@@ -151,7 +152,7 @@ a.content {
 	color: black;
 	padding-left: 5px;
 	font-size: larger;
-	background: url(./bkm.png) no-repeat 0px 3px;
+	background: url(../images/bkm.png) no-repeat 0px 3px;
 	padding-left: 25px;
 	}
 a span.code {

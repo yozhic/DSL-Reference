@@ -1,6 +1,6 @@
 /******************************************************************************/
 /**                            DSL REFERENCE CSS                             **/
-/**                           Updated: 05.07.2023                            **/
+/**                           Updated: 08.07.2023                            **/
 /******************************************************************************/
 
 /**** ШАПКА *******************************************************************/
@@ -14,7 +14,8 @@
 	background: #607DA0 url(../images/DslCompIcon.png) no-repeat;
 	background-position: right center;
 	font-size: 16pt;
-	font-family: "Segoe UI Black", Arial Black, sans-serif;
+	font-family: "Segoe UI Black", "Noto Sans Black", "Arial Black", sans-serif;
+	font-weight: 900;
 	color: #fff;
 	}
 #footer {
@@ -34,23 +35,23 @@
 h1 {
 	text-align: center;
 	margin: 0 0 0.6em;
-	font: 17pt "Segoe UI", Tahoma, Arial, sans-serif;
+	font: 17pt "Segoe UI", "Noto Sans", Tahoma, Verdana, Arial, sans-serif;
 	font-weight: bold;
 	}
 h2 {
-	font: 14pt "Segoe UI Semibold", Tahoma, Arial, sans-serif;
+	font: 14pt "Segoe UI Semibold", "Noto Sans Semibold", Tahoma, Verdana, Arial, sans-serif;
 	color: #467AB9;
 	margin: 30px 0 0; 
 	font-weight: normal;
 	}
 h3 {
-	font: 12pt 'Segoe UI Semibold', 'Myriad Pro Semibold', Tahoma, Arial, sans-serif;
+	font: 12pt 'Segoe UI Semibold', 'Noto Sans Semibold', Tahoma, Verdana, Arial, sans-serif;
 	font-style: italic;
 	margin: 20px 0 0 30px;
 	width: 50%;
 	}
 h2 span.code {
-	font-family: "Courier New", Courier, monospace;
+	font-family: "Courier New", Menlo, Consolas, monospace;
 	background: ghostwhite;
 	color: black;
 	border-top: 1px dashed silver;
@@ -68,12 +69,12 @@ h2 span.code {
 	}
 abbr {
 	color: green;
-	font-family: "Segoe UI", Verdana, Tahoma, sans-serif;
+	font-family: "Segoe UI", "Noto Sans", Tahoma, Verdana, Arial, sans-serif;
 	border-bottom: 1px dotted green;
 	}
 body {
 	margin: 0;
-	font: 10pt "Segoe UI", Verdana, Tahoma, sans-serif;
+	font: 10pt "Segoe UI", "Noto Sans", Tahoma, Verdana, Arial, sans-serif;
 	background: #fff;
 	color: #000;
 	}
@@ -158,7 +159,7 @@ a.content {
 	padding-left: 25px;
 	}
 a span.code {
-	font-family: "Courier New", Courier, monospace;
+	font-family: "Courier New", Menlo, Consolas, monospace;
 	background: none;
 	border: none;
 	padding: 0;
@@ -228,13 +229,13 @@ td.list {
 td.taglist {
 	border: none;
 	padding: 1px 10px;
-	font: 10pt "Segoe UI", Georgia, Times, serif;
+	font: 10pt "Segoe UI", "Noto Sans", Tahoma, Verdana, Arial, sans-serif;
 	vertical-align: top;
 	}
 td.tag {
 	border: none;
 	padding: 1px 10px;
-	font: normal 10pt "Courier New", monospace;
+	font: normal 10pt "Courier New", Menlo, Consolas, monospace;
 	text-align: right;
 	vertical-align: top;
 	position: relative;
@@ -291,7 +292,7 @@ table.conv td.hex + td + td {
 
 .code {
 	background: #E8F8FF;
-	font-family: "Courier New", Courier, monospace;
+	font-family: "Courier New", Menlo, Consolas, monospace;
 	font-style: normal !important;
 	}
 span.code {
@@ -301,14 +302,14 @@ span.code {
 	}
 .code_error {
 	background: #FFE8EA;
-	font-family: "Courier New", Courier, monospace;
+	font-family: "Courier New", Menlo, Consolas, monospace;
 	font-style: normal !important;
 	border-top: 1px dashed #E90106;
 	border-bottom: 1px dashed #E90106;
 	padding: 0.5px 1px;
 	}
 .code_names {
-	font-family: Consolas, "Courier New", Courier, monospace;
+	font-family: Consolas, "Courier New", Menlo, monospace;
 	background: ghostwhite;
 	border-top: 1px dashed silver;
 	border-bottom: 1px dashed silver;
@@ -348,7 +349,7 @@ span.key {
 	border-radius: 4px;
 	padding: 0.5px 6px;
 	background: #F0F0F0;
-	font-family: "Courier New", Courier, monospace;
+	font-family: "Courier New", Menlo, Consolas, monospace;
 	margin-left: 1px;
 	margin-right: 1px;
 	}
@@ -430,7 +431,7 @@ div.NoEntryTitle {
 	border-bottom: none;
 	}
 .dsl_t {
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: "Noto Serif Medium", Georgia, "Times New Roman", Times, serif;
 	font-size: 10.5pt;
 	}
 .dsl_ref {

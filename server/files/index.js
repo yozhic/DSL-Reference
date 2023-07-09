@@ -1,6 +1,6 @@
 
 function getUrlParam (name) {
-  const results = new RegExp('[?&]' + name + '=(\\w+\\.[a-z]+(?:#[a-z]+)?)', 'i').exec(
+  const results = new RegExp('[?&]' + name + '=(\\w+\\.[a-z]+(?:#[a-z_\\d]+)?)', 'i').exec(
     window.location.href
   )
 

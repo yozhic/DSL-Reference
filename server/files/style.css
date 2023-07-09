@@ -451,3 +451,24 @@ span.debug {
 	background-color:#FFFF9D;
 	font-style: italic;
 	}
+
+/**** ANCHOR LINK *******************************************************************/
+
+.anchorlink:hover + .hide {
+	visibility: visible;
+	}
+
+
+.hide {
+	visibility: hidden;
+	text-decoration: none;
+	}
+
+.hide:hover {
+	visibility: hidden;
+	text-decoration: none;
+	}
+
+.anchorlink {
+	display: inline-block;
+	}

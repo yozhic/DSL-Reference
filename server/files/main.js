@@ -19,8 +19,11 @@ document.addEventListener('DOMContentLoaded', () => {
   let spans = document.getElementsByClassName('anchor')
   for (const s of spans) {
   
-    h2 = s.getElementsByTagName('H2')[0]
-    h2.setAttribute('class', 'anchorlink')
+    let h = s.getElementsByTagName('H2')[0]
+    if (h === undefined) {
+      h = s.getElementsByTagName('H3')[0]
+    }
+    h.setAttribute('class', 'anchorlink')
       
     let a = s.getElementsByTagName('A')[0]
     let name = a.getAttribute('name')      
@@ -32,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let div = document.createElement("div")
     div.setAttribute('onmouseover', 'show_anchor_link(this)')
     div.setAttribute('onmouseleave', 'hide_anchor_link(this)')
-    div.innerHTML = h2.outerHTML + a.outerHTML
+    div.innerHTML = h.outerHTML + a.outerHTML
     s.innerHTML = div.outerHTML
 
   }

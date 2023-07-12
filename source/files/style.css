@@ -1,6 +1,6 @@
 /******************************************************************************/
 /**                            DSL REFERENCE CSS                             **/
-/**                           Updated: 08.07.2023                            **/
+/**                           Updated: 11.07.2023                            **/
 /******************************************************************************/
 
 /**** ÿ¿œ ¿ *******************************************************************/
@@ -13,9 +13,7 @@
 #header {
 	background: #607DA0 url(../images/dslcompicon.png) no-repeat;
 	background-position: right center;
-	font-size: 16pt;
-	font-family: "Segoe UI Black", "Noto Sans Black", "Arial Black", sans-serif;
-	font-weight: 900;
+	font: 900 16pt/30pt "Segoe UI Black", "Noto Sans Black", "Arial Black", sans-serif;
 	color: #fff;
 	}
 #footer {
@@ -28,6 +26,7 @@
 #footer p {
 	margin: 3px 0;
 	font-size: 8pt;
+	line-height: 10pt;
 	}
 
 /**** «¿√ŒÀŒ¬ » ***************************************************************/
@@ -46,9 +45,9 @@ h2 {
 	}
 h3 {
 	font: 12pt 'Segoe UI Semibold', 'Noto Sans Semibold', Tahoma, Verdana, Arial, sans-serif;
+	color: #467AB9;
 	font-style: italic;
 	margin: 20px 0 0 30px;
-	width: 50%;
 	}
 h2 span.code {
 	font-family: "Courier New", Menlo, Consolas, monospace;
@@ -74,7 +73,7 @@ abbr {
 	}
 body {
 	margin: 0;
-	font: 10pt "Segoe UI", "Noto Sans", Tahoma, Verdana, Arial, sans-serif;
+	font: 10pt/14pt "Segoe UI", "Noto Sans", Tahoma, Verdana, Arial, sans-serif;
 	background: #fff;
 	color: #000;
 	}
@@ -123,6 +122,9 @@ hr {
 	}
 nobr.minor {
 	color:slategray;
+	}
+sup {
+	line-height: 8pt;
 	}
 
 /**** —œ»— » ******************************************************************/

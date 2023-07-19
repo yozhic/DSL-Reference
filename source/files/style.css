@@ -112,6 +112,9 @@ span.ninja-td {
 	background: url(../images/ninja.png) no-repeat;
 	padding-left: 24px;
 	}
+li > span.ninja-td {
+	margin-left: -5px;
+	}
 a {
 	text-decoration:none;
 	}
@@ -132,6 +135,10 @@ sup {
 
 ol, ul {
 	margin: 10px 20px 10px 40px;
+	padding-left: 30px;
+	}
+ol ul {
+	margin-left: 0px;
 	}
 ol.level_2 {
 	margin: 10px 20px 10px 70px;
@@ -143,6 +150,13 @@ li.none {
 	list-style-type: none;
 	margin-bottom: .4em;
 	margin-right: 10em;
+	}
+li h3 {
+	margin-top: 10px;
+	margin-left: 0px;
+	}
+li p {
+	margin-left: 0px;
 	}
 p.content {
 	margin: 5px 8px;

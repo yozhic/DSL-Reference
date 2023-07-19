@@ -99,7 +99,8 @@ p + div.ol_sk {
 	}
 span.bold {
 	color: slategray;
-	font-weight: bold;
+	font-weight: 600;
+	font-style: italic;
 	}
 span.ninja {
 	background: #FFFFE1 url(../images/ninja.png) no-repeat 10px 8px;

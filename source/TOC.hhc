@@ -151,7 +151,7 @@
 				<param name="Local" value="tag_system.html#meta_lit">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="&Icirc;&aacute;&ugrave;&egrave;&aring; &ccedil;&agrave;&igrave;&aring;&divide;&agrave;&iacute;&egrave;&yuml;">
+				<param name="Name" value="&Icirc;&aacute;&ugrave;&egrave;&eacute; &ntilde;&egrave;&iacute;&ograve;&agrave;&ecirc;&ntilde;&egrave;&ntilde;">
 				<param name="Local" value="tag_system.html#comments">
 				</OBJECT>
 		</UL>
@@ -493,9 +493,20 @@
 			<param name="Local" value="spaces.html">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="&Iacute;&aring;&igrave;&iacute;&icirc;&atilde;&icirc; &icirc; &euml;&aring;&ecirc;&ntilde;&egrave;&ecirc;&icirc;&atilde;&eth;&agrave;&ocirc;&egrave;&egrave;">
+			<param name="Name" value="&Igrave;&aring;&ograve;&agrave;&yuml;&ccedil;&ucirc;&ecirc; DSL">
 			<param name="Local" value="lexicography.html">
+			<param name="ImageNumber" value="5">
 			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Iuml;&eth;&egrave;&igrave;&aring;&eth;&ucirc; &icirc;&ocirc;&icirc;&eth;&igrave;&euml;&aring;&iacute;&egrave;&yuml;">
+				<param name="Local" value="lexicography.html#design">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Ecirc;&eth;&agrave;&ograve;&ecirc;&egrave;&eacute; &euml;&aring;&ecirc;&ntilde;&egrave;&ecirc;&icirc;&atilde;&eth;&agrave;&ocirc;&egrave;&divide;&aring;&ntilde;&ecirc;&egrave;&eacute; &atilde;&euml;&icirc;&ntilde;&ntilde;&agrave;&eth;&egrave;&eacute;">
+				<param name="Local" value="lexicography.html#glossary">
+				</OBJECT>
+		</UL>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&Egrave;&ccedil; &egrave;&ntilde;&ograve;&icirc;&eth;&egrave;&egrave; Lingvo">

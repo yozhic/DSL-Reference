@@ -562,6 +562,10 @@
 		<param name="Local" value="colors.html#basic_hue">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="FULL_NAME">
+		<param name="Local" value="directives.html#fname">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="gainsboro">
 		<param name="Local" value="tag_format.html#c">
 		</OBJECT>

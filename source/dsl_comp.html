@@ -33,7 +33,7 @@
 <ul>
   <li>Элемент <b><abbr title="Значок">Icon</abbr></b>. Когда в комплекте DSL словаря есть иконка, она отображается в данном элементе (как на снимке). Иногда файл иконки есть, но она не отображается. Причины могут быть следующими:</li>
     <ol class=wpar>
-      <li>В имени файла иконки содержатся нерекомендуемые символы. Подробнее см. в главе <a href="dict.html#names">Наименование файлов словаря</a>.</li>
+      <li>В имени файла иконки содержатся нерекомендуемые символы, например, точка <span class="code">.</span>. Подробнее см. в главе <a href="dict.html#names">Наименование файлов словаря</a>.</li>
       <li>Не соблюдены необходимые свойства графического файла. Подробнее см. в главе <a href="dict.html#bmp">Иконка</a>.</li>
     </ol>
   <li>Радиокнопка <b><abbr title="Изменяемый пользовательский словарь">LUD</abbr></b>. Предназначена для преобразования исходного файла в формат пользовательского редактируемого словаря Lingvo. Становится доступной только в тех случаях, когда исходным файлом является:</li>
@@ -41,7 +41,7 @@
       <li>Пользовательский редактируемый словарь ADC&nbsp;&mdash; устаревший формат, существовавший в первых версиях Lingvo до 5.0 включительно. Для успешного преобразования при файле <span class="code_names">*.adc</span> необходимо наличие дополняющей его части&nbsp;&mdash; файла <span class="code_names">*.adt</span>, содержащего тела словарных статей.</li>
       <li>Пользовательский редактируемый словарь LUD, созданный в предыдущих версиях Lingvo. Для успешного преобразования при файле <span class="code_names">*.lud</span> необходимо наличие дополняющей его части&nbsp;&mdash; файла <span class="code_names">*.adх</span>, содержащего тела словарных статей.</li>
     </ol>
-  <li>Радиокнопка <b><abbr title="Исходный текст">DSL</abbr></b>. Предназначена для декомпилирования словарей LSD в исходный набор файлов словаря DSL, а также, начиная с Lingvo 9.0, словарей LUD в DSL. В компиляторах, входящих в официальный дистрибутив ABBYY Lingvo, при выборе LSD файла эта кнопка всегда недоступна.</li>
+  <li>Радиокнопка <b><abbr title="Исходный текст">DSL</abbr></b>. Предназначена для декомпилирования словарей LSD в исходный набор файлов словаря DSL, а также, начиная с Lingvo 9, словарей LUD в DSL. В компиляторах, входящих в официальный дистрибутив ABBYY Lingvo, при выборе LSD файла эта кнопка всегда недоступна.</li>
   <li>Переключатель <b><abbr title="Выводить предупреждения">Output warnings</abbr></b>. Влияет на содержимое отчёта об ошибках. Не влияет на появление во время компилирования диалоговых окон с предупреждениями (об отсутствии иконки, аннотации и т.п.).</li>
   <li>Переключатель <b><abbr title="Автоматически добавлять разметку, необходимую для поиска по содержимому карточек словаря">Create dictionary ready for indexing</abbr></b>:</li>
   <ul>
@@ -155,7 +155,7 @@
 C:\TestDir\TestSound.wav was not found.
 </pre></div></div>
 
-<p>В конце DDE помещается информация о количестве статей, <u>вошедших в скомпилированный LSD</u>, т.е. только тех, которые не содержат ошибок. Информация разбивается на две части: число <em>заголовков</em> и число <em>тел</em>, т.о. если в словаре есть статьи с несколькими <em>заголовками</em>, то эти числа будут различаться. <em>Тела</em> статей при этом именуются «карточками»:</p>
+<p>В конце DDE помещается информация о количестве статей, <u>вошедших в скомпилированный LSD</u>, т.е. только тех, которые не содержат ошибок. Информация разбивается на две части: число <em>заголовков</em> и число <em>тел</em>, т.о. если в словаре есть статьи с несколькими <em>заголовками</em>, то эти числа будут различаться. <em>Тела</em> статей при этом именуются <em>карточками</em>:</p>
 
 <div class="CodeBox">
 <p class="CodeBoxHead">Отчёт о количестве статей :: Запись в DDE</p>
@@ -166,7 +166,7 @@ C:\TestDir\TestSound.wav was not found.
 <p>Данные о количестве статей из этой части отчёта обычно используются в аннотациях.</p>
 
 <h3>Список известных ошибок</h3>
-<p>На сегодняшний день выявлено и воспроизведено 75 ошибок.</p>
+<p>На сегодняшний день выявлено и воспроизведено 76 ошибок.</p>
 <table class="dde">
 <tr><th colspan=3>Сортировка по английскому описанию</th></tr>
 <tr><td class=n>1.</td><td>Closing quotation mark missing inside tag parameters string: "&hellip;".</td>	<td>Незакрытые кавычки в строке параметров тега: "&hellip;".</td></tr>
@@ -196,54 +196,55 @@ C:\TestDir\TestSound.wav was not found.
 <tr><td class=n>25.</td><td>Incomplete sub-entry.</td>	<td>Подкарточка не окончена.</td></tr>
 <tr><td class=n>26.</td><td>Index language not specified.</td>	<td>Не указан исходный язык.</td></tr>
 <tr><td class=n>27.</td><td>Invalid format of tag parameters string: "&hellip;".</td>	<td>Неверный формат строки параметров тега: "&hellip;".</td></tr>
-<tr><td class=n>28.</td><td>Language "&hellip;" is not supported.</td>	<td>Язык "&hellip;" не поддерживается.</td></tr>
-<tr><td class=n>29.</td><td>Language identifier "&hellip;" is not a number.</td>	<td>Идентификатор языка "&hellip;" не является числом.</td></tr>
-<tr><td class=n>30.</td><td>Language identifier "&hellip;" is not supported.</td>	<td>Идентификатор языка "&hellip;" не поддерживается.</td></tr>
-<tr><td class=n>31.</td><td>Margin value cannot be more than 9.</td>	<td>Величина абзацного отступа не должна превышать 9.</td></tr>
-<tr><td class=n>32.</td><td>Name extension for tag "[x]" is illegal.</td>	<td>Использование расширения имени для тега "[x]" запрещено.</td></tr>
-<tr><td class=n>33.</td><td>Nested references to other cards not allowed.</td>	<td>Вложенная ссылка на карточку недопустима.</td></tr>
-<tr><td class=n>34.</td><td>No comment closing brackets.</td>	<td>Отсутствуют закрывающие комментарий скобки.</td></tr>
-<tr><td class=n>35.</td><td>No comment opening brackets.</td>	<td>Отсутствуют открывающие комментарий скобки.</td></tr>
-<tr><td class=n>36.</td><td>No tags allowed in multimedia zone.</td>	<td>Использование тегов внутри зоны мультимедиа запрещено.</td></tr>
-<tr><td class=n>37.</td><td>No tags allowed in references to cards.</td>	<td>Использование тегов внутри ссылки на карточку запрещено.</td></tr>
-<tr><td class=n>38.</td><td>No tags allowed in transcription zone.</td>	<td>Использование тегов внутри зоны транскрипции запрещено.</td></tr>
-<tr><td class=n>39.</td><td>No tags allowed in URL.</td>	<td>Использование тегов внутри URL запрещено.</td></tr>
-<tr><td class=n>40.</td><td>Only optional part in headword.</td>	<td>Заголовок целиком состоит из альтернативной части.</td></tr>
-<tr><td class=n>41.</td><td>Only preview tags may be placed inside multimedia tags.</td>	<td>Внутри мультимедиа тегов могут находиться только теги Preview.</td></tr>
-<tr><td class=n>42.</td><td>Open reference tag "<<" missing.</td>	<td>Отсутствует тег открытия ссылки "<<".</td></tr>
-<tr><td class=n>43.</td><td>Opening non-sorted headword part symbol "{" missing.</td>	<td>Отсутствует символ открытия несортируемой части заголовка "{".</td></tr>
-<tr><td class=n>44.</td><td>Opening symbol "(" of optional headword part missing.</td>	<td>Отсутствует символ открытия альтернативной части заголовка "(".</td></tr>
-<tr><td class=n>45.</td><td>Parameter for pre-processor keyword "&hellip;" must be in quotes.</td>	<td>Параметр для директивы препроцессора "&hellip;" должен быть заключен в кавычки.</td></tr>
-<tr><td class=n>46.</td><td>Pre-processor command must be placed at the beginning of the line.</td>	<td>Директива препроцессора должна начинаться с новой строки.</td></tr>
-<tr><td class=n>47.</td><td>Preview tags must be placed inside [s] or [video] tags.</td>	<td>Preview должен находиться внутри тега [s] или [video].</td></tr>
-<tr><td class=n>48.</td><td>Prohibited quotation marks in tag parameter: "&hellip;".</td>	<td>Недопустимое использование кавычек в параметре тега: "&hellip;".</td></tr>
-<tr><td class=n>49.</td><td>Prohibited sub-entry symbol "@".</td>	<td>Неправильное использование символа начала подкарточки "@".</td></tr>
-<tr><td class=n>50.</td><td>Prohibited symbol in tag name: "&hellip;".</td>	<td>Недопустимый символ в имени тега: "&hellip;".</td></tr>
-<tr><td class=n>51.</td><td>Prohibited symbol in tag parameter name: "&hellip;".</td>	<td>Недопустимый символ в имени параметра тега: "&hellip;".</td></tr>
-<tr><td class=n>52.</td><td>Prohibited symbol in tag parameter value: "&hellip;".</td>	<td>Недопустимый символ в значении параметра тега: "&hellip;".</td></tr>
-<tr><td class=n>53.</td><td>Redundant opening of non-sorted headword part.</td>	<td>Повторное открытие несортируемой части заголовка.</td></tr>
-<tr><td class=n>54.</td><td>Redundant opening of optional headword part.</td>	<td>Повторное открытие альтернативной части заголовка.</td></tr>
-<tr><td class=n>55.</td><td>Redundant opening tag "[x]"</td>	<td>Повторный открывающий тег "[x]".</td></tr>
-<tr><td class=n>56.</td><td>Repeated symbol "[" is not allowed.</td>	<td>Повторное использование символа начала имени тега "[" недопустимо.</td></tr>
-<tr><td class=n>57.</td><td>Tag "&hellip;" cannot be placed in non-indexed zone.</td>	<td>Тег "[x]" не может находиться внутри неиндексируемой зоны.</td></tr>
-<tr><td class=n>58.</td><td>Tag "&hellip;" may have only one parameter.</td>	<td>Тег "[x]" может иметь только один параметр.</td></tr>
-<tr><td class=n>59.</td><td>Tag "&hellip;" must have no parameters.</td>	<td>Тег "[x]" не должен иметь параметров.</td></tr>
-<tr><td class=n>60.</td><td>Tag "[!trs]" must be placed in indexed zones.</td>	<td>Тег "[!trs]" может находиться только внутри одной из зон индексации.</td></tr>
-<tr><td class=n>61.</td><td>Tag closing symbol "]" missing.</td>	<td>Отсутствует символ конца имени тега "]".</td></tr>
-<tr><td class=n>62.</td><td>Tag name is missing.</td>	<td>Не указано имя тега.</td></tr>
-<tr><td class=n>63.</td><td>Tag opening symbol "[" missing.</td>	<td>Отсутствует символ начала имени тега "[".</td></tr>
-<tr><td class=n>64.</td><td>Tag parameters missing: "&hellip;".</td>	<td>Отсутствуют параметры тега: "[x]".</td></tr>
-<tr><td class=n>65.</td><td>The symbol "[" is not allowed inside references.</td>	<td>Использование символа начала имени тега "[" недопустимо внутри ссылки.</td></tr>
-<tr><td class=n>66.</td><td>There is a tag inside preview tags.</td>	<td>Тег внутри тега Preview.</td></tr>
-<tr><td class=n>67.</td><td>There is no way to substitute an empty headword.</td>	<td>Невозможно подставить пустой заголовок.</td></tr>
-<tr><td class=n>68.</td><td>Unknown colour name: "&hellip;".</td>	<td>Неизвестное имя цвета: "&hellip;".</td></tr>
-<tr><td class=n>69.</td><td>Unknown parameter "&hellip;" of tag "&hellip;".</td>	<td>Неверное имя параметра "&hellip;" для тега "&hellip;".</td></tr>
-<tr><td class=n>70.</td><td>Unknown pre-processor keyword: "&hellip;".</td>	<td>Неизвестная директива препроцессора: "&hellip;".</td></tr>
-<tr><td class=n>71.</td><td>Unknown tag name: "&hellip;".</td>	<td>Неизвестное имя тега: "&hellip;".</td></tr>
-<tr><td class=n>72.</td><td>Word too long.</td>	<td>Слишком длинное слово.</td></tr>
-<tr><td class=n>73.</td><td>Wrong pre-processor line format.</td>	<td>Неверный формат строки препроцессора.</td></tr>
-<tr><td class=n>74.</td><td>You cannot refer to another card in tag name.</td>	<td>Ссылка на карточку недопустима внутри имени тега.</td></tr>
-<tr><td class=n>75.</td><td>You cannot use linefeed character in tag name.</td>	<td>Переход на новую строку недопустим внутри имени тега.</td></tr>
+<tr><td class=n>28.</td><td>Invalid number of parameters for the ref tag.</td>	<td>Неверное количество параметров для тега ref.</td></tr>
+<tr><td class=n>29.</td><td>Language "&hellip;" is not supported.</td>	<td>Язык "&hellip;" не поддерживается.</td></tr>
+<tr><td class=n>30.</td><td>Language identifier "&hellip;" is not a number.</td>	<td>Идентификатор языка "&hellip;" не является числом.</td></tr>
+<tr><td class=n>31.</td><td>Language identifier "&hellip;" is not supported.</td>	<td>Идентификатор языка "&hellip;" не поддерживается.</td></tr>
+<tr><td class=n>32.</td><td>Margin value cannot be more than 9.</td>	<td>Величина абзацного отступа не должна превышать 9.</td></tr>
+<tr><td class=n>33.</td><td>Name extension for tag "[x]" is illegal.</td>	<td>Использование расширения имени для тега "[x]" запрещено.</td></tr>
+<tr><td class=n>34.</td><td>Nested references to other cards not allowed.</td>	<td>Вложенная ссылка на карточку недопустима.</td></tr>
+<tr><td class=n>35.</td><td>No comment closing brackets.</td>	<td>Отсутствуют закрывающие комментарий скобки.</td></tr>
+<tr><td class=n>36.</td><td>No comment opening brackets.</td>	<td>Отсутствуют открывающие комментарий скобки.</td></tr>
+<tr><td class=n>37.</td><td>No tags allowed in multimedia zone.</td>	<td>Использование тегов внутри зоны мультимедиа запрещено.</td></tr>
+<tr><td class=n>38.</td><td>No tags allowed in references to cards.</td>	<td>Использование тегов внутри ссылки на карточку запрещено.</td></tr>
+<tr><td class=n>39.</td><td>No tags allowed in transcription zone.</td>	<td>Использование тегов внутри зоны транскрипции запрещено.</td></tr>
+<tr><td class=n>40.</td><td>No tags allowed in URL.</td>	<td>Использование тегов внутри URL запрещено.</td></tr>
+<tr><td class=n>41.</td><td>Only optional part in headword.</td>	<td>Заголовок целиком состоит из альтернативной части.</td></tr>
+<tr><td class=n>42.</td><td>Only preview tags may be placed inside multimedia tags.</td>	<td>Внутри мультимедиа тегов могут находиться только теги Preview.</td></tr>
+<tr><td class=n>43.</td><td>Open reference tag "<<" missing.</td>	<td>Отсутствует тег открытия ссылки "<<".</td></tr>
+<tr><td class=n>44.</td><td>Opening non-sorted headword part symbol "{" missing.</td>	<td>Отсутствует символ открытия несортируемой части заголовка "{".</td></tr>
+<tr><td class=n>45.</td><td>Opening symbol "(" of optional headword part missing.</td>	<td>Отсутствует символ открытия альтернативной части заголовка "(".</td></tr>
+<tr><td class=n>46.</td><td>Parameter for pre-processor keyword "&hellip;" must be in quotes.</td>	<td>Параметр для директивы препроцессора "&hellip;" должен быть заключен в кавычки.</td></tr>
+<tr><td class=n>47.</td><td>Pre-processor command must be placed at the beginning of the line.</td>	<td>Директива препроцессора должна начинаться с новой строки.</td></tr>
+<tr><td class=n>48.</td><td>Preview tags must be placed inside [s] or [video] tags.</td>	<td>Preview должен находиться внутри тега [s] или [video].</td></tr>
+<tr><td class=n>49.</td><td>Prohibited quotation marks in tag parameter: "&hellip;".</td>	<td>Недопустимое использование кавычек в параметре тега: "&hellip;".</td></tr>
+<tr><td class=n>50.</td><td>Prohibited sub-entry symbol "@".</td>	<td>Неправильное использование символа начала подкарточки "@".</td></tr>
+<tr><td class=n>51.</td><td>Prohibited symbol in tag name: "&hellip;".</td>	<td>Недопустимый символ в имени тега: "&hellip;".</td></tr>
+<tr><td class=n>52.</td><td>Prohibited symbol in tag parameter name: "&hellip;".</td>	<td>Недопустимый символ в имени параметра тега: "&hellip;".</td></tr>
+<tr><td class=n>53.</td><td>Prohibited symbol in tag parameter value: "&hellip;".</td>	<td>Недопустимый символ в значении параметра тега: "&hellip;".</td></tr>
+<tr><td class=n>54.</td><td>Redundant opening of non-sorted headword part.</td>	<td>Повторное открытие несортируемой части заголовка.</td></tr>
+<tr><td class=n>55.</td><td>Redundant opening of optional headword part.</td>	<td>Повторное открытие альтернативной части заголовка.</td></tr>
+<tr><td class=n>56.</td><td>Redundant opening tag "[x]"</td>	<td>Повторный открывающий тег "[x]".</td></tr>
+<tr><td class=n>57.</td><td>Repeated symbol "[" is not allowed.</td>	<td>Повторное использование символа начала имени тега "[" недопустимо.</td></tr>
+<tr><td class=n>58.</td><td>Tag "&hellip;" cannot be placed in non-indexed zone.</td>	<td>Тег "[x]" не может находиться внутри неиндексируемой зоны.</td></tr>
+<tr><td class=n>59.</td><td>Tag "&hellip;" may have only one parameter.</td>	<td>Тег "[x]" может иметь только один параметр.</td></tr>
+<tr><td class=n>60.</td><td>Tag "&hellip;" must have no parameters.</td>	<td>Тег "[x]" не должен иметь параметров.</td></tr>
+<tr><td class=n>61.</td><td>Tag "[!trs]" must be placed in indexed zones.</td>	<td>Тег "[!trs]" может находиться только внутри одной из зон индексации.</td></tr>
+<tr><td class=n>62.</td><td>Tag closing symbol "]" missing.</td>	<td>Отсутствует символ конца имени тега "]".</td></tr>
+<tr><td class=n>63.</td><td>Tag name is missing.</td>	<td>Не указано имя тега.</td></tr>
+<tr><td class=n>64.</td><td>Tag opening symbol "[" missing.</td>	<td>Отсутствует символ начала имени тега "[".</td></tr>
+<tr><td class=n>65.</td><td>Tag parameters missing: "&hellip;".</td>	<td>Отсутствуют параметры тега: "[x]".</td></tr>
+<tr><td class=n>66.</td><td>The symbol "[" is not allowed inside references.</td>	<td>Использование символа начала имени тега "[" недопустимо внутри ссылки.</td></tr>
+<tr><td class=n>67.</td><td>There is a tag inside preview tags.</td>	<td>Тег внутри тега Preview.</td></tr>
+<tr><td class=n>68.</td><td>There is no way to substitute an empty headword.</td>	<td>Невозможно подставить пустой заголовок.</td></tr>
+<tr><td class=n>69.</td><td>Unknown colour name: "&hellip;".</td>	<td>Неизвестное имя цвета: "&hellip;".</td></tr>
+<tr><td class=n>70.</td><td>Unknown parameter "&hellip;" of tag "&hellip;".</td>	<td>Неверное имя параметра "&hellip;" для тега "&hellip;".</td></tr>
+<tr><td class=n>71.</td><td>Unknown pre-processor keyword: "&hellip;".</td>	<td>Неизвестная директива препроцессора: "&hellip;".</td></tr>
+<tr><td class=n>72.</td><td>Unknown tag name: "&hellip;".</td>	<td>Неизвестное имя тега: "&hellip;".</td></tr>
+<tr><td class=n>73.</td><td>Word too long.</td>	<td>Слишком длинное слово.</td></tr>
+<tr><td class=n>74.</td><td>Wrong pre-processor line format.</td>	<td>Неверный формат строки препроцессора.</td></tr>
+<tr><td class=n>75.</td><td>You cannot refer to another card in tag name.</td>	<td>Ссылка на карточку недопустима внутри имени тега.</td></tr>
+<tr><td class=n>76.</td><td>You cannot use linefeed character in tag name.</td>	<td>Переход на новую строку недопустим внутри имени тега.</td></tr>
 </table>
 <br>
 <table class="dde">
@@ -274,55 +275,56 @@ C:\TestDir\TestSound.wav was not found.
 <tr><td class=n>24.</td><td>Не указано имя словаря.</td>	<td>Dictionary name not specified.</td></tr>
 <tr><td class=n>25.</td><td>Не указано имя тега.</td>	<td>Tag name is missing.</td></tr>
 <tr><td class=n>26.</td><td>Неверное имя параметра "&hellip;" для тега "&hellip;".</td>	<td>Unknown parameter "&hellip;" of tag "&hellip;".</td></tr>
-<tr><td class=n>27.</td><td>Неверный формат строки параметров тега: "&hellip;".</td>	<td>Invalid format of tag parameters string: "&hellip;".</td></tr>
-<tr><td class=n>28.</td><td>Неверный формат строки препроцессора.</td>	<td>Wrong pre-processor line format.</td></tr>
-<tr><td class=n>29.</td><td>Невозможно подставить пустой заголовок.</td>	<td>There is no way to substitute an empty headword.</td></tr>
-<tr><td class=n>30.</td><td>Недопустимое использование кавычек в параметре тега: "&hellip;".</td>	<td>Prohibited quotation marks in tag parameter: "&hellip;".</td></tr>
-<tr><td class=n>31.</td><td>Недопустимый символ в значении параметра тега: "&hellip;".</td>	<td>Prohibited symbol in tag parameter value: "&hellip;".</td></tr>
-<tr><td class=n>32.</td><td>Недопустимый символ в имени параметра тега: "&hellip;".</td>	<td>Prohibited symbol in tag parameter name: "&hellip;".</td></tr>
-<tr><td class=n>33.</td><td>Недопустимый символ в имени тега: "&hellip;".</td>	<td>Prohibited symbol in tag name: "&hellip;".</td></tr>
-<tr><td class=n>34.</td><td>Незакрытые кавычки в строке параметров тега: "&hellip;".</td>	<td>Closing quotation mark missing inside tag parameters string: "&hellip;".</td></tr>
-<tr><td class=n>35.</td><td>Неизвестная директива препроцессора: "&hellip;".</td>	<td>Unknown pre-processor keyword: "&hellip;".</td></tr>
-<tr><td class=n>36.</td><td>Неизвестное имя тега: "&hellip;".</td>	<td>Unknown tag name: "&hellip;".</td></tr>
-<tr><td class=n>37.</td><td>Неизвестное имя цвета: "&hellip;".</td>	<td>Unknown colour name: "&hellip;".</td></tr>
-<tr><td class=n>38.</td><td>Неправильное использование символа начала подкарточки "@".</td>	<td>Prohibited sub-entry symbol "@".</td></tr>
-<tr><td class=n>39.</td><td>Отсутствует закрывающий тег.</td>	<td>Closing tag is missing.</td></tr>
-<tr><td class=n>40.</td><td>Отсутствует закрывающий тег: "[/x]".</td>	<td>Closing tag missing: "[/x]".</td></tr>
-<tr><td class=n>41.</td><td>Отсутствует символ закрытия альтернативной части заголовка ")".</td>	<td>Closing symbol ")" of optional headword part missing.</td></tr>
-<tr><td class=n>42.</td><td>Отсутствует символ закрытия несортируемой части заголовка "}".</td>	<td>Closing symbol "}" of non-sorted headword part missing.</td></tr>
-<tr><td class=n>43.</td><td>Отсутствует символ конца имени тега "]".</td>	<td>Tag closing symbol "]" missing.</td></tr>
-<tr><td class=n>44.</td><td>Отсутствует символ начала имени тега "[".</td>	<td>Tag opening symbol "[" missing.</td></tr>
-<tr><td class=n>45.</td><td>Отсутствует символ открытия альтернативной части заголовка "(".</td>	<td>Opening symbol "(" of optional headword part missing.</td></tr>
-<tr><td class=n>46.</td><td>Отсутствует символ открытия несортируемой части заголовка "{".</td>	<td>Opening non-sorted headword part symbol "{" missing.</td></tr>
-<tr><td class=n>47.</td><td>Отсутствует тег открытия ссылки "<<".</td>	<td>Open reference tag "<<" missing.</td></tr>
-<tr><td class=n>48.</td><td>Отсутствуют закрывающие комментарий скобки.</td>	<td>No comment closing brackets.</td></tr>
-<tr><td class=n>49.</td><td>Отсутствуют открывающие комментарий скобки.</td>	<td>No comment opening brackets.</td></tr>
-<tr><td class=n>50.</td><td>Отсутствуют параметры тега: "[x]".</td>	<td>Tag parameters missing: "&hellip;".</td></tr>
-<tr><td class=n>51.</td><td>Параметр для директивы препроцессора "&hellip;" должен быть заключен в кавычки.</td>	<td>Parameter for pre-processor keyword "&hellip;" must be in quotes.</td></tr>
-<tr><td class=n>52.</td><td>Переход на новую строку недопустим внутри имени тега.</td>	<td>You cannot use linefeed character in tag name.</td></tr>
-<tr><td class=n>53.</td><td>Повторное использование символа начала имени тега "[" недопустимо.</td>	<td>Repeated symbol "[" is not allowed.</td></tr>
-<tr><td class=n>54.</td><td>Повторное открытие альтернативной части заголовка.</td>	<td>Redundant opening of optional headword part.</td></tr>
-<tr><td class=n>55.</td><td>Повторное открытие несортируемой части заголовка.</td>	<td>Redundant opening of non-sorted headword part.</td></tr>
-<tr><td class=n>56.</td><td>Повторный открывающий тег "[x]".</td>	<td>Redundant opening tag "[x]"</td></tr>
-<tr><td class=n>57.</td><td>Подкарточка не окончена.</td>	<td>Incomplete sub-entry.</td></tr>
-<tr><td class=n>58.</td><td>Пустая подкарточка.</td>	<td>Empty sub-card.</td></tr>
-<tr><td class=n>59.</td><td>Пустая статья.</td>	<td>Empty card.</td></tr>
-<tr><td class=n>60.</td><td>Пустая строка препроцессора.</td>	<td>Empty pre-processor line.</td></tr>
-<tr><td class=n>61.</td><td>Пустой заголовок карточки.</td>	<td>Empty entry headword.</td></tr>
-<tr><td class=n>62.</td><td>Пустой подзаголовок.</td>	<td>Empty sub-heading.</td></tr>
-<tr><td class=n>63.</td><td>Слишком длинное имя словаря: "&hellip;".</td>	<td>Dictionary name too long: &hellip; .</td></tr>
-<tr><td class=n>64.</td><td>Слишком длинное слово.</td>	<td>Word too long.</td></tr>
-<tr><td class=n>65.</td><td>Слишком длинный заголовок.</td>	<td>Headword too long.</td></tr>
-<tr><td class=n>66.</td><td>Ссылка на карточку недопустима внутри имени тега.</td>	<td>You cannot refer to another card in tag name.</td></tr>
-<tr><td class=n>67.</td><td>Тег "[!trs]" может находиться только внутри одной из зон индексации.</td>	<td>Tag "[!trs]" must be placed in indexed zones.</td></tr>
-<tr><td class=n>68.</td><td>Тег "[x]" может иметь только один параметр.</td>	<td>Tag "&hellip;" may have only one parameter.</td></tr>
-<tr><td class=n>69.</td><td>Тег "[x]" не должен иметь параметров.</td>	<td>Tag "&hellip;" must have no parameters.</td></tr>
-<tr><td class=n>70.</td><td>Тег "[x]" не может находиться внутри неиндексируемой зоны.</td>	<td>Tag "&hellip;" cannot be placed in non-indexed zone.</td></tr>
-<tr><td class=n>71.</td><td>Тег внутри тега Preview.</td>	<td>There is a tag inside preview tags.</td></tr>
-<tr><td class=n>72.</td><td>Файл "disk:\path\file.dsl" должен быть в ANSI кодировке.</td>	<td>File disk:\path\file.dsl must be ANSI encoded.</td></tr>
-<tr><td class=n>73.</td><td>Файл "disk:\path\file.dsl" должен быть в Unicode кодировке.</td>	<td>File disk:\path\file.dsl must be Unicode encoded.</td></tr>
-<tr><td class=n>74.</td><td>Файл "disk:\path\file.dsl" уже обработан.</td>	<td>File disk:\path\file.dsl already processed.</td></tr>
-<tr><td class=n>75.</td><td>Язык "&hellip;" не поддерживается.</td>	<td>Language "&hellip;" is not supported.</td></tr>
+<tr><td class=n>27.</td><td>Неверное количество параметров для тега ref.</td>	<td>Invalid number of parameters for the ref tag.</td></tr>
+<tr><td class=n>28.</td><td>Неверный формат строки параметров тега: "&hellip;".</td>	<td>Invalid format of tag parameters string: "&hellip;".</td></tr>
+<tr><td class=n>29.</td><td>Неверный формат строки препроцессора.</td>	<td>Wrong pre-processor line format.</td></tr>
+<tr><td class=n>30.</td><td>Невозможно подставить пустой заголовок.</td>	<td>There is no way to substitute an empty headword.</td></tr>
+<tr><td class=n>31.</td><td>Недопустимое использование кавычек в параметре тега: "&hellip;".</td>	<td>Prohibited quotation marks in tag parameter: "&hellip;".</td></tr>
+<tr><td class=n>32.</td><td>Недопустимый символ в значении параметра тега: "&hellip;".</td>	<td>Prohibited symbol in tag parameter value: "&hellip;".</td></tr>
+<tr><td class=n>33.</td><td>Недопустимый символ в имени параметра тега: "&hellip;".</td>	<td>Prohibited symbol in tag parameter name: "&hellip;".</td></tr>
+<tr><td class=n>34.</td><td>Недопустимый символ в имени тега: "&hellip;".</td>	<td>Prohibited symbol in tag name: "&hellip;".</td></tr>
+<tr><td class=n>35.</td><td>Незакрытые кавычки в строке параметров тега: "&hellip;".</td>	<td>Closing quotation mark missing inside tag parameters string: "&hellip;".</td></tr>
+<tr><td class=n>36.</td><td>Неизвестная директива препроцессора: "&hellip;".</td>	<td>Unknown pre-processor keyword: "&hellip;".</td></tr>
+<tr><td class=n>37.</td><td>Неизвестное имя тега: "&hellip;".</td>	<td>Unknown tag name: "&hellip;".</td></tr>
+<tr><td class=n>38.</td><td>Неизвестное имя цвета: "&hellip;".</td>	<td>Unknown colour name: "&hellip;".</td></tr>
+<tr><td class=n>39.</td><td>Неправильное использование символа начала подкарточки "@".</td>	<td>Prohibited sub-entry symbol "@".</td></tr>
+<tr><td class=n>40.</td><td>Отсутствует закрывающий тег.</td>	<td>Closing tag is missing.</td></tr>
+<tr><td class=n>41.</td><td>Отсутствует закрывающий тег: "[/x]".</td>	<td>Closing tag missing: "[/x]".</td></tr>
+<tr><td class=n>42.</td><td>Отсутствует символ закрытия альтернативной части заголовка ")".</td>	<td>Closing symbol ")" of optional headword part missing.</td></tr>
+<tr><td class=n>43.</td><td>Отсутствует символ закрытия несортируемой части заголовка "}".</td>	<td>Closing symbol "}" of non-sorted headword part missing.</td></tr>
+<tr><td class=n>44.</td><td>Отсутствует символ конца имени тега "]".</td>	<td>Tag closing symbol "]" missing.</td></tr>
+<tr><td class=n>45.</td><td>Отсутствует символ начала имени тега "[".</td>	<td>Tag opening symbol "[" missing.</td></tr>
+<tr><td class=n>46.</td><td>Отсутствует символ открытия альтернативной части заголовка "(".</td>	<td>Opening symbol "(" of optional headword part missing.</td></tr>
+<tr><td class=n>47.</td><td>Отсутствует символ открытия несортируемой части заголовка "{".</td>	<td>Opening non-sorted headword part symbol "{" missing.</td></tr>
+<tr><td class=n>48.</td><td>Отсутствует тег открытия ссылки "<<".</td>	<td>Open reference tag "<<" missing.</td></tr>
+<tr><td class=n>49.</td><td>Отсутствуют закрывающие комментарий скобки.</td>	<td>No comment closing brackets.</td></tr>
+<tr><td class=n>50.</td><td>Отсутствуют открывающие комментарий скобки.</td>	<td>No comment opening brackets.</td></tr>
+<tr><td class=n>51.</td><td>Отсутствуют параметры тега: "[x]".</td>	<td>Tag parameters missing: "&hellip;".</td></tr>
+<tr><td class=n>52.</td><td>Параметр для директивы препроцессора "&hellip;" должен быть заключен в кавычки.</td>	<td>Parameter for pre-processor keyword "&hellip;" must be in quotes.</td></tr>
+<tr><td class=n>53.</td><td>Переход на новую строку недопустим внутри имени тега.</td>	<td>You cannot use linefeed character in tag name.</td></tr>
+<tr><td class=n>54.</td><td>Повторное использование символа начала имени тега "[" недопустимо.</td>	<td>Repeated symbol "[" is not allowed.</td></tr>
+<tr><td class=n>55.</td><td>Повторное открытие альтернативной части заголовка.</td>	<td>Redundant opening of optional headword part.</td></tr>
+<tr><td class=n>56.</td><td>Повторное открытие несортируемой части заголовка.</td>	<td>Redundant opening of non-sorted headword part.</td></tr>
+<tr><td class=n>57.</td><td>Повторный открывающий тег "[x]".</td>	<td>Redundant opening tag "[x]"</td></tr>
+<tr><td class=n>58.</td><td>Подкарточка не окончена.</td>	<td>Incomplete sub-entry.</td></tr>
+<tr><td class=n>59.</td><td>Пустая подкарточка.</td>	<td>Empty sub-card.</td></tr>
+<tr><td class=n>60.</td><td>Пустая статья.</td>	<td>Empty card.</td></tr>
+<tr><td class=n>61.</td><td>Пустая строка препроцессора.</td>	<td>Empty pre-processor line.</td></tr>
+<tr><td class=n>62.</td><td>Пустой заголовок карточки.</td>	<td>Empty entry headword.</td></tr>
+<tr><td class=n>63.</td><td>Пустой подзаголовок.</td>	<td>Empty sub-heading.</td></tr>
+<tr><td class=n>64.</td><td>Слишком длинное имя словаря: "&hellip;".</td>	<td>Dictionary name too long: &hellip; .</td></tr>
+<tr><td class=n>65.</td><td>Слишком длинное слово.</td>	<td>Word too long.</td></tr>
+<tr><td class=n>66.</td><td>Слишком длинный заголовок.</td>	<td>Headword too long.</td></tr>
+<tr><td class=n>67.</td><td>Ссылка на карточку недопустима внутри имени тега.</td>	<td>You cannot refer to another card in tag name.</td></tr>
+<tr><td class=n>68.</td><td>Тег "[!trs]" может находиться только внутри одной из зон индексации.</td>	<td>Tag "[!trs]" must be placed in indexed zones.</td></tr>
+<tr><td class=n>69.</td><td>Тег "[x]" может иметь только один параметр.</td>	<td>Tag "&hellip;" may have only one parameter.</td></tr>
+<tr><td class=n>70.</td><td>Тег "[x]" не должен иметь параметров.</td>	<td>Tag "&hellip;" must have no parameters.</td></tr>
+<tr><td class=n>71.</td><td>Тег "[x]" не может находиться внутри неиндексируемой зоны.</td>	<td>Tag "&hellip;" cannot be placed in non-indexed zone.</td></tr>
+<tr><td class=n>72.</td><td>Тег внутри тега Preview.</td>	<td>There is a tag inside preview tags.</td></tr>
+<tr><td class=n>73.</td><td>Файл "disk:\path\file.dsl" должен быть в ANSI кодировке.</td>	<td>File disk:\path\file.dsl must be ANSI encoded.</td></tr>
+<tr><td class=n>74.</td><td>Файл "disk:\path\file.dsl" должен быть в Unicode кодировке.</td>	<td>File disk:\path\file.dsl must be Unicode encoded.</td></tr>
+<tr><td class=n>75.</td><td>Файл "disk:\path\file.dsl" уже обработан.</td>	<td>File disk:\path\file.dsl already processed.</td></tr>
+<tr><td class=n>76.</td><td>Язык "&hellip;" не поддерживается.</td>	<td>Language "&hellip;" is not supported.</td></tr>
 </table>
 
 <h3>Список известных предупреждений</h3>
@@ -362,7 +364,7 @@ C:\TestDir\TestSound.wav was not found.
 <p class=fnt><a name="fnt1"></a><a href="#fntref1"><sup>[1]</sup></a> <i>См. раздел документации Приложение &rarr; Диалоговое окно DSL Compiler. Цитата: «При компиляции словаря, в котором были проставлены тэги [trn] и [/trn] данную опцию отмечать не следует. В противном случае словарь компилироваться не будет».</i></p>
 
 <div id="footer">
-<p>Справочник по DSL • <a href="changes.html">Версия 0.9.6 beta</a> • 05.07.2023</p>
+<p>Справочник по DSL • <a href="changes.html">Версия 1.0</a> • 12.08.2023</p>
 <p>Public Domain 2023 yozhic. Свободный контент. Все права открыты и неограничены. Никаких гарантий и ответственности.</p>
 </div>
 </body>

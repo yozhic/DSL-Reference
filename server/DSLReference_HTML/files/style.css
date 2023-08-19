@@ -66,16 +66,21 @@ h2 span.code {
 [title] {
 	cursor: help;
 	}
-abbr {
-	color: green;
-	font-family: "Segoe UI", "Noto Sans", Tahoma, Verdana, Arial, sans-serif;
-	border-bottom: 1px dotted green;
-	}
 body {
 	margin: 0;
 	font: 10pt/14pt "Segoe UI", "Noto Sans", Tahoma, Verdana, Arial, sans-serif;
 	background: #fff;
 	color: #000;
+	}
+p {
+	margin: 10px 20px 10px 30px;
+	}
+p.list {
+	padding: 0 40px 0;
+	}
+p.fnt {
+	margin-left: 45px;
+	text-indent: -15px;
 	}
 div.list {
 	margin-top: 5px;
@@ -84,18 +89,6 @@ div.ninja {
 	margin-left: 30px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	}
-div.ol_sk {
-	margin: 2px 50px;
-	}
-p {
-	margin: 10px 20px 10px 30px;
-	}
-p.list {
-	padding: 0 40px 0;
-	}
-p + div.ol_sk {
-	margin-top: 0px;
 	}
 span.bold {
 	color: slategray;
@@ -121,6 +114,11 @@ a {
 a:hover {
 	text-decoration:underline;
 	}
+abbr {
+	color: green;
+	font-family: "Segoe UI", "Noto Sans", Tahoma, Verdana, Arial, sans-serif;
+	border-bottom: 1px dotted green;
+	}
 hr {
 	margin-left: 30px;
 	}
@@ -130,6 +128,9 @@ nobr.minor {
 sup {
 	line-height: 8pt;
 	}
+b {
+	font-weight: 600;
+	}
 
 /**** —œ»— » ******************************************************************/
 
@@ -137,7 +138,8 @@ ol, ul {
 	margin: 10px 20px 10px 40px;
 	padding-left: 30px;
 	}
-ol ul {
+ol ul, ul ol,
+ol ol, ul ul {
 	margin-left: 0px;
 	}
 ol.level_2 {
@@ -145,6 +147,23 @@ ol.level_2 {
 	}
 ul.level_2 {
 	margin: 10px 20px 10px 50px;
+	}
+ol.wpar {
+	counter-reset: item;
+	list-style: none;
+	}
+ol.wpar > li::before {
+	content: counter(item) ') ';
+	counter-increment: item;
+	}
+ol.wpar > li {
+	text-indent: -15px;
+	}
+p + ol.wpar {
+	margin-top: .3em;
+	}
+p:has(+ ol.wpar) {
+	margin-bottom: .3em;
 	}
 li.none {
 	list-style-type: none;
@@ -187,67 +206,69 @@ a img {
 a:visited img {
 	border: none;
 	}
-
+dl {
+	margin-left: 30px;
+	margin-right: 20px;
+	}
 /**** “¿¡À»÷€ *****************************************************************/
 
 table {
 	margin: 0 20px 0 40px;
-	border: 1px solid;
-	border-color: silver;
+	border: 1px solid silver;
 	border-collapse: collapse;
 	}
+	th {
+		background: gainsboro;
+		text-align: left;
+		font-style: italic;
+		font-weight: 600;
+		border: 1px solid silver;
+		padding: 5px;
+		}
+	td {
+		border: 1px solid silver;
+		padding: 5px;
+		}
 table.list {
 	border: none;
 	margin-top: 10px;
 	}
+	tr.list {
+		border: none;
+		}
+	td.list {
+		border: none;
+		padding: 1px 10px;
+		vertical-align: top;
+		}
 table.taglist {
 	border: none;
 	margin-top: 10px;
 	margin-left: 0;
 	}
-table.double_cover {
-	margin: 0 20px 0 40px;
-	border: none;
-}
-table.double {
-	margin: 0;
-	margin-right: 20px;
-	border: 1px solid;
-	border-color: silver;
-	border-collapse: collapse;
-}
+	td.taglist {
+		border: none;
+		padding: 1px 10px;
+		font: 10pt "Segoe UI", "Noto Sans", Tahoma, Verdana, Arial, sans-serif;
+		vertical-align: top;
+		}
+table.dde {
+	font-size: .8em;
+	line-height: 1.4em;
+	}
+	table.dde td {
+		padding-top: 2px;
+		padding-bottom: 2px;
+		vertical-align: top;
+		}
+	table.dde td.n {
+		text-align: right;
+		}
 col.comment {
 	font-style: italic;
 	}
 col.col1 {
 	width: 210px;
-	}
-th {
-	background-color: gainsboro;
-	text-align: left;
-	font-style: italic;
-	border: 1px solid;
-	border-color: silver;
-	padding: 5px;
-	}
-tr.list, tr.double_cover {
-	border: none;
-	}
-td {
-	border: 1px solid;
-	border-color: silver;
-	padding: 5px;
-	}
-td.list {
-	border: none;
-	padding: 1px 10px;
-	vertical-align: top;
-	}
-td.taglist {
-	border: none;
-	padding: 1px 10px;
-	font: 10pt "Segoe UI", "Noto Sans", Tahoma, Verdana, Arial, sans-serif;
-	vertical-align: top;
 	}
 td.tag {
 	border: none;
@@ -265,46 +286,62 @@ td.link {
 	position: relative;
 	top:2px;
 	}
-td.link:hover {
-	cursor: pointer;
-	}
+	td.link:hover {
+		cursor: pointer;
+		}
 td.color {
 	border: none;
 	padding: 3px 10px 3px 5px;
 	}
-td.double_cover {
-	border: none;
-	padding: 0;
+table.dirname td {
 	vertical-align: top;
+	padding: 10px 5px;
 	}
-.lpad {
-	vertical-align: top;
-	padding: 15px 5px;
-	}
+	table.dirname th {
+		font-weight: 600;
+		}
 table.t td {
 	min-width: 1.5em;
 	text-align: center;
 	}
-table.t td[colspan] {
-	text-align: right;
-	padding-right: 0.6em;
-	}
+	table.t td[colspan] {
+		text-align: right;
+		padding-right: 0.6em;
+		}
 table.conv td {
 	min-width: 1.5em;
 	text-align: center;
 	}
-table.conv td.hex {
-	color: #909090;
+	table.conv td.hex {
+		color: #909090;
+		}
+	table.conv td.hex + td {
+		background: #E8E8E8
+		}
+	table.conv td.hex + td + td {
+		color: darkblue;
+		background: #E8F8FF;
+		font-weight: 600;
+		}
+table.ss {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	}
-table.conv td.hex + td {
-	background: #E8E8E8
-	}
-table.conv td.hex + td + td {
-	color: darkblue;
-	background: #E8F8FF;
-	font-weight: 600;
-	}
-
+	table.ss th,
+	table.ss td {
+		padding-top: 3px;
+		padding-bottom: 3px;
+		}
+	table.ss th {
+		background: gainsboro;
+		text-align: right;
+		font-style: italic;
+		font-weight: normal;
+		}
+	table.ss tr:not(.d) td:not(.h) {
+		font-family: Consolas, monospace;
+		}
 /****  Œƒ *********************************************************************/
 
 .code {
@@ -364,11 +401,12 @@ span.key {
 	border-right: 2px solid #CDCDCD;
 	border-bottom: 3px solid #CDCDCD;
 	border-radius: 4px;
-	padding: 0.5px 6px;
+	padding: 0.5px 4px;
 	background: #F0F0F0;
 	font-family: "Courier New", Menlo, Consolas, monospace;
 	margin-left: 1px;
 	margin-right: 1px;
+	vertical-align: 8%;
 	}
 
 /****  ¿–“Œ◊ ¿ ****************************************************************/

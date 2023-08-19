@@ -26,6 +26,10 @@
 		<param name="Local" value="directives.html#contents">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="#FULL_NAME">
+		<param name="Local" value="directives.html#fname">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="#ICON_FILE">
 		<param name="Local" value="directives.html#icon">
 		</OBJECT>

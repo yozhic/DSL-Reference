@@ -396,6 +396,10 @@
 				<param name="Name" value="&Auml;&egrave;&eth;&aring;&ecirc;&ograve;&egrave;&acirc;&agrave; #LANGUAGE">
 				<param name="Local" value="directives.html#lang">
 				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Auml;&egrave;&eth;&aring;&ecirc;&ograve;&egrave;&acirc;&agrave; #FULL_NAME">
+				<param name="Local" value="directives.html#fname">
+				</OBJECT>
 		</UL>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">

@@ -52,12 +52,12 @@
 <tr class="list">
   <td class="list"><span class="code_names">*.lsa</span></td>
   <td class="list"><strong>L</strong>ingvo <strong>S</strong>ound <strong>A</strong>rchive<br>(<em>предположительная расшифровка</em>)</td>
-  <td class="list">Специальные словари-контейнеры, состоящие из набора звуковых файлов&nbsp;&mdash; примеров произношения заголовочных слов. Используется в Lingvo, начиная с версии x3 (14.0).<div class="list">Словари с этим расширением являются локальными, обычно входят в комплект поставки Lingvo, но могут также приобретаться отдельно.</div><div class="list">Информация о словарях данного формата в официальной справке от ABBYY отсутствует.</div><div class="list">Установлено, что звук внутри контейнеров LSA сжимается при помощи кодека Ogg Vorbis.</div><div class="list">Встречались LSA, содержащие ошибки. Попытки отредактировать такие экземпляры приводили к их неработоспособности в Lingvo.</div><div class="list">LSA можно декомпилировать при помощи программы <span class="code_names">Lingvo Sound Data Extractor</span>. Для совместимости с программой нужно изменить расширение файла с <span class="code_names">*.lsa</span> на <span class="code_names">*.dat</span>. Результатом декомпилирования является набор звуковых файлов с расширением <span class="code_names">*.wav</span>.</div><br></td>
+  <td class="list">Специальный словарь-контейнер, состоящий из набора звуковых файлов&nbsp;&mdash; примеров произношения заголовочных слов. Используется в Lingvo, начиная с версии x3 (14.0).<div class="list">Словари с этим расширением являются локальными, обычно входят в комплект поставки Lingvo, но могут также приобретаться отдельно.</div><div class="list">Информация о словарях данного формата в официальной справке от ABBYY отсутствует.</div><div class="list">Установлено, что звук внутри контейнеров LSA сжимается при помощи кодека Ogg Vorbis.</div><div class="list">Встречались LSA, содержащие ошибки. Попытки отредактировать такие экземпляры приводили к их неработоспособности в Lingvo.</div><div class="list">LSA можно декомпилировать при помощи программы <span class="code_names">Lingvo Sound Data Extractor</span>. Для совместимости с программой нужно изменить расширение файла с <span class="code_names">*.lsa</span> на <span class="code_names">*.dat</span>. Результатом декомпилирования является набор звуковых файлов с расширением <span class="code_names">*.wav</span>.</div><br></td>
 </tr>
 <tr class="list">
   <td class="list"><span class="code_names">*.dat</span></td>
   <td class="list"><strong>Dat</strong>a</td>
-  <td class="list">Предшественник LSA. Этот формат словаря «озвученных» слов использовался в старых версиях Lingvo до 12.0 включительно.<div class="list">DAT можно декомпилировать при помощи программы <span class="code_names">Lingvo Sound Data Extractor</span>. Результатом декомпилирования является набор звуковых файлов с расширением <span class="code_names">*.wav</span>.</div></td>
+  <td class="list">Словарь-контейнер звуковых файлов&nbsp;&mdash; «озвученных» слов. Устаревший формат, предшественник LSA. Использовался в старых версиях Lingvo до 12 включительно.<div class="list">DAT можно декомпилировать при помощи программы <span class="code_names">Lingvo Sound Data Extractor</span>. Результатом декомпилирования является набор звуковых файлов с расширением <span class="code_names">*.wav</span>.</div></td>
 </tr>
 </table>
 
@@ -76,27 +76,6 @@
   <td class="list">Основной свободно редактируемый пользовательский формат. Предназначен для компилирования в формат LSD. Подробному описанию DSL посвящён весь настоящий справочник.<br><br></td>
 </tr>
 <tr class="list">
-  <td class="list"><span class="code_names">*.lud</span></td>
-  <td class="list"><strong>L</strong>ingvo <strong>U</strong>ser <strong>D</strong>ictionary</td>
-  <td class="list">Формат с ограниченным редактированием. Используется в Lingvo, начиная с версии 6.0. Является одной из двух обязательных частей (файлов) единого словаря.<div class="list">Часть с данным расширением содержит заголовки. Парной к ней частью с телами статей является файл с расширением <span class="code_names">*.adx</span>.</div><div class="list">При подключении к Lingvo, LUD словари полностью индексируются.</div><div class="list">Начиная с версии Lingvo 9.0 есть возможность конвертации LUD словарей в формат DSL.
-</div><br></td>
-</tr>
-<tr class="list">
-  <td class="list"><span class="code_names">*.adx</span></td>
-  <td class="list">(<em>расшифровка неизвестна</em>)</td>
-  <td class="list">Формат с ограниченным редактированием. Используется в Lingvo, начиная с версии 6.0. Является одной из двух обязательных частей (файлов) единого словаря.<div class="list">Часть с данным расширением содержит тела статей. Парной к ней частью с заголовками является файл с расширением <span class="code_names">*.lud</span>.</div><br></td>
-</tr>
-<tr class="list">
-  <td class="list"><span class="code_names">*.adc</span></td>
-  <td class="list">(<em>расшифровка неизвестна</em>)</td>
-  <td class="list">Предшественник LUD. Использовался в Lingvo до версии 5.0 включительно. Является одной из двух обязательных частей (файлов) единого словаря.<div class="list">Часть с данным расширением содержит заголовки. Парной к ней частью с телами статей является файл с расширением <span class="code_names">*.adt</span>.</div><br></td>
-</tr>
-<tr class="list">
-  <td class="list"><span class="code_names">*.adt</span></td>
-  <td class="list">(<em>расшифровка неизвестна</em>)</td>
-  <td class="list">Предшественник ADX. Использовался в Lingvo до версии 5.0 включительно. Является одной из двух обязательных частей (файлов) единого словаря.<div class="list">Часть с данным расширением содержит тела статей. Парной к ней частью с заголовками является файл с расширением <span class="code_names">*.adc</span>.</div><br></td>
-</tr>
-<tr class="list">
   <td class="list"><span class="code_names">*.ann</span></td>
   <td class="list"><strong>Ann</strong>otation</td>
   <td class="list">Файл ANN представляет собой аннотацию к словарю. Аннотация является факультативной (необязательной) частью любого вида пользовательского словаря, т.е. её можно подключать как к DSL, так и к LUD или ADC.<div class="list"><em>Подробнее об ANN см. в главе <a href="dict.html#ann">Файл аннотации</a></em>.</div><br></td>
@@ -106,11 +85,42 @@
   <td class="list"><strong>L</strong>ingvo <strong>S</strong>ystem <strong>D</strong>ictionary</td>
   <td class="list">Пользовательская версия формата LSD. Обладает свойствами аналогичными системным словарям, но при этом Lingvo распознаёт их и отличает от системных. Специальную пометку о «несистемности» в подобный LSD добавляет DSL Compiler при компилировании пользовательских DSL.<div class="list"></div><br></td>
 </tr>
+<tr class="list">
+  <td class="list"><span class="code_names">*.lud</span></td>
+  <td class="list"><strong>L</strong>ingvo <strong>U</strong>ser <strong>D</strong>ictionary</td>
+  <td class="list">Формат с ограниченным редактированием. Используется в Lingvo, начиная с версии 6.0. Наследник ADC и BDC (<em>см. далее</em>). Является одной из двух обязательных частей (файлов) единого словаря.<div class="list">Часть с данным расширением содержит заголовки. Парной к ней частью с телами статей является файл с расширением <span class="code_names">*.adx</span>.</div><div class="list">При подключении к Lingvo LUD словари полностью индексируются.</div><div class="list">Начиная с Lingvo 9 есть возможность конвертации LUD в формат DSL.
+</div><br></td>
+</tr>
+<tr class="list">
+  <td class="list"><span class="code_names">*.adx</span></td>
+  <td class="list"><em>вероятно</em> <strong>AD</strong>&nbsp;&mdash; <em>наследие от предшественника, а</em> <strong>X</strong> <em>указывает на расширение формата</em></td>
+  <td class="list">Формат с ограниченным редактированием. Используется в Lingvo, начиная с версии 6.0. Наследник ADT и BDT (<em>см. далее</em>). Является одной из двух обязательных частей (файлов) единого словаря.<div class="list">Часть с данным расширением содержит тела статей. Парной к ней частью с заголовками является файл с расширением <span class="code_names">*.lud</span>.</div><br></td>
+</tr>
+<tr class="list">
+  <td class="list"><span class="code_names">*.adc</span></td>
+  <td class="list"><em>вероятно</em> <strong>A</strong> <strong>D</strong>ictionary <strong>C</strong>ards</td>
+  <td class="list">Устаревший формат. Использовался в Lingvo до версии 5 включительно. Предшественник LUD. Является одной из двух обязательных частей (файлов) единого словаря.<div class="list">Часть с данным расширением содержит заголовки. Парной к ней частью с телами статей является файл с расширением <span class="code_names">*.adt</span>.</div><div class="list">Словари с расширением <span class="code_names">*.ad*</span> принадлежали к англо-русскому направлению, а с расширением <span class="code_names">*.bd*</span>&nbsp;&mdash; к русско-английскому, при этом другие направления в ранних версиях Lingvo не поддерживались. Этим, вероятно, и объясняются первые буквы в расширениях: словари категории <strong>A</strong>, т.е. англо-русские, и категории <strong>B</strong>, т.е. русско-английские.</div><br></td>
+</tr>
+<tr class="list">
+  <td class="list"><span class="code_names">*.adt</span></td>
+  <td class="list"><em>вероятно</em> <strong>A</strong> <strong>D</strong>ictionary <strong>T</strong>ranslations</td>
+  <td class="list">Устаревший формат. Использовался в Lingvo до версии 5 включительно. Предшественник ADX. Является одной из двух обязательных частей (файлов) единого словаря.<div class="list">Часть с данным расширением содержит тела статей. Парной к ней частью с заголовками является файл с расширением <span class="code_names">*.adc</span>.</div><br></td>
+</tr>
+<tr class="list">
+  <td class="list"><span class="code_names">*.bdc</span></td>
+  <td class="list"><em>вероятно</em> <strong>B</strong> <strong>D</strong>ictionary <strong>C</strong>ards</td>
+  <td class="list">Устаревший формат. Использовался в Lingvo до версии 5 включительно. Предшественник LUD. Является одной из двух обязательных частей (файлов) единого словаря.<div class="list">Часть с данным расширением содержит заголовки. Парной к ней частью с телами статей является файл с расширением <span class="code_names">*.bdt</span>.</div><div class="list">Словари с расширением <span class="code_names">*.ad*</span> принадлежали к англо-русскому направлению, а с расширением <span class="code_names">*.bd*</span>&nbsp;&mdash; к русско-английскому, при этом другие направления в ранних версиях Lingvo не поддерживались. Этим, вероятно, и объясняются первые буквы в расширениях: словари категории <strong>A</strong>, т.е. англо-русские, и категории <strong>B</strong>, т.е. русско-английские.</div><br></td>
+</tr>
+<tr class="list">
+  <td class="list"><span class="code_names">*.bdt</span></td>
+  <td class="list"><em>вероятно</em> <strong>B</strong> <strong>D</strong>ictionary <strong>T</strong>ranslations</td>
+  <td class="list">Устаревший формат. Использовался в Lingvo до версии 5 включительно. Предшественник ADX. Является одной из двух обязательных частей (файлов) единого словаря.<div class="list">Часть с данным расширением содержит тела статей. Парной к ней частью с заголовками является файл с расширением <span class="code_names">*.bdc</span>.</div><br></td>
+</tr>
 </table>
 
 </div>
 <div id="footer">
-<p>Справочник по DSL • <a href="changes.html">Версия 0.9.6 beta</a> • 05.07.2023</p>
+<p>Справочник по DSL • <a href="changes.html">Версия 1.0</a> • 12.08.2023</p>
 <p>Public Domain 2023 yozhic. Свободный контент. Все права открыты и неограничены. Никаких гарантий и ответственности.</p>
 </div>
 </body>

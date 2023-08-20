@@ -88,7 +88,7 @@
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="&Icirc;&aacute;&ugrave;&egrave;&aring; &ntilde;&acirc;&aring;&auml;&aring;&iacute;&egrave;&yuml;">
-			<param name="Local" value="dict.html#main">
+			<param name="Local" value="dict.html#common">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="&Iacute;&agrave;&egrave;&igrave;&aring;&iacute;&icirc;&acirc;&agrave;&iacute;&egrave;&aring; &ocirc;&agrave;&eacute;&euml;&icirc;&acirc; &ntilde;&euml;&icirc;&acirc;&agrave;&eth;&yuml;">
@@ -144,7 +144,7 @@
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="&Oacute;&ntilde;&ograve;&eth;&icirc;&eacute;&ntilde;&ograve;&acirc;&icirc; &ograve;&yacute;&atilde;&icirc;&acirc;">
-				<param name="Local" value="tag_system.html#main">
+				<param name="Local" value="tag_system.html#common">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="&Igrave;&aring;&ograve;&agrave;&ntilde;&egrave;&igrave;&acirc;&icirc;&euml;&ucirc; &egrave; &euml;&egrave;&ograve;&aring;&eth;&agrave;&euml;&ucirc;">
@@ -239,7 +239,7 @@
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="&Icirc;&aacute;&ugrave;&egrave;&aring; &otilde;&agrave;&eth;&agrave;&ecirc;&ograve;&aring;&eth;&egrave;&ntilde;&ograve;&egrave;&ecirc;&egrave;">
-				<param name="Local" value="tag_handling.html#main">
+				<param name="Local" value="tag_handling.html#common">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="&Ograve;&yacute;&atilde; EX">
@@ -311,7 +311,7 @@
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="&Icirc;&aacute;&ugrave;&egrave;&aring; &otilde;&agrave;&eth;&agrave;&ecirc;&ograve;&aring;&eth;&egrave;&ntilde;&ograve;&egrave;&ecirc;&egrave;">
-				<param name="Local" value="tag_links.html#main">
+				<param name="Local" value="tag_links.html#common">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="&Ograve;&yacute;&atilde; &lt;&lt; &gt;&gt;">
@@ -365,7 +365,7 @@
 		<UL>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="&Icirc;&aacute;&ugrave;&aring;&aring; &icirc;&iuml;&egrave;&ntilde;&agrave;&iacute;&egrave;&aring;">
-				<param name="Local" value="directives.html#main">
+				<param name="Local" value="directives.html#common">
 				</OBJECT>
 			<LI> <OBJECT type="text/sitemap">
 				<param name="Name" value="&Auml;&egrave;&eth;&aring;&ecirc;&ograve;&egrave;&acirc;&agrave; #NAME">
@@ -410,7 +410,7 @@
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="&Icirc;&aacute;&ugrave;&egrave;&aring; &ntilde;&acirc;&aring;&auml;&aring;&iacute;&egrave;&yuml;">
-			<param name="Local" value="dsl_comp.html#main">
+			<param name="Local" value="dsl_comp.html#common">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="&Atilde;&eth;&agrave;&ocirc;&egrave;&divide;&aring;&ntilde;&ecirc;&egrave;&eacute; &egrave;&iacute;&ograve;&aring;&eth;&ocirc;&aring;&eacute;&ntilde; &iuml;&icirc;&euml;&uuml;&ccedil;&icirc;&acirc;&agrave;&ograve;&aring;&euml;&yuml;">

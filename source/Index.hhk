@@ -2134,6 +2134,10 @@
 		<param name="Local" value="tag_format.html#b">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&iuml;&icirc;&euml;&uuml;&ccedil;&icirc;&acirc;&agrave;&ograve;&aring;&euml;&uuml;&ntilde;&ecirc;&egrave;&aring; &ntilde;&euml;&icirc;&acirc;&agrave;&eth;&egrave;">
+		<param name="Local" value="var_dicts.html#user">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&iuml;&icirc;&igrave;&aring;&ograve;&ucirc;">
 		<param name="Local" value="tag_struct.html#p">
 		</OBJECT>
@@ -2180,6 +2184,18 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&ntilde;&egrave;&iacute;&egrave;&aring; &ograve;&icirc;&iacute;&agrave;">
 		<param name="Local" value="colors.html#blue_hue">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&ntilde;&egrave;&ntilde;&ograve;&aring;&igrave;&iacute;&ucirc;&aring; &ntilde;&euml;&icirc;&acirc;&agrave;&eth;&egrave;">
+		<param name="Local" value="var_dicts.html#system">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&ntilde;&euml;&icirc;&acirc;&agrave;&eth;&egrave; &iuml;&icirc;&euml;&uuml;&ccedil;&icirc;&acirc;&agrave;&ograve;&aring;&euml;&uuml;&ntilde;&ecirc;&egrave;&aring;">
+		<param name="Local" value="var_dicts.html#user">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&ntilde;&euml;&icirc;&acirc;&agrave;&eth;&egrave; &ntilde;&egrave;&ntilde;&ograve;&aring;&igrave;&iacute;&ucirc;&aring;">
+		<param name="Local" value="var_dicts.html#system">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&ntilde;&euml;&icirc;&acirc;&agrave;&eth;&iacute;&agrave;&yuml; &ntilde;&ograve;&agrave;&ograve;&uuml;&yuml;">

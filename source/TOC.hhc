@@ -491,7 +491,18 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="&Acirc;&egrave;&auml;&ucirc; &ocirc;&agrave;&eacute;&euml;&icirc;&acirc; &ntilde;&euml;&icirc;&acirc;&agrave;&eth;&aring;&eacute; &acirc; Lingvo">
 			<param name="Local" value="var_dicts.html">
+			<param name="ImageNumber" value="1">
 			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Ntilde;&egrave;&ntilde;&ograve;&aring;&igrave;&iacute;&ucirc;&aring; &ntilde;&euml;&icirc;&acirc;&agrave;&eth;&egrave;">
+				<param name="Local" value="var_dicts.html#system">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="&Iuml;&icirc;&euml;&uuml;&ccedil;&icirc;&acirc;&agrave;&ograve;&aring;&euml;&uuml;&ntilde;&ecirc;&egrave;&aring; &ntilde;&euml;&icirc;&acirc;&agrave;&eth;&egrave;">
+				<param name="Local" value="var_dicts.html#user">
+				</OBJECT>
+		</UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="&Icirc;&aacute; &egrave;&ntilde;&iuml;&icirc;&euml;&uuml;&ccedil;&icirc;&acirc;&agrave;&iacute;&egrave;&egrave; &iacute;&aring;&ntilde;&ograve;&agrave;&iacute;&auml;&agrave;&eth;&ograve;&iacute;&ucirc;&otilde; &iuml;&eth;&icirc;&aacute;&aring;&euml;&icirc;&acirc;">
 			<param name="Local" value="spaces.html">
@@ -499,7 +510,7 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="&Igrave;&aring;&ograve;&agrave;&yuml;&ccedil;&ucirc;&ecirc; DSL">
 			<param name="Local" value="lexicography.html">
-			<param name="ImageNumber" value="5">
+			<param name="ImageNumber" value="1">
 			</OBJECT>
 		<UL>
 			<LI> <OBJECT type="text/sitemap">

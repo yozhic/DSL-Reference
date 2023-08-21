@@ -2066,6 +2066,10 @@
 		<param name="Local" value="lexicography.html#design">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&icirc;&oslash;&egrave;&aacute;&ecirc;&egrave;">
+		<param name="Local" value="dsl_comp.html#syntax">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&iuml;&agrave;&eth;&agrave;&igrave;&aring;&ograve;&eth;&ucirc; &ecirc;&icirc;&igrave;&agrave;&iacute;&auml;&iacute;&icirc;&eacute; &ntilde;&ograve;&eth;&icirc;&ecirc;&egrave;">
 		<param name="Local" value="dsl_comp.html#cmd">
 		</OBJECT>
@@ -2144,6 +2148,10 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&iuml;&eth;&aring;&acirc;&uuml;&thorn;">
 		<param name="Local" value="tag_mm.html#preview">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&iuml;&eth;&aring;&auml;&oacute;&iuml;&eth;&aring;&aelig;&auml;&aring;&iacute;&egrave;&yuml;">
+		<param name="Local" value="dsl_comp.html#syntax">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&iuml;&eth;&aring;&iuml;&eth;&icirc;&ouml;&aring;&ntilde;&ntilde;&icirc;&eth;">
@@ -2248,6 +2256,14 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&ntilde;&iuml;&egrave;&ntilde;&icirc;&ecirc; &agrave;&aacute;&aacute;&eth;&aring;&acirc;&egrave;&agrave;&ograve;&oacute;&eth;">
 		<param name="Local" value="dict.html#abrv">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&ntilde;&iuml;&egrave;&ntilde;&icirc;&ecirc; &egrave;&ccedil;&acirc;&aring;&ntilde;&ograve;&iacute;&ucirc;&otilde; &icirc;&oslash;&egrave;&aacute;&icirc;&ecirc;">
+		<param name="Local" value="dsl_comp.html#syntax">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&ntilde;&iuml;&egrave;&ntilde;&icirc;&ecirc; &egrave;&ccedil;&acirc;&aring;&ntilde;&ograve;&iacute;&ucirc;&otilde; &iuml;&eth;&aring;&auml;&oacute;&iuml;&eth;&aring;&aelig;&auml;&aring;&iacute;&egrave;&eacute;">
+		<param name="Local" value="dsl_comp.html#syntax">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&ntilde;&iuml;&egrave;&ntilde;&icirc;&ecirc; &oacute;&ntilde;&euml;&icirc;&acirc;&iacute;&ucirc;&otilde; &ntilde;&icirc;&ecirc;&eth;&agrave;&ugrave;&aring;&iacute;&egrave;&eacute;">

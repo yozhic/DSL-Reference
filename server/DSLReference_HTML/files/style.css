@@ -115,6 +115,7 @@ a:hover {
 	text-decoration:underline;
 	}
 abbr {
+	text-decoration: none;
 	color: green;
 	font-family: "Segoe UI", "Noto Sans", Tahoma, Verdana, Arial, sans-serif;
 	border-bottom: 1px dotted green;

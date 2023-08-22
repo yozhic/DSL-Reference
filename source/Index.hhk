@@ -1650,6 +1650,10 @@
 		<param name="Local" value="tag_mm.html#movie">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&acirc;&euml;&icirc;&aelig;&aring;&iacute;&iacute;&agrave;&yuml; &iuml;&icirc;&auml;&ecirc;&agrave;&eth;&ograve;&icirc;&divide;&ecirc;&agrave;">
+		<param name="Local" value="tag_struct.html#at">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&acirc;&iacute;&aring;&oslash;&iacute;&egrave;&aring; &ntilde;&ntilde;&ucirc;&euml;&ecirc;&egrave;">
 		<param name="Local" value="tag_links.html#url">
 		</OBJECT>
@@ -1668,6 +1672,10 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&acirc;&ntilde;&iuml;&icirc;&igrave;&icirc;&atilde;&agrave;&ograve;&aring;&euml;&uuml;&iacute;&ucirc;&eacute; &ntilde;&euml;&icirc;&acirc;&agrave;&eth;&uuml; &agrave;&aacute;&aacute;&eth;&aring;&acirc;&egrave;&agrave;&ograve;&oacute;&eth;">
 		<param name="Local" value="dict.html#abrv">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&acirc;&ntilde;&iuml;&icirc;&igrave;&icirc;&atilde;&agrave;&ograve;&aring;&euml;&uuml;&iacute;&ucirc;&eacute; &ograve;&aring;&ecirc;&ntilde;&ograve;">
+		<param name="Local" value="tag_struct.html#ast">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&acirc;&ograve;&icirc;&eth;&egrave;&divide;&iacute;&icirc;&aring; &icirc;&ograve;&icirc;&aacute;&eth;&agrave;&aelig;&aring;&iacute;&egrave;&aring;">
@@ -1832,6 +1840,10 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&ecirc;&agrave;&eth;&ograve;&egrave;&iacute;&ecirc;&egrave;">
 		<param name="Local" value="tag_mm.html#images">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&ecirc;&agrave;&eth;&ograve;&icirc;&divide;&ecirc;&agrave;">
+		<param name="Local" value="preface.html#terms">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&ecirc;&euml;&icirc;&iacute;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&egrave;&aring; &ccedil;&agrave;&atilde;&icirc;&euml;&icirc;&acirc;&ecirc;&icirc;&acirc;">
@@ -2420,6 +2432,14 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&ograve;&aring;&atilde;&egrave; &ocirc;&icirc;&eth;&igrave;&agrave;&ograve;&egrave;&eth;&icirc;&acirc;&agrave;&iacute;&egrave;&yuml; &ograve;&aring;&ecirc;&ntilde;&ograve;&agrave;">
 		<param name="Local" value="tag_format.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&ograve;&aring;&ecirc;&ntilde;&ograve; &acirc;&ntilde;&iuml;&icirc;&igrave;&icirc;&atilde;&agrave;&ograve;&aring;&euml;&uuml;&iacute;&icirc;&atilde;&icirc; &ccedil;&iacute;&agrave;&divide;&aring;&iacute;&egrave;&yuml;">
+		<param name="Local" value="tag_struct.html#ast">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&ograve;&aring;&ecirc;&ntilde;&ograve; &acirc;&ograve;&icirc;&eth;&egrave;&divide;&iacute;&icirc;&atilde;&icirc; &icirc;&ograve;&icirc;&aacute;&eth;&agrave;&aelig;&aring;&iacute;&egrave;&yuml;">
+		<param name="Local" value="tag_struct.html#ast">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&ograve;&aring;&ecirc;&ntilde;&ograve; &aelig;&egrave;&eth;&iacute;&ucirc;&eacute;">

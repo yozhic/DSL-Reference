@@ -490,6 +490,10 @@
 		<param name="Local" value="colors.html#blue_hue">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="dict">
+		<param name="Local" value="tag_links.html#ref_dict">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="dimgray">
 		<param name="Local" value="tag_format.html#c">
 		</OBJECT>
@@ -2442,10 +2446,6 @@
 		<param name="Local" value="tag_struct.html#ast">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="&ograve;&aring;&ecirc;&ntilde;&ograve; &iuml;&icirc;&euml;&oacute;&aelig;&egrave;&eth;&iacute;&ucirc;&eacute;">
-		<param name="Local" value="tag_format.html#b">
-		</OBJECT>
-	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&ograve;&aring;&ecirc;&ntilde;&ograve; &ccedil;&agrave;&divide;&cedil;&eth;&ecirc;&iacute;&oacute;&ograve;&ucirc;&eacute;">
 		<param name="Local" value="lexicography.html#design">
 		</OBJECT>
@@ -2460,6 +2460,10 @@
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&ograve;&aring;&ecirc;&ntilde;&ograve; &iuml;&icirc;&auml;&divide;&cedil;&eth;&ecirc;&iacute;&oacute;&ograve;&ucirc;&eacute;">
 		<param name="Local" value="tag_format.html#u">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&ograve;&aring;&ecirc;&ntilde;&ograve; &iuml;&icirc;&euml;&oacute;&aelig;&egrave;&eth;&iacute;&ucirc;&eacute;">
+		<param name="Local" value="tag_format.html#b">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="&ograve;&aring;&ecirc;&ntilde;&ograve; &eth;&agrave;&ccedil;&eth;&aring;&aelig;&aring;&iacute;&iacute;&ucirc;&eacute;">
